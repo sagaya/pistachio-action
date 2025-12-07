@@ -61,7 +61,12 @@ async function fetchAdvisories() {
 
         if (keepFetching) {
             page++;
-            await new Promise(resolve => setTimeout(resolve, 1000));
+            if (page > 500) {
+                console.log('Reached max page limit (500), stopping fetch.');
+                keepFetching = false;
+            } else {
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
         }
 
       } catch (error) {
