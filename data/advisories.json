@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2025-12-08T00:15:47.111Z",
+  "generatedAt": "2025-12-08T06:13:06.989Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -3238,6 +3238,166 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-7h7g-wg9p-wf94",
         "apiUrl": "https://api.github.com/advisories/GHSA-7h7g-wg9p-wf94",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-3hg9-rgh9-x5j4:npm:elf-stats-rooftop-stockpile-626",
+      "source": "github",
+      "sourceId": "GHSA-3hg9-rgh9-x5j4",
+      "ecosystem": "npm",
+      "packageName": "elf-stats-rooftop-stockpile-626",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in elf-stats-rooftop-stockpile-626",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-3hg9-rgh9-x5j4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-08T04:28:04Z",
+      "updatedAt": "2025-12-08T04:28:05Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-3hg9-rgh9-x5j4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-3hg9-rgh9-x5j4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-3hg9-rgh9-x5j4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-m24m-gvqg-6m35:npm:elf-stats-cosy-sleigh-356",
+      "source": "github",
+      "sourceId": "GHSA-m24m-gvqg-6m35",
+      "ecosystem": "npm",
+      "packageName": "elf-stats-cosy-sleigh-356",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in elf-stats-cosy-sleigh-356",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-m24m-gvqg-6m35"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-08T04:28:04Z",
+      "updatedAt": "2025-12-08T04:28:04Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-m24m-gvqg-6m35"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-m24m-gvqg-6m35",
+        "apiUrl": "https://api.github.com/advisories/GHSA-m24m-gvqg-6m35",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-49w9-gcx6-2wfh:npm:@notrainers/nobtrainer-sdk",
+      "source": "github",
+      "sourceId": "GHSA-49w9-gcx6-2wfh",
+      "ecosystem": "npm",
+      "packageName": "@notrainers/nobtrainer-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @notrainers/nobtrainer-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-49w9-gcx6-2wfh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-08T03:36:55Z",
+      "updatedAt": "2025-12-08T03:36:55Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-49w9-gcx6-2wfh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-49w9-gcx6-2wfh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-49w9-gcx6-2wfh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-3377-9226-4w97:npm:solana-dexco-basic",
+      "source": "github",
+      "sourceId": "GHSA-3377-9226-4w97",
+      "ecosystem": "npm",
+      "packageName": "solana-dexco-basic",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in solana-dexco-basic",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-3377-9226-4w97"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-08T03:36:17Z",
+      "updatedAt": "2025-12-08T03:36:18Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-3377-9226-4w97"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-3377-9226-4w97",
+        "apiUrl": "https://api.github.com/advisories/GHSA-3377-9226-4w97",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-hjxg-jf6x-5vqp:npm:tensor-fi-utils-core",
+      "source": "github",
+      "sourceId": "GHSA-hjxg-jf6x-5vqp",
+      "ecosystem": "npm",
+      "packageName": "tensor-fi-utils-core",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tensor-fi-utils-core",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-hjxg-jf6x-5vqp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-08T03:36:17Z",
+      "updatedAt": "2025-12-08T03:36:18Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-hjxg-jf6x-5vqp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-hjxg-jf6x-5vqp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-hjxg-jf6x-5vqp",
         "cvssScore": null
       }
     }
