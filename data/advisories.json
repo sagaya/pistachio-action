@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2025-12-09T06:13:23.987Z",
+  "generatedAt": "2025-12-09T12:14:15.473Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -3398,6 +3398,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-hjxg-jf6x-5vqp",
         "apiUrl": "https://api.github.com/advisories/GHSA-hjxg-jf6x-5vqp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9gvh-rg3c-5gr6:npm:chai-uuids",
+      "source": "github",
+      "sourceId": "GHSA-9gvh-rg3c-5gr6",
+      "ecosystem": "npm",
+      "packageName": "chai-uuids",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-uuids",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9gvh-rg3c-5gr6"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-09T07:55:28Z",
+      "updatedAt": "2025-12-09T07:55:28Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9gvh-rg3c-5gr6"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9gvh-rg3c-5gr6",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9gvh-rg3c-5gr6",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4hp4-98m6-767r:npm:jsonify-errors",
+      "source": "github",
+      "sourceId": "GHSA-4hp4-98m6-767r",
+      "ecosystem": "npm",
+      "packageName": "jsonify-errors",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in jsonify-errors",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4hp4-98m6-767r"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-09T07:55:28Z",
+      "updatedAt": "2025-12-09T07:55:28Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4hp4-98m6-767r"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4hp4-98m6-767r",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4hp4-98m6-767r",
         "cvssScore": null
       }
     }
