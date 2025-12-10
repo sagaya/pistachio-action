@@ -161,9 +161,8 @@ async function fetchAdvisories() {
 
     console.log(`Added ${addedCount} new advisories.`);
     
-    existingData.generatedAt = new Date().toISOString();
-
-    if (addedCount > 0 || existingData.advisories.length !== transformedAdvisories.length) {
+    if (addedCount > 0) {
+      existingData.generatedAt = new Date().toISOString();
       fs.writeFileSync(DATA_FILE, JSON.stringify(existingData, null, 2));
       console.log('Saved updated advisories to file.');
     } else {
