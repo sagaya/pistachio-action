@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2025-12-10T18:13:10.714Z",
+  "generatedAt": "2025-12-12T06:13:00.233Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -4550,6 +4550,358 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-w3m5-47q7-h8m4",
         "apiUrl": "https://api.github.com/advisories/GHSA-w3m5-47q7-h8m4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-367v-g33p-g8jc:npm:browser-client-neptune",
+      "source": "github",
+      "sourceId": "GHSA-367v-g33p-g8jc",
+      "ecosystem": "npm",
+      "packageName": "browser-client-neptune",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in browser-client-neptune",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-367v-g33p-g8jc"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T02:33:00Z",
+      "updatedAt": "2025-12-12T02:33:00Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-367v-g33p-g8jc"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-367v-g33p-g8jc",
+        "apiUrl": "https://api.github.com/advisories/GHSA-367v-g33p-g8jc",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-rr49-5crf-m37w:npm:gfruitmaliciousxmlparser",
+      "source": "github",
+      "sourceId": "GHSA-rr49-5crf-m37w",
+      "ecosystem": "npm",
+      "packageName": "gfruitmaliciousxmlparser",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in gfruitmaliciousxmlparser",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-rr49-5crf-m37w"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T02:25:26Z",
+      "updatedAt": "2025-12-12T02:25:32Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-rr49-5crf-m37w"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-rr49-5crf-m37w",
+        "apiUrl": "https://api.github.com/advisories/GHSA-rr49-5crf-m37w",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qhw7-w9cj-645j:npm:efruitmaliciousxmlparser",
+      "source": "github",
+      "sourceId": "GHSA-qhw7-w9cj-645j",
+      "ecosystem": "npm",
+      "packageName": "efruitmaliciousxmlparser",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in efruitmaliciousxmlparser",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qhw7-w9cj-645j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T02:25:26Z",
+      "updatedAt": "2025-12-12T02:25:31Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qhw7-w9cj-645j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qhw7-w9cj-645j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qhw7-w9cj-645j",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-w5jw-8c3r-g952:npm:dfruitmaliciousxmlparser",
+      "source": "github",
+      "sourceId": "GHSA-w5jw-8c3r-g952",
+      "ecosystem": "npm",
+      "packageName": "dfruitmaliciousxmlparser",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in dfruitmaliciousxmlparser",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-w5jw-8c3r-g952"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T02:25:26Z",
+      "updatedAt": "2025-12-12T02:25:31Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-w5jw-8c3r-g952"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-w5jw-8c3r-g952",
+        "apiUrl": "https://api.github.com/advisories/GHSA-w5jw-8c3r-g952",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-c36q-p2q6-736g:npm:ffruitmaliciousxmlparser",
+      "source": "github",
+      "sourceId": "GHSA-c36q-p2q6-736g",
+      "ecosystem": "npm",
+      "packageName": "ffruitmaliciousxmlparser",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ffruitmaliciousxmlparser",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-c36q-p2q6-736g"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T02:25:26Z",
+      "updatedAt": "2025-12-12T02:25:27Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-c36q-p2q6-736g"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-c36q-p2q6-736g",
+        "apiUrl": "https://api.github.com/advisories/GHSA-c36q-p2q6-736g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-r3xm-cx76-jqcm:npm:hfruitmaliciousxmlparser",
+      "source": "github",
+      "sourceId": "GHSA-r3xm-cx76-jqcm",
+      "ecosystem": "npm",
+      "packageName": "hfruitmaliciousxmlparser",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in hfruitmaliciousxmlparser",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-r3xm-cx76-jqcm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T02:25:26Z",
+      "updatedAt": "2025-12-12T02:25:27Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-r3xm-cx76-jqcm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-r3xm-cx76-jqcm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-r3xm-cx76-jqcm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8g6q-xxph-xhc9:npm:cfruitmaliciousxmlparser",
+      "source": "github",
+      "sourceId": "GHSA-8g6q-xxph-xhc9",
+      "ecosystem": "npm",
+      "packageName": "cfruitmaliciousxmlparser",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in cfruitmaliciousxmlparser",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8g6q-xxph-xhc9"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T02:25:26Z",
+      "updatedAt": "2025-12-12T02:25:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8g6q-xxph-xhc9"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8g6q-xxph-xhc9",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8g6q-xxph-xhc9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6cmq-v5c3-6595:npm:afruitmaliciousxmlparser",
+      "source": "github",
+      "sourceId": "GHSA-6cmq-v5c3-6595",
+      "ecosystem": "npm",
+      "packageName": "afruitmaliciousxmlparser",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in afruitmaliciousxmlparser",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6cmq-v5c3-6595"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T02:25:26Z",
+      "updatedAt": "2025-12-12T02:25:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6cmq-v5c3-6595"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6cmq-v5c3-6595",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6cmq-v5c3-6595",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vgwp-j59p-9gqh:npm:bfruitmaliciousxmlparser",
+      "source": "github",
+      "sourceId": "GHSA-vgwp-j59p-9gqh",
+      "ecosystem": "npm",
+      "packageName": "bfruitmaliciousxmlparser",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in bfruitmaliciousxmlparser",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vgwp-j59p-9gqh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T02:25:26Z",
+      "updatedAt": "2025-12-12T02:25:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vgwp-j59p-9gqh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vgwp-j59p-9gqh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vgwp-j59p-9gqh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-v98g-g97w-9v2m:npm:fruit-malicious-xml-parser",
+      "source": "github",
+      "sourceId": "GHSA-v98g-g97w-9v2m",
+      "ecosystem": "npm",
+      "packageName": "fruit-malicious-xml-parser",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in fruit-malicious-xml-parser",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-v98g-g97w-9v2m"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T02:25:26Z",
+      "updatedAt": "2025-12-12T02:25:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-v98g-g97w-9v2m"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-v98g-g97w-9v2m",
+        "apiUrl": "https://api.github.com/advisories/GHSA-v98g-g97w-9v2m",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-x55c-jcjf-hj69:npm:@cheqplease/structured-logger",
+      "source": "github",
+      "sourceId": "GHSA-x55c-jcjf-hj69",
+      "ecosystem": "npm",
+      "packageName": "@cheqplease/structured-logger",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @cheqplease/structured-logger",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-x55c-jcjf-hj69"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-12T01:28:39Z",
+      "updatedAt": "2025-12-12T01:28:39Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-x55c-jcjf-hj69"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-x55c-jcjf-hj69",
+        "apiUrl": "https://api.github.com/advisories/GHSA-x55c-jcjf-hj69",
         "cvssScore": null
       }
     }
