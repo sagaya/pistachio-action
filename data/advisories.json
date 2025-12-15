@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2025-12-12T12:13:07.136Z",
+  "generatedAt": "2025-12-15T06:13:35.571Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -5478,6 +5478,232 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-jhm5-cg5j-fj77",
         "apiUrl": "https://api.github.com/advisories/GHSA-jhm5-cg5j-fj77",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-97r7-62jh-mxcf:npm:paypal-scripts-server-utils",
+      "source": "github",
+      "sourceId": "GHSA-97r7-62jh-mxcf",
+      "ecosystem": "npm",
+      "packageName": "paypal-scripts-server-utils",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in paypal-scripts-server-utils",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.0",
+        "= 9.0.0",
+        "= 20.0.0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-97r7-62jh-mxcf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-15T05:39:09Z",
+      "updatedAt": "2025-12-15T05:39:10Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-97r7-62jh-mxcf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-97r7-62jh-mxcf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-97r7-62jh-mxcf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5g7p-3m53-vj2w:npm:elf-stats-marzipan-muffin-733",
+      "source": "github",
+      "sourceId": "GHSA-5g7p-3m53-vj2w",
+      "ecosystem": "npm",
+      "packageName": "elf-stats-marzipan-muffin-733",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in elf-stats-marzipan-muffin-733",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5g7p-3m53-vj2w"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-15T04:50:36Z",
+      "updatedAt": "2025-12-15T04:50:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5g7p-3m53-vj2w"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5g7p-3m53-vj2w",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5g7p-3m53-vj2w",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-xvw5-m66f-f7g7:npm:@mohamed1687/iut-encrypt",
+      "source": "github",
+      "sourceId": "GHSA-xvw5-m66f-f7g7",
+      "ecosystem": "npm",
+      "packageName": "@mohamed1687/iut-encrypt",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @mohamed1687/iut-encrypt",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-xvw5-m66f-f7g7"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-15T04:50:36Z",
+      "updatedAt": "2025-12-15T04:50:36Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-xvw5-m66f-f7g7"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-xvw5-m66f-f7g7",
+        "apiUrl": "https://api.github.com/advisories/GHSA-xvw5-m66f-f7g7",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-gpm8-w66h-gj7p:npm:elf-stats-candlelit-nutcracker-184",
+      "source": "github",
+      "sourceId": "GHSA-gpm8-w66h-gj7p",
+      "ecosystem": "npm",
+      "packageName": "elf-stats-candlelit-nutcracker-184",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in elf-stats-candlelit-nutcracker-184",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-gpm8-w66h-gj7p"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-15T04:34:09Z",
+      "updatedAt": "2025-12-15T04:34:14Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-gpm8-w66h-gj7p"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-gpm8-w66h-gj7p",
+        "apiUrl": "https://api.github.com/advisories/GHSA-gpm8-w66h-gj7p",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6qx7-784r-ff4x:npm:elf-stats-evergreen-muffin-867",
+      "source": "github",
+      "sourceId": "GHSA-6qx7-784r-ff4x",
+      "ecosystem": "npm",
+      "packageName": "elf-stats-evergreen-muffin-867",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in elf-stats-evergreen-muffin-867",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6qx7-784r-ff4x"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-15T04:23:08Z",
+      "updatedAt": "2025-12-15T04:23:13Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6qx7-784r-ff4x"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6qx7-784r-ff4x",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6qx7-784r-ff4x",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7wfw-jp2g-j55h:npm:elf-stats-sugarplum-fireplace-278",
+      "source": "github",
+      "sourceId": "GHSA-7wfw-jp2g-j55h",
+      "ecosystem": "npm",
+      "packageName": "elf-stats-sugarplum-fireplace-278",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in elf-stats-sugarplum-fireplace-278",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7wfw-jp2g-j55h"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-15T04:17:27Z",
+      "updatedAt": "2025-12-15T04:17:28Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-7wfw-jp2g-j55h"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7wfw-jp2g-j55h",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7wfw-jp2g-j55h",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jfqw-pq2x-x7rg:npm:phx-core",
+      "source": "github",
+      "sourceId": "GHSA-jfqw-pq2x-x7rg",
+      "ecosystem": "npm",
+      "packageName": "phx-core",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in phx-core",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 9.0.0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jfqw-pq2x-x7rg"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-15T06:02:42Z",
+      "updatedAt": "2025-12-15T06:02:42Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jfqw-pq2x-x7rg"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jfqw-pq2x-x7rg",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jfqw-pq2x-x7rg",
         "cvssScore": null
       }
     }
