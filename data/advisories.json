@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2025-12-15T12:13:34.138Z",
+  "generatedAt": "2025-12-16T06:12:54.217Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -6024,6 +6024,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-g69f-6vrm-x88p",
         "apiUrl": "https://api.github.com/advisories/GHSA-g69f-6vrm-x88p",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wm69-3896-655x:npm:angular-trackjs",
+      "source": "github",
+      "sourceId": "GHSA-wm69-3896-655x",
+      "ecosystem": "npm",
+      "packageName": "angular-trackjs",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in angular-trackjs",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wm69-3896-655x"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-16T06:07:28Z",
+      "updatedAt": "2025-12-16T06:07:28Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wm69-3896-655x"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wm69-3896-655x",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wm69-3896-655x",
         "cvssScore": null
       }
     }
