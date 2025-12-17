@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2025-12-16T12:13:55.643Z",
+  "generatedAt": "2025-12-17T06:13:03.773Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -7112,6 +7112,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-wf9w-2w3f-44v4",
         "apiUrl": "https://api.github.com/advisories/GHSA-wf9w-2w3f-44v4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-935r-3293-428p:npm:plugin-senna",
+      "source": "github",
+      "sourceId": "GHSA-935r-3293-428p",
+      "ecosystem": "npm",
+      "packageName": "plugin-senna",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in plugin-senna",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-935r-3293-428p"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-17T05:44:09Z",
+      "updatedAt": "2025-12-17T05:44:14Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-935r-3293-428p"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-935r-3293-428p",
+        "apiUrl": "https://api.github.com/advisories/GHSA-935r-3293-428p",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-x8pc-c9x5-4hj2:npm:vitor-js",
+      "source": "github",
+      "sourceId": "GHSA-x8pc-c9x5-4hj2",
+      "ecosystem": "npm",
+      "packageName": "vitor-js",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in vitor-js",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-x8pc-c9x5-4hj2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-17T05:44:09Z",
+      "updatedAt": "2025-12-17T05:44:09Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-x8pc-c9x5-4hj2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-x8pc-c9x5-4hj2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-x8pc-c9x5-4hj2",
         "cvssScore": null
       }
     }
