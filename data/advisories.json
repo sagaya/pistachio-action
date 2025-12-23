@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2025-12-19T18:12:44.002Z",
+  "generatedAt": "2025-12-23T00:15:21.746Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -9928,6 +9928,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-2gvp-3425-fwcc",
         "apiUrl": "https://api.github.com/advisories/GHSA-2gvp-3425-fwcc",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wggj-3c6j-49w5:npm:raven-hubspot",
+      "source": "github",
+      "sourceId": "GHSA-wggj-3c6j-49w5",
+      "ecosystem": "npm",
+      "packageName": "raven-hubspot",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in raven-hubspot",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wggj-3c6j-49w5"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-22T19:15:35Z",
+      "updatedAt": "2025-12-22T19:15:35Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wggj-3c6j-49w5"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wggj-3c6j-49w5",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wggj-3c6j-49w5",
         "cvssScore": null
       }
     }
