@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2025-12-23T00:15:21.746Z",
+  "generatedAt": "2025-12-23T18:13:12.512Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -9960,6 +9960,326 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-wggj-3c6j-49w5",
         "apiUrl": "https://api.github.com/advisories/GHSA-wggj-3c6j-49w5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wpw9-qh8w-2hv5:npm:mws-common-ui",
+      "source": "github",
+      "sourceId": "GHSA-wpw9-qh8w-2hv5",
+      "ecosystem": "npm",
+      "packageName": "mws-common-ui",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in mws-common-ui",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wpw9-qh8w-2hv5"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-23T17:53:42Z",
+      "updatedAt": "2025-12-23T17:53:43Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wpw9-qh8w-2hv5"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wpw9-qh8w-2hv5",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wpw9-qh8w-2hv5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qmh8-v4jq-m242:npm:lotusbail",
+      "source": "github",
+      "sourceId": "GHSA-qmh8-v4jq-m242",
+      "ecosystem": "npm",
+      "packageName": "lotusbail",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in lotusbail",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qmh8-v4jq-m242"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-23T17:40:05Z",
+      "updatedAt": "2025-12-23T17:40:05Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qmh8-v4jq-m242"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qmh8-v4jq-m242",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qmh8-v4jq-m242",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jvg2-gw63-4hq4:npm:@aa-techops-ui/ping-authentication",
+      "source": "github",
+      "sourceId": "GHSA-jvg2-gw63-4hq4",
+      "ecosystem": "npm",
+      "packageName": "@aa-techops-ui/ping-authentication",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @aa-techops-ui/ping-authentication",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jvg2-gw63-4hq4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-23T17:29:18Z",
+      "updatedAt": "2025-12-23T17:29:19Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jvg2-gw63-4hq4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jvg2-gw63-4hq4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jvg2-gw63-4hq4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-56x8-3f6p-7w9f:npm:vue2-amis-custom-widget-pro",
+      "source": "github",
+      "sourceId": "GHSA-56x8-3f6p-7w9f",
+      "ecosystem": "npm",
+      "packageName": "vue2-amis-custom-widget-pro",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in vue2-amis-custom-widget-pro",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-56x8-3f6p-7w9f"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-23T17:02:22Z",
+      "updatedAt": "2025-12-23T17:02:23Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-56x8-3f6p-7w9f"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-56x8-3f6p-7w9f",
+        "apiUrl": "https://api.github.com/advisories/GHSA-56x8-3f6p-7w9f",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jr68-9xqf-rp8q:npm:dotenv-extend",
+      "source": "github",
+      "sourceId": "GHSA-jr68-9xqf-rp8q",
+      "ecosystem": "npm",
+      "packageName": "dotenv-extend",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in dotenv-extend",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jr68-9xqf-rp8q"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-23T16:58:53Z",
+      "updatedAt": "2025-12-23T16:58:54Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jr68-9xqf-rp8q"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jr68-9xqf-rp8q",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jr68-9xqf-rp8q",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g8cf-w8cw-2659:npm:chai-tests-await",
+      "source": "github",
+      "sourceId": "GHSA-g8cf-w8cw-2659",
+      "ecosystem": "npm",
+      "packageName": "chai-tests-await",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-tests-await",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g8cf-w8cw-2659"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-23T16:58:53Z",
+      "updatedAt": "2025-12-23T16:58:54Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g8cf-w8cw-2659"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g8cf-w8cw-2659",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g8cf-w8cw-2659",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-33cf-82vq-86w6:npm:huangmingming-demo",
+      "source": "github",
+      "sourceId": "GHSA-33cf-82vq-86w6",
+      "ecosystem": "npm",
+      "packageName": "huangmingming-demo",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in huangmingming-demo",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-33cf-82vq-86w6"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-23T16:56:23Z",
+      "updatedAt": "2025-12-23T16:56:23Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-33cf-82vq-86w6"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-33cf-82vq-86w6",
+        "apiUrl": "https://api.github.com/advisories/GHSA-33cf-82vq-86w6",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-c5q9-xg8w-2hv3:npm:streamixer",
+      "source": "github",
+      "sourceId": "GHSA-c5q9-xg8w-2hv3",
+      "ecosystem": "npm",
+      "packageName": "streamixer",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in streamixer",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-c5q9-xg8w-2hv3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-23T16:22:41Z",
+      "updatedAt": "2025-12-23T16:22:41Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-c5q9-xg8w-2hv3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-c5q9-xg8w-2hv3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-c5q9-xg8w-2hv3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-v4mq-xqfq-xcqj:npm:yunxoahng2",
+      "source": "github",
+      "sourceId": "GHSA-v4mq-xqfq-xcqj",
+      "ecosystem": "npm",
+      "packageName": "yunxoahng2",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in yunxoahng2",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-v4mq-xqfq-xcqj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-23T18:10:29Z",
+      "updatedAt": "2025-12-23T18:10:30Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-v4mq-xqfq-xcqj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-v4mq-xqfq-xcqj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-v4mq-xqfq-xcqj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8h39-jmgp-jp79:npm:yunxohang3",
+      "source": "github",
+      "sourceId": "GHSA-8h39-jmgp-jp79",
+      "ecosystem": "npm",
+      "packageName": "yunxohang3",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in yunxohang3",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8h39-jmgp-jp79"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-23T18:10:29Z",
+      "updatedAt": "2025-12-23T18:10:29Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8h39-jmgp-jp79"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8h39-jmgp-jp79",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8h39-jmgp-jp79",
         "cvssScore": null
       }
     }
