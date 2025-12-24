@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2025-12-24T00:14:36.129Z",
+  "generatedAt": "2025-12-24T18:13:28.056Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -10984,6 +10984,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-gg9p-qcrr-r7fv",
         "apiUrl": "https://api.github.com/advisories/GHSA-gg9p-qcrr-r7fv",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wx7c-p492-4g92:npm:adril7123",
+      "source": "github",
+      "sourceId": "GHSA-wx7c-p492-4g92",
+      "ecosystem": "npm",
+      "packageName": "adril7123",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in adril7123",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wx7c-p492-4g92"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-24T17:05:44Z",
+      "updatedAt": "2025-12-24T17:05:45Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wx7c-p492-4g92"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wx7c-p492-4g92",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wx7c-p492-4g92",
         "cvssScore": null
       }
     }
