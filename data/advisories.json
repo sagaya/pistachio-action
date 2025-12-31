@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2025-12-30T18:13:00.346Z",
+  "generatedAt": "2025-12-31T18:12:57.558Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -12136,6 +12136,422 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-5q62-g32j-g4hp",
         "apiUrl": "https://api.github.com/advisories/GHSA-5q62-g32j-g4hp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-fw93-78h7-rwpv:npm:@polystream/streaming",
+      "source": "github",
+      "sourceId": "GHSA-fw93-78h7-rwpv",
+      "ecosystem": "npm",
+      "packageName": "@polystream/streaming",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @polystream/streaming",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-fw93-78h7-rwpv"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T16:15:38Z",
+      "updatedAt": "2025-12-31T16:15:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-fw93-78h7-rwpv"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-fw93-78h7-rwpv",
+        "apiUrl": "https://api.github.com/advisories/GHSA-fw93-78h7-rwpv",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-2w42-mjvc-7mgq:npm:@vietmoney/react-big-calendar",
+      "source": "github",
+      "sourceId": "GHSA-2w42-mjvc-7mgq",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/react-big-calendar",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/react-big-calendar",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-2w42-mjvc-7mgq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:25Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-2w42-mjvc-7mgq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-2w42-mjvc-7mgq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-2w42-mjvc-7mgq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pwm4-mv3r-mpx3:npm:@vietmoney/react-native-vnpay-merchant",
+      "source": "github",
+      "sourceId": "GHSA-pwm4-mv3r-mpx3",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/react-native-vnpay-merchant",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/react-native-vnpay-merchant",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pwm4-mv3r-mpx3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:25Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pwm4-mv3r-mpx3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pwm4-mv3r-mpx3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pwm4-mv3r-mpx3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jpfq-j254-3ppf:npm:@vietmoney/react-native-smart-gallery",
+      "source": "github",
+      "sourceId": "GHSA-jpfq-j254-3ppf",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/react-native-smart-gallery",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/react-native-smart-gallery",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jpfq-j254-3ppf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:25Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jpfq-j254-3ppf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jpfq-j254-3ppf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jpfq-j254-3ppf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-58jp-97fm-4xq3:npm:@vietmoney/vietmoneywork",
+      "source": "github",
+      "sourceId": "GHSA-58jp-97fm-4xq3",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/vietmoneywork",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/vietmoneywork",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-58jp-97fm-4xq3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:25Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-58jp-97fm-4xq3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-58jp-97fm-4xq3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-58jp-97fm-4xq3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-gmq9-cfc9-7w39:npm:@vietmoney/vision-camera-code-scanner",
+      "source": "github",
+      "sourceId": "GHSA-gmq9-cfc9-7w39",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/vision-camera-code-scanner",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/vision-camera-code-scanner",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-gmq9-cfc9-7w39"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-gmq9-cfc9-7w39"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-gmq9-cfc9-7w39",
+        "apiUrl": "https://api.github.com/advisories/GHSA-gmq9-cfc9-7w39",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-c475-w7cw-vjcc:npm:@vietmoney/react-native-image-transformer",
+      "source": "github",
+      "sourceId": "GHSA-c475-w7cw-vjcc",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/react-native-image-transformer",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/react-native-image-transformer",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-c475-w7cw-vjcc"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-c475-w7cw-vjcc"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-c475-w7cw-vjcc",
+        "apiUrl": "https://api.github.com/advisories/GHSA-c475-w7cw-vjcc",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wv3x-qp6r-29w6:npm:@vietmoney/react-native-htmlview",
+      "source": "github",
+      "sourceId": "GHSA-wv3x-qp6r-29w6",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/react-native-htmlview",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/react-native-htmlview",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wv3x-qp6r-29w6"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wv3x-qp6r-29w6"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wv3x-qp6r-29w6",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wv3x-qp6r-29w6",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vc6p-43hp-v2xf:npm:@vietmoney/react-native-tags-input",
+      "source": "github",
+      "sourceId": "GHSA-vc6p-43hp-v2xf",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/react-native-tags-input",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/react-native-tags-input",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vc6p-43hp-v2xf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vc6p-43hp-v2xf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vc6p-43hp-v2xf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vc6p-43hp-v2xf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-rjr7-qcfc-hjcv:npm:@vietmoney/react-native-action-button",
+      "source": "github",
+      "sourceId": "GHSA-rjr7-qcfc-hjcv",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/react-native-action-button",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/react-native-action-button",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-rjr7-qcfc-hjcv"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-rjr7-qcfc-hjcv"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-rjr7-qcfc-hjcv",
+        "apiUrl": "https://api.github.com/advisories/GHSA-rjr7-qcfc-hjcv",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-94j6-x699-jcc3:npm:@vietmoney/react-native-true-id",
+      "source": "github",
+      "sourceId": "GHSA-94j6-x699-jcc3",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/react-native-true-id",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/react-native-true-id",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-94j6-x699-jcc3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-94j6-x699-jcc3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-94j6-x699-jcc3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-94j6-x699-jcc3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-f7qx-mq63-fxcr:npm:@vietmoney/react-native-smart-page",
+      "source": "github",
+      "sourceId": "GHSA-f7qx-mq63-fxcr",
+      "ecosystem": "npm",
+      "packageName": "@vietmoney/react-native-smart-page",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vietmoney/react-native-smart-page",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-f7qx-mq63-fxcr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-f7qx-mq63-fxcr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-f7qx-mq63-fxcr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-f7qx-mq63-fxcr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mhgg-gv4f-whxg:npm:landingpage-service",
+      "source": "github",
+      "sourceId": "GHSA-mhgg-gv4f-whxg",
+      "ecosystem": "npm",
+      "packageName": "landingpage-service",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in landingpage-service",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mhgg-gv4f-whxg"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2025-12-31T13:21:20Z",
+      "updatedAt": "2025-12-31T13:21:20Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-mhgg-gv4f-whxg"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mhgg-gv4f-whxg",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mhgg-gv4f-whxg",
         "cvssScore": null
       }
     }
