@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-01-06T18:13:18.847Z",
+  "generatedAt": "2026-01-07T06:12:49.062Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -14600,6 +14600,262 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-fxq5-9w23-cggc",
         "apiUrl": "https://api.github.com/advisories/GHSA-fxq5-9w23-cggc",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pwjh-p895-7767:npm:const-enum",
+      "source": "github",
+      "sourceId": "GHSA-pwjh-p895-7767",
+      "ecosystem": "npm",
+      "packageName": "const-enum",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in const-enum",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pwjh-p895-7767"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-07T05:38:18Z",
+      "updatedAt": "2026-01-07T05:38:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pwjh-p895-7767"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pwjh-p895-7767",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pwjh-p895-7767",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9w4p-mhx9-rcmp:npm:sort-imports-es6-autofix",
+      "source": "github",
+      "sourceId": "GHSA-9w4p-mhx9-rcmp",
+      "ecosystem": "npm",
+      "packageName": "sort-imports-es6-autofix",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in sort-imports-es6-autofix",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9w4p-mhx9-rcmp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-07T05:38:18Z",
+      "updatedAt": "2026-01-07T05:38:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9w4p-mhx9-rcmp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9w4p-mhx9-rcmp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9w4p-mhx9-rcmp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4mwx-mh36-vm84:npm:syntax-class-properties",
+      "source": "github",
+      "sourceId": "GHSA-4mwx-mh36-vm84",
+      "ecosystem": "npm",
+      "packageName": "syntax-class-properties",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in syntax-class-properties",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4mwx-mh36-vm84"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-07T05:38:18Z",
+      "updatedAt": "2026-01-07T05:38:19Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4mwx-mh36-vm84"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4mwx-mh36-vm84",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4mwx-mh36-vm84",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cfv7-hfm3-27qf:npm:transform-decorators-legacy",
+      "source": "github",
+      "sourceId": "GHSA-cfv7-hfm3-27qf",
+      "ecosystem": "npm",
+      "packageName": "transform-decorators-legacy",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in transform-decorators-legacy",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cfv7-hfm3-27qf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-07T05:38:18Z",
+      "updatedAt": "2026-01-07T05:38:19Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cfv7-hfm3-27qf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cfv7-hfm3-27qf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cfv7-hfm3-27qf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-59qx-85r3-h37j:npm:openblox-ts",
+      "source": "github",
+      "sourceId": "GHSA-59qx-85r3-h37j",
+      "ecosystem": "npm",
+      "packageName": "openblox-ts",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in openblox-ts",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-59qx-85r3-h37j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-07T02:32:11Z",
+      "updatedAt": "2026-01-07T02:32:12Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-59qx-85r3-h37j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-59qx-85r3-h37j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-59qx-85r3-h37j",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8p6w-g2jw-h46q:npm:eslint-plugin-supertest",
+      "source": "github",
+      "sourceId": "GHSA-8p6w-g2jw-h46q",
+      "ecosystem": "npm",
+      "packageName": "eslint-plugin-supertest",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in eslint-plugin-supertest",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8p6w-g2jw-h46q"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-07T02:08:41Z",
+      "updatedAt": "2026-01-07T02:08:42Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8p6w-g2jw-h46q"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8p6w-g2jw-h46q",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8p6w-g2jw-h46q",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wffw-vj4r-vqc2:npm:redis-request-parser",
+      "source": "github",
+      "sourceId": "GHSA-wffw-vj4r-vqc2",
+      "ecosystem": "npm",
+      "packageName": "redis-request-parser",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in redis-request-parser",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wffw-vj4r-vqc2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-07T02:08:41Z",
+      "updatedAt": "2026-01-07T02:08:42Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wffw-vj4r-vqc2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wffw-vj4r-vqc2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wffw-vj4r-vqc2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jm3x-2mc2-v7xf:npm:redis-cookie-ts",
+      "source": "github",
+      "sourceId": "GHSA-jm3x-2mc2-v7xf",
+      "ecosystem": "npm",
+      "packageName": "redis-cookie-ts",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in redis-cookie-ts",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jm3x-2mc2-v7xf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-07T02:08:41Z",
+      "updatedAt": "2026-01-07T02:08:42Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jm3x-2mc2-v7xf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jm3x-2mc2-v7xf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jm3x-2mc2-v7xf",
         "cvssScore": null
       }
     }
