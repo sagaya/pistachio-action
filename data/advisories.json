@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-01-12T06:14:37.624Z",
+  "generatedAt": "2026-01-13T06:13:36.666Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -18408,6 +18408,262 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-84hm-p25j-g6v9",
         "apiUrl": "https://api.github.com/advisories/GHSA-84hm-p25j-g6v9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-p55f-fh32-33wx:npm:cnamts-captcha-component",
+      "source": "github",
+      "sourceId": "GHSA-p55f-fh32-33wx",
+      "ecosystem": "npm",
+      "packageName": "cnamts-captcha-component",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in cnamts-captcha-component",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-p55f-fh32-33wx"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-13T05:26:09Z",
+      "updatedAt": "2026-01-13T05:26:16Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-p55f-fh32-33wx"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-p55f-fh32-33wx",
+        "apiUrl": "https://api.github.com/advisories/GHSA-p55f-fh32-33wx",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-v72c-68qv-fq35:npm:helium-module",
+      "source": "github",
+      "sourceId": "GHSA-v72c-68qv-fq35",
+      "ecosystem": "npm",
+      "packageName": "helium-module",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in helium-module",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-v72c-68qv-fq35"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-13T04:13:30Z",
+      "updatedAt": "2026-01-13T04:13:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-v72c-68qv-fq35"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-v72c-68qv-fq35",
+        "apiUrl": "https://api.github.com/advisories/GHSA-v72c-68qv-fq35",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-45m3-pf6h-c243:npm:francium-utils",
+      "source": "github",
+      "sourceId": "GHSA-45m3-pf6h-c243",
+      "ecosystem": "npm",
+      "packageName": "francium-utils",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in francium-utils",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-45m3-pf6h-c243"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-13T04:13:29Z",
+      "updatedAt": "2026-01-13T04:13:30Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-45m3-pf6h-c243"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-45m3-pf6h-c243",
+        "apiUrl": "https://api.github.com/advisories/GHSA-45m3-pf6h-c243",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4x69-gp4j-mpm5:npm:francium-ui",
+      "source": "github",
+      "sourceId": "GHSA-4x69-gp4j-mpm5",
+      "ecosystem": "npm",
+      "packageName": "francium-ui",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in francium-ui",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4x69-gp4j-mpm5"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-13T04:13:29Z",
+      "updatedAt": "2026-01-13T04:13:30Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4x69-gp4j-mpm5"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4x69-gp4j-mpm5",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4x69-gp4j-mpm5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5c69-2ppp-w4fv:npm:francium-web-visitors",
+      "source": "github",
+      "sourceId": "GHSA-5c69-2ppp-w4fv",
+      "ecosystem": "npm",
+      "packageName": "francium-web-visitors",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in francium-web-visitors",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5c69-2ppp-w4fv"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-13T04:13:29Z",
+      "updatedAt": "2026-01-13T04:13:30Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5c69-2ppp-w4fv"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5c69-2ppp-w4fv",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5c69-2ppp-w4fv",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-3j82-vrp8-g357:npm:extended-path",
+      "source": "github",
+      "sourceId": "GHSA-3j82-vrp8-g357",
+      "ecosystem": "npm",
+      "packageName": "extended-path",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in extended-path",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-3j82-vrp8-g357"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-13T03:46:35Z",
+      "updatedAt": "2026-01-13T03:46:35Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-3j82-vrp8-g357"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-3j82-vrp8-g357",
+        "apiUrl": "https://api.github.com/advisories/GHSA-3j82-vrp8-g357",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5572-pgc4-7mjf:npm:chai-as-enhanced",
+      "source": "github",
+      "sourceId": "GHSA-5572-pgc4-7mjf",
+      "ecosystem": "npm",
+      "packageName": "chai-as-enhanced",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-as-enhanced",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5572-pgc4-7mjf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-13T03:23:31Z",
+      "updatedAt": "2026-01-13T03:23:32Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5572-pgc4-7mjf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5572-pgc4-7mjf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5572-pgc4-7mjf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-w8jh-cww6-w5qq:npm:paytmsiddlewaree",
+      "source": "github",
+      "sourceId": "GHSA-w8jh-cww6-w5qq",
+      "ecosystem": "npm",
+      "packageName": "paytmsiddlewaree",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in paytmsiddlewaree",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-w8jh-cww6-w5qq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-13T02:53:04Z",
+      "updatedAt": "2026-01-13T02:53:05Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-w8jh-cww6-w5qq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-w8jh-cww6-w5qq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-w8jh-cww6-w5qq",
         "cvssScore": null
       }
     }
