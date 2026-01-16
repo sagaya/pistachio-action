@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-01-13T06:13:36.666Z",
+  "generatedAt": "2026-01-16T06:12:50.062Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -18664,6 +18664,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-w8jh-cww6-w5qq",
         "apiUrl": "https://api.github.com/advisories/GHSA-w8jh-cww6-w5qq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-j48w-xpqc-jv3w:npm:admin1001",
+      "source": "github",
+      "sourceId": "GHSA-j48w-xpqc-jv3w",
+      "ecosystem": "npm",
+      "packageName": "admin1001",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in admin1001",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-j48w-xpqc-jv3w"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-16T03:26:04Z",
+      "updatedAt": "2026-01-16T03:26:04Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-j48w-xpqc-jv3w"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-j48w-xpqc-jv3w",
+        "apiUrl": "https://api.github.com/advisories/GHSA-j48w-xpqc-jv3w",
         "cvssScore": null
       }
     }
