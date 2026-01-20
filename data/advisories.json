@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-01-20T06:13:46.012Z",
+  "generatedAt": "2026-01-20T12:13:07.207Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -21928,6 +21928,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-cf6g-q59f-wmxh",
         "apiUrl": "https://api.github.com/advisories/GHSA-cf6g-q59f-wmxh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-gc2c-3rm2-3685:npm:mised-discordjs-selfbot-v14",
+      "source": "github",
+      "sourceId": "GHSA-gc2c-3rm2-3685",
+      "ecosystem": "npm",
+      "packageName": "mised-discordjs-selfbot-v14",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in mised-discordjs-selfbot-v14",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-gc2c-3rm2-3685"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-20T07:54:05Z",
+      "updatedAt": "2026-01-20T07:54:05Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-gc2c-3rm2-3685"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-gc2c-3rm2-3685",
+        "apiUrl": "https://api.github.com/advisories/GHSA-gc2c-3rm2-3685",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-v7pw-qfwc-r9mp:npm:theme-neutral",
+      "source": "github",
+      "sourceId": "GHSA-v7pw-qfwc-r9mp",
+      "ecosystem": "npm",
+      "packageName": "theme-neutral",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in theme-neutral",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-v7pw-qfwc-r9mp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-20T06:19:57Z",
+      "updatedAt": "2026-01-20T06:19:58Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-v7pw-qfwc-r9mp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-v7pw-qfwc-r9mp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-v7pw-qfwc-r9mp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-rcxc-74j6-jx55:npm:sezzle",
+      "source": "github",
+      "sourceId": "GHSA-rcxc-74j6-jx55",
+      "ecosystem": "npm",
+      "packageName": "sezzle",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in sezzle",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-rcxc-74j6-jx55"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-20T06:18:17Z",
+      "updatedAt": "2026-01-20T06:18:17Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-rcxc-74j6-jx55"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-rcxc-74j6-jx55",
+        "apiUrl": "https://api.github.com/advisories/GHSA-rcxc-74j6-jx55",
         "cvssScore": null
       }
     }
