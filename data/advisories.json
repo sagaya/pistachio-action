@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-01-21T06:14:29.251Z",
+  "generatedAt": "2026-01-21T12:13:18.863Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -24361,6 +24361,198 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-h4f3-mj3f-p437",
         "apiUrl": "https://api.github.com/advisories/GHSA-h4f3-mj3f-p437",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-87xf-ghj4-8h7x:npm:tv-admin-commons",
+      "source": "github",
+      "sourceId": "GHSA-87xf-ghj4-8h7x",
+      "ecosystem": "npm",
+      "packageName": "tv-admin-commons",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tv-admin-commons",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-87xf-ghj4-8h7x"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-21T07:40:29Z",
+      "updatedAt": "2026-01-21T07:40:29Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-87xf-ghj4-8h7x"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-87xf-ghj4-8h7x",
+        "apiUrl": "https://api.github.com/advisories/GHSA-87xf-ghj4-8h7x",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-hp92-6jf4-773f:npm:ts-tweetnacl-utils",
+      "source": "github",
+      "sourceId": "GHSA-hp92-6jf4-773f",
+      "ecosystem": "npm",
+      "packageName": "ts-tweetnacl-utils",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ts-tweetnacl-utils",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-hp92-6jf4-773f"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-21T07:37:23Z",
+      "updatedAt": "2026-01-21T07:37:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-hp92-6jf4-773f"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-hp92-6jf4-773f",
+        "apiUrl": "https://api.github.com/advisories/GHSA-hp92-6jf4-773f",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vj23-9g2p-fvww:npm:ts-tweetnacl",
+      "source": "github",
+      "sourceId": "GHSA-vj23-9g2p-fvww",
+      "ecosystem": "npm",
+      "packageName": "ts-tweetnacl",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ts-tweetnacl",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vj23-9g2p-fvww"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-21T07:37:23Z",
+      "updatedAt": "2026-01-21T07:37:23Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vj23-9g2p-fvww"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vj23-9g2p-fvww",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vj23-9g2p-fvww",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vxqc-gmrh-x7m2:npm:lumo-api-client",
+      "source": "github",
+      "sourceId": "GHSA-vxqc-gmrh-x7m2",
+      "ecosystem": "npm",
+      "packageName": "lumo-api-client",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in lumo-api-client",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vxqc-gmrh-x7m2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-21T07:13:50Z",
+      "updatedAt": "2026-01-21T07:13:51Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vxqc-gmrh-x7m2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vxqc-gmrh-x7m2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vxqc-gmrh-x7m2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-xxq4-gc37-grmh:npm:jquery-ajaxchimp",
+      "source": "github",
+      "sourceId": "GHSA-xxq4-gc37-grmh",
+      "ecosystem": "npm",
+      "packageName": "jquery-ajaxchimp",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in jquery-ajaxchimp",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-xxq4-gc37-grmh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-21T07:13:50Z",
+      "updatedAt": "2026-01-21T07:13:50Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-xxq4-gc37-grmh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-xxq4-gc37-grmh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-xxq4-gc37-grmh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-fp6q-w5hw-mvvx:npm:aligntype",
+      "source": "github",
+      "sourceId": "GHSA-fp6q-w5hw-mvvx",
+      "ecosystem": "npm",
+      "packageName": "aligntype",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in aligntype",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-fp6q-w5hw-mvvx"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-21T06:49:59Z",
+      "updatedAt": "2026-01-21T06:49:59Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-fp6q-w5hw-mvvx"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-fp6q-w5hw-mvvx",
+        "apiUrl": "https://api.github.com/advisories/GHSA-fp6q-w5hw-mvvx",
         "cvssScore": null
       }
     }
