@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-01-22T12:13:16.504Z",
+  "generatedAt": "2026-01-22T18:14:52.736Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -24809,6 +24809,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-j64q-7vw7-x9pp",
         "apiUrl": "https://api.github.com/advisories/GHSA-j64q-7vw7-x9pp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-f867-45wh-g5pw:npm:@ikeacn/icons",
+      "source": "github",
+      "sourceId": "GHSA-f867-45wh-g5pw",
+      "ecosystem": "npm",
+      "packageName": "@ikeacn/icons",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @ikeacn/icons",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-f867-45wh-g5pw"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-22T15:49:16Z",
+      "updatedAt": "2026-01-22T15:49:17Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-f867-45wh-g5pw"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-f867-45wh-g5pw",
+        "apiUrl": "https://api.github.com/advisories/GHSA-f867-45wh-g5pw",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8hww-h75w-hmhr:npm:@ikeacn/utils",
+      "source": "github",
+      "sourceId": "GHSA-8hww-h75w-hmhr",
+      "ecosystem": "npm",
+      "packageName": "@ikeacn/utils",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @ikeacn/utils",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8hww-h75w-hmhr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-22T15:49:16Z",
+      "updatedAt": "2026-01-22T15:49:17Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8hww-h75w-hmhr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8hww-h75w-hmhr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8hww-h75w-hmhr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-f6r6-w68v-687q:npm:@ikeacn/ui",
+      "source": "github",
+      "sourceId": "GHSA-f6r6-w68v-687q",
+      "ecosystem": "npm",
+      "packageName": "@ikeacn/ui",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @ikeacn/ui",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-f6r6-w68v-687q"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-22T15:49:16Z",
+      "updatedAt": "2026-01-22T15:49:16Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-f6r6-w68v-687q"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-f6r6-w68v-687q",
+        "apiUrl": "https://api.github.com/advisories/GHSA-f6r6-w68v-687q",
         "cvssScore": null
       }
     }
