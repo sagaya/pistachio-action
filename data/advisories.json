@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-01-22T18:14:52.736Z",
+  "generatedAt": "2026-01-23T12:13:30.105Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -24905,6 +24905,134 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-f6r6-w68v-687q",
         "apiUrl": "https://api.github.com/advisories/GHSA-f6r6-w68v-687q",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g39p-gprj-c37g:npm:ntwsc",
+      "source": "github",
+      "sourceId": "GHSA-g39p-gprj-c37g",
+      "ecosystem": "npm",
+      "packageName": "ntwsc",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ntwsc",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g39p-gprj-c37g"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-23T06:32:37Z",
+      "updatedAt": "2026-01-23T06:32:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g39p-gprj-c37g"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g39p-gprj-c37g",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g39p-gprj-c37g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8v27-jw75-7v3c:npm:a5xm",
+      "source": "github",
+      "sourceId": "GHSA-8v27-jw75-7v3c",
+      "ecosystem": "npm",
+      "packageName": "a5xm",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in a5xm",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8v27-jw75-7v3c"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-23T06:32:37Z",
+      "updatedAt": "2026-01-23T06:32:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8v27-jw75-7v3c"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8v27-jw75-7v3c",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8v27-jw75-7v3c",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qqcc-7qrm-mf75:npm:ntwsx",
+      "source": "github",
+      "sourceId": "GHSA-qqcc-7qrm-mf75",
+      "ecosystem": "npm",
+      "packageName": "ntwsx",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ntwsx",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qqcc-7qrm-mf75"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-23T06:32:37Z",
+      "updatedAt": "2026-01-23T06:32:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qqcc-7qrm-mf75"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qqcc-7qrm-mf75",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qqcc-7qrm-mf75",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-q3gw-cjjf-gqq5:npm:a4wu",
+      "source": "github",
+      "sourceId": "GHSA-q3gw-cjjf-gqq5",
+      "ecosystem": "npm",
+      "packageName": "a4wu",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in a4wu",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-q3gw-cjjf-gqq5"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-23T06:32:36Z",
+      "updatedAt": "2026-01-23T06:32:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-q3gw-cjjf-gqq5"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-q3gw-cjjf-gqq5",
+        "apiUrl": "https://api.github.com/advisories/GHSA-q3gw-cjjf-gqq5",
         "cvssScore": null
       }
     }
