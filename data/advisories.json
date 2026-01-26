@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-01-23T12:13:30.105Z",
+  "generatedAt": "2026-01-26T18:15:00.895Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -25033,6 +25033,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-q3gw-cjjf-gqq5",
         "apiUrl": "https://api.github.com/advisories/GHSA-q3gw-cjjf-gqq5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-3phq-qxp9-55pv:npm:rank4222wun",
+      "source": "github",
+      "sourceId": "GHSA-3phq-qxp9-55pv",
+      "ecosystem": "npm",
+      "packageName": "rank4222wun",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in rank4222wun",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-3phq-qxp9-55pv"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-26T17:01:07Z",
+      "updatedAt": "2026-01-26T17:01:12Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-3phq-qxp9-55pv"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-3phq-qxp9-55pv",
+        "apiUrl": "https://api.github.com/advisories/GHSA-3phq-qxp9-55pv",
         "cvssScore": null
       }
     }
