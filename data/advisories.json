@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-01-27T12:13:24.895Z",
+  "generatedAt": "2026-01-28T06:13:51.280Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -26666,6 +26666,134 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-mp8v-x9wp-v423",
         "apiUrl": "https://api.github.com/advisories/GHSA-mp8v-x9wp-v423",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qg82-jrgh-rv25:npm:express-lists-routes",
+      "source": "github",
+      "sourceId": "GHSA-qg82-jrgh-rv25",
+      "ecosystem": "npm",
+      "packageName": "express-lists-routes",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in express-lists-routes",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qg82-jrgh-rv25"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-28T03:26:59Z",
+      "updatedAt": "2026-01-28T03:27:00Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qg82-jrgh-rv25"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qg82-jrgh-rv25",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qg82-jrgh-rv25",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-m3jp-4w2p-gm5f:npm:json-mapping-web",
+      "source": "github",
+      "sourceId": "GHSA-m3jp-4w2p-gm5f",
+      "ecosystem": "npm",
+      "packageName": "json-mapping-web",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in json-mapping-web",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-m3jp-4w2p-gm5f"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-28T03:24:26Z",
+      "updatedAt": "2026-01-28T03:24:27Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-m3jp-4w2p-gm5f"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-m3jp-4w2p-gm5f",
+        "apiUrl": "https://api.github.com/advisories/GHSA-m3jp-4w2p-gm5f",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wh7m-vhx9-f4qq:npm:cdnhost",
+      "source": "github",
+      "sourceId": "GHSA-wh7m-vhx9-f4qq",
+      "ecosystem": "npm",
+      "packageName": "cdnhost",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in cdnhost",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 0.0.1-security"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wh7m-vhx9-f4qq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-28T03:21:37Z",
+      "updatedAt": "2026-01-28T03:21:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wh7m-vhx9-f4qq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wh7m-vhx9-f4qq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wh7m-vhx9-f4qq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-3rcr-854m-q7w4:npm:blockchain-helper-lib",
+      "source": "github",
+      "sourceId": "GHSA-3rcr-854m-q7w4",
+      "ecosystem": "npm",
+      "packageName": "blockchain-helper-lib",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in blockchain-helper-lib",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-3rcr-854m-q7w4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-28T03:20:46Z",
+      "updatedAt": "2026-01-28T03:20:47Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-3rcr-854m-q7w4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-3rcr-854m-q7w4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-3rcr-854m-q7w4",
         "cvssScore": null
       }
     }
