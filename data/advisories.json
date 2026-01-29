@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-01-28T18:15:20.540Z",
+  "generatedAt": "2026-01-29T06:22:09.996Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -28074,6 +28074,134 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-343p-7f7g-4fc5",
         "apiUrl": "https://api.github.com/advisories/GHSA-343p-7f7g-4fc5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mq4c-jcxh-3w9f:npm:researchpoc2",
+      "source": "github",
+      "sourceId": "GHSA-mq4c-jcxh-3w9f",
+      "ecosystem": "npm",
+      "packageName": "researchpoc2",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in researchpoc2",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mq4c-jcxh-3w9f"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-29T04:22:59Z",
+      "updatedAt": "2026-01-29T04:22:59Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-mq4c-jcxh-3w9f"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mq4c-jcxh-3w9f",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mq4c-jcxh-3w9f",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-grxm-6mcc-6f63:npm:jwt-pack",
+      "source": "github",
+      "sourceId": "GHSA-grxm-6mcc-6f63",
+      "ecosystem": "npm",
+      "packageName": "jwt-pack",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in jwt-pack",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-grxm-6mcc-6f63"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-29T04:14:08Z",
+      "updatedAt": "2026-01-29T04:14:13Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-grxm-6mcc-6f63"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-grxm-6mcc-6f63",
+        "apiUrl": "https://api.github.com/advisories/GHSA-grxm-6mcc-6f63",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-h3jq-3362-m28h:npm:n8n-nodes-comfyui-illu",
+      "source": "github",
+      "sourceId": "GHSA-h3jq-3362-m28h",
+      "ecosystem": "npm",
+      "packageName": "n8n-nodes-comfyui-illu",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in n8n-nodes-comfyui-illu",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-h3jq-3362-m28h"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-29T03:52:09Z",
+      "updatedAt": "2026-01-29T03:52:09Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-h3jq-3362-m28h"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-h3jq-3362-m28h",
+        "apiUrl": "https://api.github.com/advisories/GHSA-h3jq-3362-m28h",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cf83-6cqr-9pfj:npm:wallet-icon-font",
+      "source": "github",
+      "sourceId": "GHSA-cf83-6cqr-9pfj",
+      "ecosystem": "npm",
+      "packageName": "wallet-icon-font",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in wallet-icon-font",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cf83-6cqr-9pfj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-01-29T03:47:06Z",
+      "updatedAt": "2026-01-29T03:47:06Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cf83-6cqr-9pfj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cf83-6cqr-9pfj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cf83-6cqr-9pfj",
         "cvssScore": null
       }
     }
