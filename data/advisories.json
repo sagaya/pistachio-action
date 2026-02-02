@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-02T06:29:44.720Z",
+  "generatedAt": "2026-02-02T12:15:57.186Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -28234,6 +28234,230 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-cpcr-74hm-pg3c",
         "apiUrl": "https://api.github.com/advisories/GHSA-cpcr-74hm-pg3c",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8fp4-7xff-mpwm:npm:picking-miniapp",
+      "source": "github",
+      "sourceId": "GHSA-8fp4-7xff-mpwm",
+      "ecosystem": "npm",
+      "packageName": "picking-miniapp",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in picking-miniapp",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8fp4-7xff-mpwm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-02T08:30:53Z",
+      "updatedAt": "2026-02-02T08:30:54Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8fp4-7xff-mpwm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8fp4-7xff-mpwm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8fp4-7xff-mpwm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-326q-pfrf-3f2v:npm:react-native-expofp",
+      "source": "github",
+      "sourceId": "GHSA-326q-pfrf-3f2v",
+      "ecosystem": "npm",
+      "packageName": "react-native-expofp",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in react-native-expofp",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-326q-pfrf-3f2v"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-02T08:30:15Z",
+      "updatedAt": "2026-02-02T08:30:16Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-326q-pfrf-3f2v"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-326q-pfrf-3f2v",
+        "apiUrl": "https://api.github.com/advisories/GHSA-326q-pfrf-3f2v",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jgcj-pm32-hmcj:npm:dise-pkt",
+      "source": "github",
+      "sourceId": "GHSA-jgcj-pm32-hmcj",
+      "ecosystem": "npm",
+      "packageName": "dise-pkt",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in dise-pkt",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jgcj-pm32-hmcj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-02T08:29:38Z",
+      "updatedAt": "2026-02-02T08:29:39Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jgcj-pm32-hmcj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jgcj-pm32-hmcj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jgcj-pm32-hmcj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7jjv-6pgj-6rv7:npm:@hemanshu_patil/xcode",
+      "source": "github",
+      "sourceId": "GHSA-7jjv-6pgj-6rv7",
+      "ecosystem": "npm",
+      "packageName": "@hemanshu_patil/xcode",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @hemanshu_patil/xcode",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7jjv-6pgj-6rv7"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-02T08:28:43Z",
+      "updatedAt": "2026-02-02T08:28:44Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-7jjv-6pgj-6rv7"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7jjv-6pgj-6rv7",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7jjv-6pgj-6rv7",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-p6w8-c7rw-69c8:npm:@hemanshu_patil/xcode-windows-x64",
+      "source": "github",
+      "sourceId": "GHSA-p6w8-c7rw-69c8",
+      "ecosystem": "npm",
+      "packageName": "@hemanshu_patil/xcode-windows-x64",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @hemanshu_patil/xcode-windows-x64",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-p6w8-c7rw-69c8"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-02T08:28:43Z",
+      "updatedAt": "2026-02-02T08:28:43Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-p6w8-c7rw-69c8"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-p6w8-c7rw-69c8",
+        "apiUrl": "https://api.github.com/advisories/GHSA-p6w8-c7rw-69c8",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vxf9-w3qp-wrwm:npm:libsignal-yazxzpedia",
+      "source": "github",
+      "sourceId": "GHSA-vxf9-w3qp-wrwm",
+      "ecosystem": "npm",
+      "packageName": "libsignal-yazxzpedia",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in libsignal-yazxzpedia",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vxf9-w3qp-wrwm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-02T08:27:24Z",
+      "updatedAt": "2026-02-02T08:27:33Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vxf9-w3qp-wrwm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vxf9-w3qp-wrwm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vxf9-w3qp-wrwm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-765g-mfj4-v8fw:npm:yazxzpedia",
+      "source": "github",
+      "sourceId": "GHSA-765g-mfj4-v8fw",
+      "ecosystem": "npm",
+      "packageName": "yazxzpedia",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in yazxzpedia",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-765g-mfj4-v8fw"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-02T08:27:24Z",
+      "updatedAt": "2026-02-02T08:27:25Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-765g-mfj4-v8fw"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-765g-mfj4-v8fw",
+        "apiUrl": "https://api.github.com/advisories/GHSA-765g-mfj4-v8fw",
         "cvssScore": null
       }
     }
