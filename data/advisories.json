@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-03T12:16:46.755Z",
+  "generatedAt": "2026-02-03T18:25:36.527Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -29994,6 +29994,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-4prp-gwjj-hvcx",
         "apiUrl": "https://api.github.com/advisories/GHSA-4prp-gwjj-hvcx",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6444-v9wg-78rr:npm:js-unpack",
+      "source": "github",
+      "sourceId": "GHSA-6444-v9wg-78rr",
+      "ecosystem": "npm",
+      "packageName": "js-unpack",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in js-unpack",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6444-v9wg-78rr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-03T17:41:26Z",
+      "updatedAt": "2026-02-03T17:41:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6444-v9wg-78rr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6444-v9wg-78rr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6444-v9wg-78rr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-m56w-m3fj-frgc:npm:@devgandhi/healthpulse",
+      "source": "github",
+      "sourceId": "GHSA-m56w-m3fj-frgc",
+      "ecosystem": "npm",
+      "packageName": "@devgandhi/healthpulse",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @devgandhi/healthpulse",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-m56w-m3fj-frgc"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-03T17:39:11Z",
+      "updatedAt": "2026-02-03T17:39:20Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-m56w-m3fj-frgc"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-m56w-m3fj-frgc",
+        "apiUrl": "https://api.github.com/advisories/GHSA-m56w-m3fj-frgc",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qc7c-jwxx-8xm4:npm:@devgandhi/cpp",
+      "source": "github",
+      "sourceId": "GHSA-qc7c-jwxx-8xm4",
+      "ecosystem": "npm",
+      "packageName": "@devgandhi/cpp",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @devgandhi/cpp",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qc7c-jwxx-8xm4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-03T17:39:11Z",
+      "updatedAt": "2026-02-03T17:39:12Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qc7c-jwxx-8xm4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qc7c-jwxx-8xm4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qc7c-jwxx-8xm4",
         "cvssScore": null
       }
     }
