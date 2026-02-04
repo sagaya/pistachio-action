@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-04T06:23:34.557Z",
+  "generatedAt": "2026-02-04T12:16:01.741Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -30858,6 +30858,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-x2r8-ggc3-9654",
         "apiUrl": "https://api.github.com/advisories/GHSA-x2r8-ggc3-9654",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-xpfh-2xjg-cgvr:npm:remark-gfm-v4",
+      "source": "github",
+      "sourceId": "GHSA-xpfh-2xjg-cgvr",
+      "ecosystem": "npm",
+      "packageName": "remark-gfm-v4",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in remark-gfm-v4",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-xpfh-2xjg-cgvr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-04T09:46:59Z",
+      "updatedAt": "2026-02-04T09:47:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-xpfh-2xjg-cgvr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-xpfh-2xjg-cgvr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-xpfh-2xjg-cgvr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-q8cq-3xjx-954v:npm:docusaurus-plugin-launchdarkly",
+      "source": "github",
+      "sourceId": "GHSA-q8cq-3xjx-954v",
+      "ecosystem": "npm",
+      "packageName": "docusaurus-plugin-launchdarkly",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in docusaurus-plugin-launchdarkly",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-q8cq-3xjx-954v"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-04T09:46:59Z",
+      "updatedAt": "2026-02-04T09:47:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-q8cq-3xjx-954v"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-q8cq-3xjx-954v",
+        "apiUrl": "https://api.github.com/advisories/GHSA-q8cq-3xjx-954v",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jv7m-6p34-m7xf:npm:ggajsvjsg",
+      "source": "github",
+      "sourceId": "GHSA-jv7m-6p34-m7xf",
+      "ecosystem": "npm",
+      "packageName": "ggajsvjsg",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ggajsvjsg",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jv7m-6p34-m7xf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-04T09:46:59Z",
+      "updatedAt": "2026-02-04T09:47:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jv7m-6p34-m7xf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jv7m-6p34-m7xf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jv7m-6p34-m7xf",
         "cvssScore": null
       }
     }
