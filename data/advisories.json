@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-04T18:26:09.747Z",
+  "generatedAt": "2026-02-05T00:17:27.505Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -31178,6 +31178,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-x9r9-7gv6-vrfh",
         "apiUrl": "https://api.github.com/advisories/GHSA-x9r9-7gv6-vrfh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6c8f-x4v8-69pr:npm:react-vite-sync",
+      "source": "github",
+      "sourceId": "GHSA-6c8f-x4v8-69pr",
+      "ecosystem": "npm",
+      "packageName": "react-vite-sync",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in react-vite-sync",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6c8f-x4v8-69pr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-04T23:44:25Z",
+      "updatedAt": "2026-02-04T23:44:31Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6c8f-x4v8-69pr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6c8f-x4v8-69pr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6c8f-x4v8-69pr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g8h5-29pj-64xq:npm:react-count-sync",
+      "source": "github",
+      "sourceId": "GHSA-g8h5-29pj-64xq",
+      "ecosystem": "npm",
+      "packageName": "react-count-sync",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in react-count-sync",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g8h5-29pj-64xq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-04T23:44:24Z",
+      "updatedAt": "2026-02-04T23:44:25Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g8h5-29pj-64xq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g8h5-29pj-64xq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g8h5-29pj-64xq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-p3xm-qpjg-2gg8:npm:web3-chain-sync",
+      "source": "github",
+      "sourceId": "GHSA-p3xm-qpjg-2gg8",
+      "ecosystem": "npm",
+      "packageName": "web3-chain-sync",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in web3-chain-sync",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-p3xm-qpjg-2gg8"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-04T23:44:24Z",
+      "updatedAt": "2026-02-04T23:44:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-p3xm-qpjg-2gg8"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-p3xm-qpjg-2gg8",
+        "apiUrl": "https://api.github.com/advisories/GHSA-p3xm-qpjg-2gg8",
         "cvssScore": null
       }
     }
