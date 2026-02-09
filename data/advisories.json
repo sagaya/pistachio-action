@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-06T18:21:57.134Z",
+  "generatedAt": "2026-02-09T18:25:18.112Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -32459,6 +32459,166 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-vw8w-h7g2-48g9",
         "apiUrl": "https://api.github.com/advisories/GHSA-vw8w-h7g2-48g9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8mjx-w3ff-mv8m:npm:jwtdotenv",
+      "source": "github",
+      "sourceId": "GHSA-8mjx-w3ff-mv8m",
+      "ecosystem": "npm",
+      "packageName": "jwtdotenv",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in jwtdotenv",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8mjx-w3ff-mv8m"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-09T17:27:19Z",
+      "updatedAt": "2026-02-09T17:27:29Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8mjx-w3ff-mv8m"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8mjx-w3ff-mv8m",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8mjx-w3ff-mv8m",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7r6g-f9q3-q5fg:npm:json-web-sources",
+      "source": "github",
+      "sourceId": "GHSA-7r6g-f9q3-q5fg",
+      "ecosystem": "npm",
+      "packageName": "json-web-sources",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in json-web-sources",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7r6g-f9q3-q5fg"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-09T17:25:32Z",
+      "updatedAt": "2026-02-09T17:25:33Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-7r6g-f9q3-q5fg"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7r6g-f9q3-q5fg",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7r6g-f9q3-q5fg",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vphr-h9xh-66ff:npm:json-mapping-sources",
+      "source": "github",
+      "sourceId": "GHSA-vphr-h9xh-66ff",
+      "ecosystem": "npm",
+      "packageName": "json-mapping-sources",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in json-mapping-sources",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vphr-h9xh-66ff"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-09T17:25:32Z",
+      "updatedAt": "2026-02-09T17:25:33Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vphr-h9xh-66ff"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vphr-h9xh-66ff",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vphr-h9xh-66ff",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qjpf-p69c-m582:npm:react-svg-handler",
+      "source": "github",
+      "sourceId": "GHSA-qjpf-p69c-m582",
+      "ecosystem": "npm",
+      "packageName": "react-svg-handler",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in react-svg-handler",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qjpf-p69c-m582"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-09T17:16:37Z",
+      "updatedAt": "2026-02-09T17:16:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qjpf-p69c-m582"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qjpf-p69c-m582",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qjpf-p69c-m582",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-97cm-4mhj-hmf7:npm:@skyeng/libs",
+      "source": "github",
+      "sourceId": "GHSA-97cm-4mhj-hmf7",
+      "ecosystem": "npm",
+      "packageName": "@skyeng/libs",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @skyeng/libs",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-97cm-4mhj-hmf7"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-09T15:12:24Z",
+      "updatedAt": "2026-02-09T15:12:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-97cm-4mhj-hmf7"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-97cm-4mhj-hmf7",
+        "apiUrl": "https://api.github.com/advisories/GHSA-97cm-4mhj-hmf7",
         "cvssScore": null
       }
     }
