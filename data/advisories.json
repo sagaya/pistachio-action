@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-10T18:29:01.520Z",
+  "generatedAt": "2026-02-11T12:21:42.077Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -32971,6 +32971,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-6cq7-pjjx-42h3",
         "apiUrl": "https://api.github.com/advisories/GHSA-6cq7-pjjx-42h3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-777h-658h-v2g3:npm:sinon-node",
+      "source": "github",
+      "sourceId": "GHSA-777h-658h-v2g3",
+      "ecosystem": "npm",
+      "packageName": "sinon-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in sinon-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-777h-658h-v2g3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-11T10:54:37Z",
+      "updatedAt": "2026-02-11T10:54:42Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-777h-658h-v2g3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-777h-658h-v2g3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-777h-658h-v2g3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-46v6-58g3-h5qh:npm:node-dotenv-cli",
+      "source": "github",
+      "sourceId": "GHSA-46v6-58g3-h5qh",
+      "ecosystem": "npm",
+      "packageName": "node-dotenv-cli",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in node-dotenv-cli",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-46v6-58g3-h5qh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-11T10:54:37Z",
+      "updatedAt": "2026-02-11T10:54:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-46v6-58g3-h5qh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-46v6-58g3-h5qh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-46v6-58g3-h5qh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cg22-2f58-35xj:npm:chai-await",
+      "source": "github",
+      "sourceId": "GHSA-cg22-2f58-35xj",
+      "ecosystem": "npm",
+      "packageName": "chai-await",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-await",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cg22-2f58-35xj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-11T10:54:36Z",
+      "updatedAt": "2026-02-11T10:54:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cg22-2f58-35xj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cg22-2f58-35xj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cg22-2f58-35xj",
         "cvssScore": null
       }
     }
