@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-11T18:27:19.271Z",
+  "generatedAt": "2026-02-12T18:26:17.715Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -33227,6 +33227,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-4p6w-3gcj-crr5",
         "apiUrl": "https://api.github.com/advisories/GHSA-4p6w-3gcj-crr5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-prwr-p62p-3qr2:npm:stylelint-recommended",
+      "source": "github",
+      "sourceId": "GHSA-prwr-p62p-3qr2",
+      "ecosystem": "npm",
+      "packageName": "stylelint-recommended",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in stylelint-recommended",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-prwr-p62p-3qr2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-12T18:18:29Z",
+      "updatedAt": "2026-02-12T18:18:30Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-prwr-p62p-3qr2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-prwr-p62p-3qr2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-prwr-p62p-3qr2",
         "cvssScore": null
       }
     }
