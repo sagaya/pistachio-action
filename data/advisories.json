@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-13T18:20:12.768Z",
+  "generatedAt": "2026-02-16T18:19:02.067Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -33835,6 +33835,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-f2r4-9pvw-jg83",
         "apiUrl": "https://api.github.com/advisories/GHSA-f2r4-9pvw-jg83",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qjgj-mrv7-24f7:npm:ambar-src",
+      "source": "github",
+      "sourceId": "GHSA-qjgj-mrv7-24f7",
+      "ecosystem": "npm",
+      "packageName": "ambar-src",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ambar-src",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qjgj-mrv7-24f7"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-16T17:03:16Z",
+      "updatedAt": "2026-02-16T17:03:23Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qjgj-mrv7-24f7"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qjgj-mrv7-24f7",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qjgj-mrv7-24f7",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pxqh-3wf7-xg38:npm:webpack-vite",
+      "source": "github",
+      "sourceId": "GHSA-pxqh-3wf7-xg38",
+      "ecosystem": "npm",
+      "packageName": "webpack-vite",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in webpack-vite",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pxqh-3wf7-xg38"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-16T15:03:26Z",
+      "updatedAt": "2026-02-16T15:03:27Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pxqh-3wf7-xg38"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pxqh-3wf7-xg38",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pxqh-3wf7-xg38",
         "cvssScore": null
       }
     }
