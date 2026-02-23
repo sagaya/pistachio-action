@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-20T18:19:31.658Z",
+  "generatedAt": "2026-02-23T06:30:09.673Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -34667,6 +34667,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-m47j-9qfx-6jh4",
         "apiUrl": "https://api.github.com/advisories/GHSA-m47j-9qfx-6jh4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-h362-pxfp-fmhj:npm:react-dropzone-truffle",
+      "source": "github",
+      "sourceId": "GHSA-h362-pxfp-fmhj",
+      "ecosystem": "npm",
+      "packageName": "react-dropzone-truffle",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in react-dropzone-truffle",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-h362-pxfp-fmhj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-23T02:22:35Z",
+      "updatedAt": "2026-02-23T02:22:40Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-h362-pxfp-fmhj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-h362-pxfp-fmhj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-h362-pxfp-fmhj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mfx5-vj54-ccc2:npm:npm-security-testing",
+      "source": "github",
+      "sourceId": "GHSA-mfx5-vj54-ccc2",
+      "ecosystem": "npm",
+      "packageName": "npm-security-testing",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in npm-security-testing",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mfx5-vj54-ccc2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-23T02:20:31Z",
+      "updatedAt": "2026-02-23T02:20:31Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-mfx5-vj54-ccc2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mfx5-vj54-ccc2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mfx5-vj54-ccc2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qjfg-ppv8-33mh:npm:rbxm-tools",
+      "source": "github",
+      "sourceId": "GHSA-qjfg-ppv8-33mh",
+      "ecosystem": "npm",
+      "packageName": "rbxm-tools",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in rbxm-tools",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qjfg-ppv8-33mh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-23T02:14:37Z",
+      "updatedAt": "2026-02-23T02:14:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qjfg-ppv8-33mh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qjfg-ppv8-33mh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qjfg-ppv8-33mh",
         "cvssScore": null
       }
     }
