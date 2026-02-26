@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-26T00:17:19.137Z",
+  "generatedAt": "2026-02-26T12:19:19.442Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -35595,6 +35595,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-xcqv-f95p-vrc9",
         "apiUrl": "https://api.github.com/advisories/GHSA-xcqv-f95p-vrc9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jwcf-6pvx-4cwr:npm:jest-node-paramset",
+      "source": "github",
+      "sourceId": "GHSA-jwcf-6pvx-4cwr",
+      "ecosystem": "npm",
+      "packageName": "jest-node-paramset",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in jest-node-paramset",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jwcf-6pvx-4cwr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-26T11:22:38Z",
+      "updatedAt": "2026-02-26T11:22:39Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jwcf-6pvx-4cwr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jwcf-6pvx-4cwr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jwcf-6pvx-4cwr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-rqxr-2phg-q2jr:npm:ts-packer",
+      "source": "github",
+      "sourceId": "GHSA-rqxr-2phg-q2jr",
+      "ecosystem": "npm",
+      "packageName": "ts-packer",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ts-packer",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-rqxr-2phg-q2jr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-26T11:22:38Z",
+      "updatedAt": "2026-02-26T11:22:39Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-rqxr-2phg-q2jr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-rqxr-2phg-q2jr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-rqxr-2phg-q2jr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-48qg-xrrh-4cv3:npm:jest-param-validator",
+      "source": "github",
+      "sourceId": "GHSA-48qg-xrrh-4cv3",
+      "ecosystem": "npm",
+      "packageName": "jest-param-validator",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in jest-param-validator",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-48qg-xrrh-4cv3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-26T11:22:38Z",
+      "updatedAt": "2026-02-26T11:22:39Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-48qg-xrrh-4cv3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-48qg-xrrh-4cv3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-48qg-xrrh-4cv3",
         "cvssScore": null
       }
     }
