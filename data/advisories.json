@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-02-26T12:19:19.442Z",
+  "generatedAt": "2026-02-27T12:15:59.796Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -35691,6 +35691,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-48qg-xrrh-4cv3",
         "apiUrl": "https://api.github.com/advisories/GHSA-48qg-xrrh-4cv3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pqqv-f6rm-588j:npm:express-core-validator",
+      "source": "github",
+      "sourceId": "GHSA-pqqv-f6rm-588j",
+      "ecosystem": "npm",
+      "packageName": "express-core-validator",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in express-core-validator",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pqqv-f6rm-588j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-02-27T11:51:42Z",
+      "updatedAt": "2026-02-27T11:51:42Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pqqv-f6rm-588j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pqqv-f6rm-588j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pqqv-f6rm-588j",
         "cvssScore": null
       }
     }
