@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-03T18:21:58.449Z",
+  "generatedAt": "2026-03-04T18:20:30.473Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -40587,6 +40587,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-w36w-mf9p-w4r9",
         "apiUrl": "https://api.github.com/advisories/GHSA-w36w-mf9p-w4r9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-h4ch-r74v-826j:npm:pearpass-lib-vault",
+      "source": "github",
+      "sourceId": "GHSA-h4ch-r74v-826j",
+      "ecosystem": "npm",
+      "packageName": "pearpass-lib-vault",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pearpass-lib-vault",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-h4ch-r74v-826j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-04T14:25:47Z",
+      "updatedAt": "2026-03-04T14:25:48Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-h4ch-r74v-826j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-h4ch-r74v-826j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-h4ch-r74v-826j",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-2ghq-7hh3-2x5g:npm:pearpass-lib-vault-core",
+      "source": "github",
+      "sourceId": "GHSA-2ghq-7hh3-2x5g",
+      "ecosystem": "npm",
+      "packageName": "pearpass-lib-vault-core",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pearpass-lib-vault-core",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-2ghq-7hh3-2x5g"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-04T14:16:24Z",
+      "updatedAt": "2026-03-04T14:16:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-2ghq-7hh3-2x5g"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-2ghq-7hh3-2x5g",
+        "apiUrl": "https://api.github.com/advisories/GHSA-2ghq-7hh3-2x5g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vqrg-7m7p-6r59:npm:pearpass-lib-ui-theme-provider",
+      "source": "github",
+      "sourceId": "GHSA-vqrg-7m7p-6r59",
+      "ecosystem": "npm",
+      "packageName": "pearpass-lib-ui-theme-provider",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pearpass-lib-ui-theme-provider",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vqrg-7m7p-6r59"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-04T14:15:03Z",
+      "updatedAt": "2026-03-04T14:15:04Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vqrg-7m7p-6r59"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vqrg-7m7p-6r59",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vqrg-7m7p-6r59",
         "cvssScore": null
       }
     }
