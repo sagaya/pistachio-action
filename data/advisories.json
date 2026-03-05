@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-04T18:20:30.473Z",
+  "generatedAt": "2026-03-05T18:43:54.348Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -40683,6 +40683,422 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-vqrg-7m7p-6r59",
         "apiUrl": "https://api.github.com/advisories/GHSA-vqrg-7m7p-6r59",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-53gc-6rwm-8qvx:npm:@imhuman/corp-build-utils-poc",
+      "source": "github",
+      "sourceId": "GHSA-53gc-6rwm-8qvx",
+      "ecosystem": "npm",
+      "packageName": "@imhuman/corp-build-utils-poc",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @imhuman/corp-build-utils-poc",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-53gc-6rwm-8qvx"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T16:49:33Z",
+      "updatedAt": "2026-03-05T16:49:33Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-53gc-6rwm-8qvx"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-53gc-6rwm-8qvx",
+        "apiUrl": "https://api.github.com/advisories/GHSA-53gc-6rwm-8qvx",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-v8g3-qq8j-v4hp:npm:imhuman-fw-logger",
+      "source": "github",
+      "sourceId": "GHSA-v8g3-qq8j-v4hp",
+      "ecosystem": "npm",
+      "packageName": "imhuman-fw-logger",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in imhuman-fw-logger",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-v8g3-qq8j-v4hp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T16:49:32Z",
+      "updatedAt": "2026-03-05T16:49:33Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-v8g3-qq8j-v4hp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-v8g3-qq8j-v4hp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-v8g3-qq8j-v4hp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6qpc-26c3-fqx4:npm:@imhuman/fw-logger",
+      "source": "github",
+      "sourceId": "GHSA-6qpc-26c3-fqx4",
+      "ecosystem": "npm",
+      "packageName": "@imhuman/fw-logger",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @imhuman/fw-logger",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6qpc-26c3-fqx4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T16:49:32Z",
+      "updatedAt": "2026-03-05T16:49:33Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6qpc-26c3-fqx4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6qpc-26c3-fqx4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6qpc-26c3-fqx4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8332-hw5x-q6rx:npm:pear-apps-lib-ui-react-hooks",
+      "source": "github",
+      "sourceId": "GHSA-8332-hw5x-q6rx",
+      "ecosystem": "npm",
+      "packageName": "pear-apps-lib-ui-react-hooks",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pear-apps-lib-ui-react-hooks",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8332-hw5x-q6rx"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T16:18:38Z",
+      "updatedAt": "2026-03-05T16:18:48Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8332-hw5x-q6rx"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8332-hw5x-q6rx",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8332-hw5x-q6rx",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g582-vfxj-j9qp:npm:pear-apps-utils-avatar-initials",
+      "source": "github",
+      "sourceId": "GHSA-g582-vfxj-j9qp",
+      "ecosystem": "npm",
+      "packageName": "pear-apps-utils-avatar-initials",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pear-apps-utils-avatar-initials",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g582-vfxj-j9qp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T16:04:20Z",
+      "updatedAt": "2026-03-05T16:04:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g582-vfxj-j9qp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g582-vfxj-j9qp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g582-vfxj-j9qp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-j8cc-p8rq-xhvh:npm:pear-apps-utils-date",
+      "source": "github",
+      "sourceId": "GHSA-j8cc-p8rq-xhvh",
+      "ecosystem": "npm",
+      "packageName": "pear-apps-utils-date",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pear-apps-utils-date",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-j8cc-p8rq-xhvh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T16:00:53Z",
+      "updatedAt": "2026-03-05T16:00:54Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-j8cc-p8rq-xhvh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-j8cc-p8rq-xhvh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-j8cc-p8rq-xhvh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jxj8-p2mm-gjr9:npm:pear-apps-utils-qr",
+      "source": "github",
+      "sourceId": "GHSA-jxj8-p2mm-gjr9",
+      "ecosystem": "npm",
+      "packageName": "pear-apps-utils-qr",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pear-apps-utils-qr",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jxj8-p2mm-gjr9"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T15:55:06Z",
+      "updatedAt": "2026-03-05T15:55:06Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jxj8-p2mm-gjr9"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jxj8-p2mm-gjr9",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jxj8-p2mm-gjr9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-h3vq-4m22-hrmf:npm:pearpass-lib-data-export",
+      "source": "github",
+      "sourceId": "GHSA-h3vq-4m22-hrmf",
+      "ecosystem": "npm",
+      "packageName": "pearpass-lib-data-export",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pearpass-lib-data-export",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-h3vq-4m22-hrmf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T15:50:09Z",
+      "updatedAt": "2026-03-05T15:50:10Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-h3vq-4m22-hrmf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-h3vq-4m22-hrmf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-h3vq-4m22-hrmf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-64j5-x9g6-59pm:npm:pear-apps-lib-feedback",
+      "source": "github",
+      "sourceId": "GHSA-64j5-x9g6-59pm",
+      "ecosystem": "npm",
+      "packageName": "pear-apps-lib-feedback",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pear-apps-lib-feedback",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-64j5-x9g6-59pm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T15:35:15Z",
+      "updatedAt": "2026-03-05T15:35:15Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-64j5-x9g6-59pm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-64j5-x9g6-59pm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-64j5-x9g6-59pm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-xrpx-878r-jfmq:npm:pearpass-lib-data-import",
+      "source": "github",
+      "sourceId": "GHSA-xrpx-878r-jfmq",
+      "ecosystem": "npm",
+      "packageName": "pearpass-lib-data-import",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pearpass-lib-data-import",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-xrpx-878r-jfmq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T15:33:59Z",
+      "updatedAt": "2026-03-05T15:33:59Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-xrpx-878r-jfmq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-xrpx-878r-jfmq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-xrpx-878r-jfmq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pjg5-rffv-3xj5:npm:pearpass-utils-password-check",
+      "source": "github",
+      "sourceId": "GHSA-pjg5-rffv-3xj5",
+      "ecosystem": "npm",
+      "packageName": "pearpass-utils-password-check",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pearpass-utils-password-check",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pjg5-rffv-3xj5"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T15:32:42Z",
+      "updatedAt": "2026-03-05T15:32:43Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pjg5-rffv-3xj5"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pjg5-rffv-3xj5",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pjg5-rffv-3xj5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7fwh-38h4-x929:npm:nf-referral-backend",
+      "source": "github",
+      "sourceId": "GHSA-7fwh-38h4-x929",
+      "ecosystem": "npm",
+      "packageName": "nf-referral-backend",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in nf-referral-backend",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7fwh-38h4-x929"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T15:26:24Z",
+      "updatedAt": "2026-03-05T15:26:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-7fwh-38h4-x929"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7fwh-38h4-x929",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7fwh-38h4-x929",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g4g8-rr9p-7rcm:npm:nf-referral-backend-placeholder",
+      "source": "github",
+      "sourceId": "GHSA-g4g8-rr9p-7rcm",
+      "ecosystem": "npm",
+      "packageName": "nf-referral-backend-placeholder",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in nf-referral-backend-placeholder",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g4g8-rr9p-7rcm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-05T15:26:23Z",
+      "updatedAt": "2026-03-05T15:26:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g4g8-rr9p-7rcm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g4g8-rr9p-7rcm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g4g8-rr9p-7rcm",
         "cvssScore": null
       }
     }
