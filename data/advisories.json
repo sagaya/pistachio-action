@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-05T18:43:54.348Z",
+  "generatedAt": "2026-03-06T00:22:19.141Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -41099,6 +41099,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-g4g8-rr9p-7rcm",
         "apiUrl": "https://api.github.com/advisories/GHSA-g4g8-rr9p-7rcm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6c8j-272h-r6h7:npm:tether-dev-docs",
+      "source": "github",
+      "sourceId": "GHSA-6c8j-272h-r6h7",
+      "ecosystem": "npm",
+      "packageName": "tether-dev-docs",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tether-dev-docs",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6c8j-272h-r6h7"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-06T00:01:05Z",
+      "updatedAt": "2026-03-06T00:01:05Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6c8j-272h-r6h7"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6c8j-272h-r6h7",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6c8j-272h-r6h7",
         "cvssScore": null
       }
     }
