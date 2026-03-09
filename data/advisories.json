@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-06T18:18:29.331Z",
+  "generatedAt": "2026-03-09T18:22:59.424Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -41483,6 +41483,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-29rq-p698-29cj",
         "apiUrl": "https://api.github.com/advisories/GHSA-29rq-p698-29cj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-m4gf-v2v4-3qh2:npm:tw-modern-ui",
+      "source": "github",
+      "sourceId": "GHSA-m4gf-v2v4-3qh2",
+      "ecosystem": "npm",
+      "packageName": "tw-modern-ui",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tw-modern-ui",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-m4gf-v2v4-3qh2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-09T16:01:36Z",
+      "updatedAt": "2026-03-09T16:01:45Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-m4gf-v2v4-3qh2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-m4gf-v2v4-3qh2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-m4gf-v2v4-3qh2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-89vf-5w9c-qf87:npm:odds-analyzer",
+      "source": "github",
+      "sourceId": "GHSA-89vf-5w9c-qf87",
+      "ecosystem": "npm",
+      "packageName": "odds-analyzer",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in odds-analyzer",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-89vf-5w9c-qf87"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-09T16:01:36Z",
+      "updatedAt": "2026-03-09T16:01:36Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-89vf-5w9c-qf87"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-89vf-5w9c-qf87",
+        "apiUrl": "https://api.github.com/advisories/GHSA-89vf-5w9c-qf87",
         "cvssScore": null
       }
     }
