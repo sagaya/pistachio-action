@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-10T06:21:04.459Z",
+  "generatedAt": "2026-03-10T12:17:05.113Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -42187,6 +42187,166 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-mq8p-wfj2-j6cq",
         "apiUrl": "https://api.github.com/advisories/GHSA-mq8p-wfj2-j6cq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vvjv-x5r6-jrrr:npm:uxproject11",
+      "source": "github",
+      "sourceId": "GHSA-vvjv-x5r6-jrrr",
+      "ecosystem": "npm",
+      "packageName": "uxproject11",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in uxproject11",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vvjv-x5r6-jrrr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-10T12:00:23Z",
+      "updatedAt": "2026-03-10T12:00:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vvjv-x5r6-jrrr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vvjv-x5r6-jrrr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vvjv-x5r6-jrrr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-m97j-c9c8-qv27:npm:projectrtert",
+      "source": "github",
+      "sourceId": "GHSA-m97j-c9c8-qv27",
+      "ecosystem": "npm",
+      "packageName": "projectrtert",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in projectrtert",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-m97j-c9c8-qv27"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-10T12:00:23Z",
+      "updatedAt": "2026-03-10T12:00:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-m97j-c9c8-qv27"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-m97j-c9c8-qv27",
+        "apiUrl": "https://api.github.com/advisories/GHSA-m97j-c9c8-qv27",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-gr9m-wqvq-35x3:npm:rtxnode-sass22",
+      "source": "github",
+      "sourceId": "GHSA-gr9m-wqvq-35x3",
+      "ecosystem": "npm",
+      "packageName": "rtxnode-sass22",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in rtxnode-sass22",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-gr9m-wqvq-35x3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-10T12:00:23Z",
+      "updatedAt": "2026-03-10T12:00:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-gr9m-wqvq-35x3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-gr9m-wqvq-35x3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-gr9m-wqvq-35x3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-ggfg-9547-fcfq:npm:rtxbbtyols",
+      "source": "github",
+      "sourceId": "GHSA-ggfg-9547-fcfq",
+      "ecosystem": "npm",
+      "packageName": "rtxbbtyols",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in rtxbbtyols",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-ggfg-9547-fcfq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-10T12:00:23Z",
+      "updatedAt": "2026-03-10T12:00:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-ggfg-9547-fcfq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-ggfg-9547-fcfq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-ggfg-9547-fcfq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-73px-wj4g-wgwp:npm:@openclaw-ai/openclawai",
+      "source": "github",
+      "sourceId": "GHSA-73px-wj4g-wgwp",
+      "ecosystem": "npm",
+      "packageName": "@openclaw-ai/openclawai",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @openclaw-ai/openclawai",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-73px-wj4g-wgwp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-10T09:32:02Z",
+      "updatedAt": "2026-03-10T09:32:02Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-73px-wj4g-wgwp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-73px-wj4g-wgwp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-73px-wj4g-wgwp",
         "cvssScore": null
       }
     }
