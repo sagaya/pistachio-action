@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-09T18:22:59.424Z",
+  "generatedAt": "2026-03-10T00:15:26.123Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -41547,6 +41547,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-89vf-5w9c-qf87",
         "apiUrl": "https://api.github.com/advisories/GHSA-89vf-5w9c-qf87",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cpf2-rx79-x333:npm:json-merge-tool",
+      "source": "github",
+      "sourceId": "GHSA-cpf2-rx79-x333",
+      "ecosystem": "npm",
+      "packageName": "json-merge-tool",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in json-merge-tool",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cpf2-rx79-x333"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-09T22:44:51Z",
+      "updatedAt": "2026-03-09T22:44:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cpf2-rx79-x333"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cpf2-rx79-x333",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cpf2-rx79-x333",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-865m-mjxh-x6h8:npm:jsonify-core",
+      "source": "github",
+      "sourceId": "GHSA-865m-mjxh-x6h8",
+      "ecosystem": "npm",
+      "packageName": "jsonify-core",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in jsonify-core",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-865m-mjxh-x6h8"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-09T22:44:51Z",
+      "updatedAt": "2026-03-09T22:44:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-865m-mjxh-x6h8"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-865m-mjxh-x6h8",
+        "apiUrl": "https://api.github.com/advisories/GHSA-865m-mjxh-x6h8",
         "cvssScore": null
       }
     }
