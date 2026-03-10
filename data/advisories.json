@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-10T12:17:05.113Z",
+  "generatedAt": "2026-03-10T18:22:42.619Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -42347,6 +42347,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-73px-wj4g-wgwp",
         "apiUrl": "https://api.github.com/advisories/GHSA-73px-wj4g-wgwp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6939-264r-mcp4:npm:bluelite-bot-manager",
+      "source": "github",
+      "sourceId": "GHSA-6939-264r-mcp4",
+      "ecosystem": "npm",
+      "packageName": "bluelite-bot-manager",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in bluelite-bot-manager",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6939-264r-mcp4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-10T17:00:26Z",
+      "updatedAt": "2026-03-10T17:00:27Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6939-264r-mcp4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6939-264r-mcp4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6939-264r-mcp4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5c6q-wp3q-gcch:npm:test-logsmodule-v-zisko",
+      "source": "github",
+      "sourceId": "GHSA-5c6q-wp3q-gcch",
+      "ecosystem": "npm",
+      "packageName": "test-logsmodule-v-zisko",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in test-logsmodule-v-zisko",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5c6q-wp3q-gcch"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-10T17:00:26Z",
+      "updatedAt": "2026-03-10T17:00:27Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5c6q-wp3q-gcch"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5c6q-wp3q-gcch",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5c6q-wp3q-gcch",
         "cvssScore": null
       }
     }
