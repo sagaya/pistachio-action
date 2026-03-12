@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-12T06:24:07.306Z",
+  "generatedAt": "2026-03-12T18:23:50.552Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -43563,6 +43563,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-42gx-7w4g-27q2",
         "apiUrl": "https://api.github.com/advisories/GHSA-42gx-7w4g-27q2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qm4f-gcp7-4h8m:npm:@sky-it-livedata-libraries/livedata-commons-client",
+      "source": "github",
+      "sourceId": "GHSA-qm4f-gcp7-4h8m",
+      "ecosystem": "npm",
+      "packageName": "@sky-it-livedata-libraries/livedata-commons-client",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @sky-it-livedata-libraries/livedata-commons-client",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qm4f-gcp7-4h8m"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-12T15:46:36Z",
+      "updatedAt": "2026-03-12T15:46:36Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qm4f-gcp7-4h8m"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qm4f-gcp7-4h8m",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qm4f-gcp7-4h8m",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-crjc-v3g6-rw28:npm:@sky-it-livedata-libraries/livedata-commons",
+      "source": "github",
+      "sourceId": "GHSA-crjc-v3g6-rw28",
+      "ecosystem": "npm",
+      "packageName": "@sky-it-livedata-libraries/livedata-commons",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @sky-it-livedata-libraries/livedata-commons",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-crjc-v3g6-rw28"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-12T15:46:35Z",
+      "updatedAt": "2026-03-12T15:46:36Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-crjc-v3g6-rw28"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-crjc-v3g6-rw28",
+        "apiUrl": "https://api.github.com/advisories/GHSA-crjc-v3g6-rw28",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-853v-5vhr-jmpc:npm:webmd-url",
+      "source": "github",
+      "sourceId": "GHSA-853v-5vhr-jmpc",
+      "ecosystem": "npm",
+      "packageName": "webmd-url",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in webmd-url",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-853v-5vhr-jmpc"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-12T15:46:35Z",
+      "updatedAt": "2026-03-12T15:46:35Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-853v-5vhr-jmpc"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-853v-5vhr-jmpc",
+        "apiUrl": "https://api.github.com/advisories/GHSA-853v-5vhr-jmpc",
         "cvssScore": null
       }
     }
