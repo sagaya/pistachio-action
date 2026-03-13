@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-12T18:23:50.552Z",
+  "generatedAt": "2026-03-13T06:23:24.008Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -43659,6 +43659,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-853v-5vhr-jmpc",
         "apiUrl": "https://api.github.com/advisories/GHSA-853v-5vhr-jmpc",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-89hj-xp64-rgvm:npm:8x8-developer-docs",
+      "source": "github",
+      "sourceId": "GHSA-89hj-xp64-rgvm",
+      "ecosystem": "npm",
+      "packageName": "8x8-developer-docs",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in 8x8-developer-docs",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-89hj-xp64-rgvm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-13T02:21:45Z",
+      "updatedAt": "2026-03-13T02:21:46Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-89hj-xp64-rgvm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-89hj-xp64-rgvm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-89hj-xp64-rgvm",
         "cvssScore": null
       }
     }
