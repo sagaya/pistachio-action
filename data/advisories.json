@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-13T12:16:48.036Z",
+  "generatedAt": "2026-03-13T18:19:01.982Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -44523,6 +44523,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-84r2-9pxx-jpj2",
         "apiUrl": "https://api.github.com/advisories/GHSA-84r2-9pxx-jpj2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-r38v-v7pv-rgrj:npm:tailwind-mainanimation",
+      "source": "github",
+      "sourceId": "GHSA-r38v-v7pv-rgrj",
+      "ecosystem": "npm",
+      "packageName": "tailwind-mainanimation",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tailwind-mainanimation",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-r38v-v7pv-rgrj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-13T14:20:40Z",
+      "updatedAt": "2026-03-13T14:20:40Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-r38v-v7pv-rgrj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-r38v-v7pv-rgrj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-r38v-v7pv-rgrj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-m7rv-f9h8-5r7w:npm:tailwindcss-style-modify",
+      "source": "github",
+      "sourceId": "GHSA-m7rv-f9h8-5r7w",
+      "ecosystem": "npm",
+      "packageName": "tailwindcss-style-modify",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tailwindcss-style-modify",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-m7rv-f9h8-5r7w"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-13T14:15:45Z",
+      "updatedAt": "2026-03-13T14:15:45Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-m7rv-f9h8-5r7w"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-m7rv-f9h8-5r7w",
+        "apiUrl": "https://api.github.com/advisories/GHSA-m7rv-f9h8-5r7w",
         "cvssScore": null
       }
     }
