@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-16T06:36:48.804Z",
+  "generatedAt": "2026-03-16T12:21:24.408Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -45134,6 +45134,230 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-w9f6-gprr-mq9q",
         "apiUrl": "https://api.github.com/advisories/GHSA-w9f6-gprr-mq9q",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9qjw-vmcc-7pvj:npm:changelog-logger-utilities",
+      "source": "github",
+      "sourceId": "GHSA-9qjw-vmcc-7pvj",
+      "ecosystem": "npm",
+      "packageName": "changelog-logger-utilities",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in changelog-logger-utilities",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9qjw-vmcc-7pvj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T10:13:14Z",
+      "updatedAt": "2026-03-16T10:13:15Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9qjw-vmcc-7pvj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9qjw-vmcc-7pvj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9qjw-vmcc-7pvj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-3vhh-6v5q-2pqr:npm:pretty-changelog-logger",
+      "source": "github",
+      "sourceId": "GHSA-3vhh-6v5q-2pqr",
+      "ecosystem": "npm",
+      "packageName": "pretty-changelog-logger",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pretty-changelog-logger",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-3vhh-6v5q-2pqr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T10:13:14Z",
+      "updatedAt": "2026-03-16T10:13:14Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-3vhh-6v5q-2pqr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-3vhh-6v5q-2pqr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-3vhh-6v5q-2pqr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7mxm-q4r9-c76c:npm:changelog-logger-wrapper",
+      "source": "github",
+      "sourceId": "GHSA-7mxm-q4r9-c76c",
+      "ecosystem": "npm",
+      "packageName": "changelog-logger-wrapper",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in changelog-logger-wrapper",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7mxm-q4r9-c76c"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T10:13:14Z",
+      "updatedAt": "2026-03-16T10:13:14Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-7mxm-q4r9-c76c"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7mxm-q4r9-c76c",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7mxm-q4r9-c76c",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8gcg-fc8h-ph97:npm:polymarket-validator",
+      "source": "github",
+      "sourceId": "GHSA-8gcg-fc8h-ph97",
+      "ecosystem": "npm",
+      "packageName": "polymarket-validator",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in polymarket-validator",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8gcg-fc8h-ph97"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T10:13:14Z",
+      "updatedAt": "2026-03-16T10:13:14Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8gcg-fc8h-ph97"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8gcg-fc8h-ph97",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8gcg-fc8h-ph97",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qq4j-p46h-m3gr:npm:npm-demo-1112",
+      "source": "github",
+      "sourceId": "GHSA-qq4j-p46h-m3gr",
+      "ecosystem": "npm",
+      "packageName": "npm-demo-1112",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in npm-demo-1112",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qq4j-p46h-m3gr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T10:13:13Z",
+      "updatedAt": "2026-03-16T10:13:14Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qq4j-p46h-m3gr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qq4j-p46h-m3gr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qq4j-p46h-m3gr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-74gg-g7w6-f3vx:npm:npm-demoo-1111",
+      "source": "github",
+      "sourceId": "GHSA-74gg-g7w6-f3vx",
+      "ecosystem": "npm",
+      "packageName": "npm-demoo-1111",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in npm-demoo-1111",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-74gg-g7w6-f3vx"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T10:13:13Z",
+      "updatedAt": "2026-03-16T10:13:14Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-74gg-g7w6-f3vx"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-74gg-g7w6-f3vx",
+        "apiUrl": "https://api.github.com/advisories/GHSA-74gg-g7w6-f3vx",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cgmf-p7fr-9qwp:npm:@wealth-common/font",
+      "source": "github",
+      "sourceId": "GHSA-cgmf-p7fr-9qwp",
+      "ecosystem": "npm",
+      "packageName": "@wealth-common/font",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @wealth-common/font",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cgmf-p7fr-9qwp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T10:07:52Z",
+      "updatedAt": "2026-03-16T10:07:53Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cgmf-p7fr-9qwp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cgmf-p7fr-9qwp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cgmf-p7fr-9qwp",
         "cvssScore": null
       }
     }
