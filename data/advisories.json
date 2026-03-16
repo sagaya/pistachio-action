@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-13T18:19:01.982Z",
+  "generatedAt": "2026-03-16T00:19:11.366Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -44587,6 +44587,169 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-m7rv-f9h8-5r7w",
         "apiUrl": "https://api.github.com/advisories/GHSA-m7rv-f9h8-5r7w",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-j5w6-gpq8-mpf4:npm:spectral-corsair-my-backdoor",
+      "source": "github",
+      "sourceId": "GHSA-j5w6-gpq8-mpf4",
+      "ecosystem": "npm",
+      "packageName": "spectral-corsair-my-backdoor",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in spectral-corsair-my-backdoor",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-j5w6-gpq8-mpf4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T00:06:04Z",
+      "updatedAt": "2026-03-16T00:06:05Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-j5w6-gpq8-mpf4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-j5w6-gpq8-mpf4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-j5w6-gpq8-mpf4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g844-gph2-p427:npm:spectral-corsair-navigator",
+      "source": "github",
+      "sourceId": "GHSA-g844-gph2-p427",
+      "ecosystem": "npm",
+      "packageName": "spectral-corsair-navigator",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in spectral-corsair-navigator",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g844-gph2-p427"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T00:06:04Z",
+      "updatedAt": "2026-03-16T00:06:04Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g844-gph2-p427"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g844-gph2-p427",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g844-gph2-p427",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-f7c6-mjg7-4m48:npm:up2-daemon",
+      "source": "github",
+      "sourceId": "GHSA-f7c6-mjg7-4m48",
+      "ecosystem": "npm",
+      "packageName": "up2-daemon",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in up2-daemon",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-f7c6-mjg7-4m48"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T00:04:33Z",
+      "updatedAt": "2026-03-16T00:04:34Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-f7c6-mjg7-4m48"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-f7c6-mjg7-4m48",
+        "apiUrl": "https://api.github.com/advisories/GHSA-f7c6-mjg7-4m48",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jx86-pq3j-fp99:npm:devlino",
+      "source": "github",
+      "sourceId": "GHSA-jx86-pq3j-fp99",
+      "ecosystem": "npm",
+      "packageName": "devlino",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in devlino",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jx86-pq3j-fp99"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-15T23:18:37Z",
+      "updatedAt": "2026-03-15T23:18:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jx86-pq3j-fp99"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jx86-pq3j-fp99",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jx86-pq3j-fp99",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-c29x-5m4q-2c7c:npm:nest-moralis",
+      "source": "github",
+      "sourceId": "GHSA-c29x-5m4q-2c7c",
+      "ecosystem": "npm",
+      "packageName": "nest-moralis",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in nest-moralis",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 2.27.4",
+        "= 2.27.6",
+        "= 2.27.7",
+        "= 2.27.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-c29x-5m4q-2c7c"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-16T00:17:07Z",
+      "updatedAt": "2026-03-16T00:17:07Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-c29x-5m4q-2c7c"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-c29x-5m4q-2c7c",
+        "apiUrl": "https://api.github.com/advisories/GHSA-c29x-5m4q-2c7c",
         "cvssScore": null
       }
     }
