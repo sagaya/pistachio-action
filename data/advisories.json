@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-16T18:26:34.153Z",
+  "generatedAt": "2026-03-17T06:29:39.800Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -45870,6 +45870,230 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-mcp5-j24x-66wp",
         "apiUrl": "https://api.github.com/advisories/GHSA-mcp5-j24x-66wp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9vc6-vqg8-v9x5:npm:pino-logger-utils",
+      "source": "github",
+      "sourceId": "GHSA-9vc6-vqg8-v9x5",
+      "ecosystem": "npm",
+      "packageName": "pino-logger-utils",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in pino-logger-utils",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9vc6-vqg8-v9x5"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-17T04:46:23Z",
+      "updatedAt": "2026-03-17T04:46:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9vc6-vqg8-v9x5"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9vc6-vqg8-v9x5",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9vc6-vqg8-v9x5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mpxg-x386-qhgr:npm:@augmentor/experiences",
+      "source": "github",
+      "sourceId": "GHSA-mpxg-x386-qhgr",
+      "ecosystem": "npm",
+      "packageName": "@augmentor/experiences",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @augmentor/experiences",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mpxg-x386-qhgr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-17T04:33:27Z",
+      "updatedAt": "2026-03-17T04:33:28Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-mpxg-x386-qhgr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mpxg-x386-qhgr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mpxg-x386-qhgr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mcfw-v5xh-957q:npm:ember-power-calendar-utils",
+      "source": "github",
+      "sourceId": "GHSA-mcfw-v5xh-957q",
+      "ecosystem": "npm",
+      "packageName": "ember-power-calendar-utils",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ember-power-calendar-utils",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mcfw-v5xh-957q"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-17T03:09:34Z",
+      "updatedAt": "2026-03-17T03:09:34Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-mcfw-v5xh-957q"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mcfw-v5xh-957q",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mcfw-v5xh-957q",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-hwjw-5fqq-736g:npm:vitest-config",
+      "source": "github",
+      "sourceId": "GHSA-hwjw-5fqq-736g",
+      "ecosystem": "npm",
+      "packageName": "vitest-config",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in vitest-config",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-hwjw-5fqq-736g"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-17T03:09:34Z",
+      "updatedAt": "2026-03-17T03:09:34Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-hwjw-5fqq-736g"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-hwjw-5fqq-736g",
+        "apiUrl": "https://api.github.com/advisories/GHSA-hwjw-5fqq-736g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7cc2-4g9h-6fxf:npm:strapi-plugin-workspace-plugin",
+      "source": "github",
+      "sourceId": "GHSA-7cc2-4g9h-6fxf",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-workspace-plugin",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-workspace-plugin",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7cc2-4g9h-6fxf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-17T03:09:34Z",
+      "updatedAt": "2026-03-17T03:09:34Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-7cc2-4g9h-6fxf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7cc2-4g9h-6fxf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7cc2-4g9h-6fxf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-w6x5-44p2-gjvf:npm:asset-delivery",
+      "source": "github",
+      "sourceId": "GHSA-w6x5-44p2-gjvf",
+      "ecosystem": "npm",
+      "packageName": "asset-delivery",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in asset-delivery",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-w6x5-44p2-gjvf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-17T03:09:32Z",
+      "updatedAt": "2026-03-17T03:09:33Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-w6x5-44p2-gjvf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-w6x5-44p2-gjvf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-w6x5-44p2-gjvf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mfcc-4344-rj22:npm:graphlib-js",
+      "source": "github",
+      "sourceId": "GHSA-mfcc-4344-rj22",
+      "ecosystem": "npm",
+      "packageName": "graphlib-js",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in graphlib-js",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mfcc-4344-rj22"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-17T02:54:20Z",
+      "updatedAt": "2026-03-17T02:54:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-mfcc-4344-rj22"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mfcc-4344-rj22",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mfcc-4344-rj22",
         "cvssScore": null
       }
     }
