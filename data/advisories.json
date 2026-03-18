@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-18T12:21:47.456Z",
+  "generatedAt": "2026-03-18T18:28:07.451Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -48462,6 +48462,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-x3pj-5gcc-j9rh",
         "apiUrl": "https://api.github.com/advisories/GHSA-x3pj-5gcc-j9rh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mwp5-h2j4-x4f3:npm:chai-as-constrained",
+      "source": "github",
+      "sourceId": "GHSA-mwp5-h2j4-x4f3",
+      "ecosystem": "npm",
+      "packageName": "chai-as-constrained",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-as-constrained",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mwp5-h2j4-x4f3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-18T17:07:30Z",
+      "updatedAt": "2026-03-18T17:07:30Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-mwp5-h2j4-x4f3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mwp5-h2j4-x4f3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mwp5-h2j4-x4f3",
         "cvssScore": null
       }
     }
