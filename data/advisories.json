@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-22T18:14:18.923Z",
+  "generatedAt": "2026-03-23T00:18:40.319Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -51176,6 +51176,888 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-wq88-f86r-hgrh",
         "apiUrl": "https://api.github.com/advisories/GHSA-wq88-f86r-hgrh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5q3v-cjxm-6cgm:npm:@emilgroup/document-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-5q3v-cjxm-6cgm",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/document-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/document-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.43.1, <= 1.43.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5q3v-cjxm-6cgm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:28:27Z",
+      "updatedAt": "2026-03-22T18:28:32Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-5q3v-cjxm-6cgm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5q3v-cjxm-6cgm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5q3v-cjxm-6cgm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-3fjh-jjvh-r58h:npm:@emilgroup/discount-sdk",
+      "source": "github",
+      "sourceId": "GHSA-3fjh-jjvh-r58h",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/discount-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/discount-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.5.2, <= 1.5.3"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-3fjh-jjvh-r58h"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:28:07Z",
+      "updatedAt": "2026-03-22T18:28:07Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-3fjh-jjvh-r58h"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-3fjh-jjvh-r58h",
+        "apiUrl": "https://api.github.com/advisories/GHSA-3fjh-jjvh-r58h",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-r27q-f5jw-j5jp:npm:@emilgroup/task-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-r27q-f5jw-j5jp",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/task-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/task-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.4"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-r27q-f5jw-j5jp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:27:31Z",
+      "updatedAt": "2026-03-22T18:27:32Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-r27q-f5jw-j5jp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-r27q-f5jw-j5jp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-r27q-f5jw-j5jp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jrpm-f5xg-3frj:npm:@emilgroup/document-uploader",
+      "source": "github",
+      "sourceId": "GHSA-jrpm-f5xg-3frj",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/document-uploader",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/document-uploader",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 0.0.12"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jrpm-f5xg-3frj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:27:17Z",
+      "updatedAt": "2026-03-22T18:27:17Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-jrpm-f5xg-3frj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jrpm-f5xg-3frj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jrpm-f5xg-3frj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-86xp-4fvm-qm2p:npm:@airtm/uuid-base32",
+      "source": "github",
+      "sourceId": "GHSA-86xp-4fvm-qm2p",
+      "ecosystem": "npm",
+      "packageName": "@airtm/uuid-base32",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @airtm/uuid-base32",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-86xp-4fvm-qm2p"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:26:54Z",
+      "updatedAt": "2026-03-22T18:26:57Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-86xp-4fvm-qm2p"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-86xp-4fvm-qm2p",
+        "apiUrl": "https://api.github.com/advisories/GHSA-86xp-4fvm-qm2p",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-64p5-3wp7-v4c9:npm:cit-playwright-tests",
+      "source": "github",
+      "sourceId": "GHSA-64p5-3wp7-v4c9",
+      "ecosystem": "npm",
+      "packageName": "cit-playwright-tests",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in cit-playwright-tests",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.1"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-64p5-3wp7-v4c9"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:26:44Z",
+      "updatedAt": "2026-03-22T18:26:47Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-64p5-3wp7-v4c9"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-64p5-3wp7-v4c9",
+        "apiUrl": "https://api.github.com/advisories/GHSA-64p5-3wp7-v4c9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-f568-m9rh-p7xj:npm:@emilgroup/task-sdk",
+      "source": "github",
+      "sourceId": "GHSA-f568-m9rh-p7xj",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/task-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/task-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.4"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-f568-m9rh-p7xj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:26:09Z",
+      "updatedAt": "2026-03-22T18:26:11Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-f568-m9rh-p7xj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-f568-m9rh-p7xj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-f568-m9rh-p7xj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mvrx-3fqg-4hvh:npm:@emilgroup/public-api-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-mvrx-3fqg-4hvh",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/public-api-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/public-api-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.35.1, <= 1.35.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mvrx-3fqg-4hvh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:25:50Z",
+      "updatedAt": "2026-03-22T18:25:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-mvrx-3fqg-4hvh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mvrx-3fqg-4hvh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mvrx-3fqg-4hvh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cmfv-mmcw-jpw3:npm:@emilgroup/commission-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-cmfv-mmcw-jpw3",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/commission-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/commission-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.3"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cmfv-mmcw-jpw3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:23:18Z",
+      "updatedAt": "2026-03-22T18:23:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-cmfv-mmcw-jpw3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cmfv-mmcw-jpw3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cmfv-mmcw-jpw3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-h7pp-f3cj-j5vh:npm:@emilgroup/setting-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-h7pp-f3cj-j5vh",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/setting-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/setting-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 0.2.1"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-h7pp-f3cj-j5vh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:23:01Z",
+      "updatedAt": "2026-03-22T18:23:06Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-h7pp-f3cj-j5vh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-h7pp-f3cj-j5vh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-h7pp-f3cj-j5vh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wcrr-xhm3-j3x9:npm:@emilgroup/changelog-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-wcrr-xhm3-j3x9",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/changelog-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/changelog-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.3"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wcrr-xhm3-j3x9"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:22:34Z",
+      "updatedAt": "2026-03-22T18:22:36Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wcrr-xhm3-j3x9"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wcrr-xhm3-j3x9",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wcrr-xhm3-j3x9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6w74-x38v-9ffj:npm:@emilgroup/tenant-sdk",
+      "source": "github",
+      "sourceId": "GHSA-6w74-x38v-9ffj",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/tenant-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/tenant-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.34.1, <= 1.34.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6w74-x38v-9ffj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:22:16Z",
+      "updatedAt": "2026-03-22T18:22:16Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-6w74-x38v-9ffj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6w74-x38v-9ffj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6w74-x38v-9ffj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9h8j-g652-xrg8:npm:eslint-config-service-users",
+      "source": "github",
+      "sourceId": "GHSA-9h8j-g652-xrg8",
+      "ecosystem": "npm",
+      "packageName": "eslint-config-service-users",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in eslint-config-service-users",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 0.0.3"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9h8j-g652-xrg8"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:21:59Z",
+      "updatedAt": "2026-03-22T18:22:01Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9h8j-g652-xrg8"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9h8j-g652-xrg8",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9h8j-g652-xrg8",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4xcw-mhqm-x332:npm:@opengov/ppf-backend-types",
+      "source": "github",
+      "sourceId": "GHSA-4xcw-mhqm-x332",
+      "ecosystem": "npm",
+      "packageName": "@opengov/ppf-backend-types",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @opengov/ppf-backend-types",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.141.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4xcw-mhqm-x332"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:21:26Z",
+      "updatedAt": "2026-03-22T18:21:31Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4xcw-mhqm-x332"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4xcw-mhqm-x332",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4xcw-mhqm-x332",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-f9m8-w27f-mxr3:npm:@emilgroup/docxtemplater-util",
+      "source": "github",
+      "sourceId": "GHSA-f9m8-w27f-mxr3",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/docxtemplater-util",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/docxtemplater-util",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.1.3"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-f9m8-w27f-mxr3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:21:12Z",
+      "updatedAt": "2026-03-22T18:21:16Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-f9m8-w27f-mxr3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-f9m8-w27f-mxr3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-f9m8-w27f-mxr3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8vmq-w85q-4q4j:npm:@emilgroup/gdv-sdk",
+      "source": "github",
+      "sourceId": "GHSA-8vmq-w85q-4q4j",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/gdv-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/gdv-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 2.6.1, <= 2.6.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8vmq-w85q-4q4j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:20:51Z",
+      "updatedAt": "2026-03-22T18:20:51Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-8vmq-w85q-4q4j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8vmq-w85q-4q4j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8vmq-w85q-4q4j",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-q4j2-j63f-5vqx:npm:@opengov/form-utils",
+      "source": "github",
+      "sourceId": "GHSA-q4j2-j63f-5vqx",
+      "ecosystem": "npm",
+      "packageName": "@opengov/form-utils",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @opengov/form-utils",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 0.7.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-q4j2-j63f-5vqx"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:20:39Z",
+      "updatedAt": "2026-03-22T18:20:41Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-q4j2-j63f-5vqx"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-q4j2-j63f-5vqx",
+        "apiUrl": "https://api.github.com/advisories/GHSA-q4j2-j63f-5vqx",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-gmxq-2g92-63xv:npm:@emilgroup/tenant-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-gmxq-2g92-63xv",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/tenant-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/tenant-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.33.1, <= 1.33.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-gmxq-2g92-63xv"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:20:27Z",
+      "updatedAt": "2026-03-22T18:20:31Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-gmxq-2g92-63xv"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-gmxq-2g92-63xv",
+        "apiUrl": "https://api.github.com/advisories/GHSA-gmxq-2g92-63xv",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-24fv-r862-wg4c:npm:@leafnoise/mirage",
+      "source": "github",
+      "sourceId": "GHSA-24fv-r862-wg4c",
+      "ecosystem": "npm",
+      "packageName": "@leafnoise/mirage",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @leafnoise/mirage",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 2.0.3"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-24fv-r862-wg4c"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:20:11Z",
+      "updatedAt": "2026-03-22T18:20:11Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-24fv-r862-wg4c"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-24fv-r862-wg4c",
+        "apiUrl": "https://api.github.com/advisories/GHSA-24fv-r862-wg4c",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-hpqp-f9r8-f725:npm:@emilgroup/partner-portal-sdk",
+      "source": "github",
+      "sourceId": "GHSA-hpqp-f9r8-f725",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/partner-portal-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/partner-portal-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.1.1, <= 1.1.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-hpqp-f9r8-f725"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:19:56Z",
+      "updatedAt": "2026-03-22T18:20:01Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-hpqp-f9r8-f725"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-hpqp-f9r8-f725",
+        "apiUrl": "https://api.github.com/advisories/GHSA-hpqp-f9r8-f725",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-39vv-2g62-pp83:npm:@emilgroup/partner-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-39vv-2g62-pp83",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/partner-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/partner-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.19.1, <= 1.19.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-39vv-2g62-pp83"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:19:38Z",
+      "updatedAt": "2026-03-22T18:19:41Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-39vv-2g62-pp83"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-39vv-2g62-pp83",
+        "apiUrl": "https://api.github.com/advisories/GHSA-39vv-2g62-pp83",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8328-7r2v-2fq6:npm:@emilgroup/auth-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-8328-7r2v-2fq6",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/auth-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/auth-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.21.1, <= 1.21.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8328-7r2v-2fq6"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:19:17Z",
+      "updatedAt": "2026-03-22T18:19:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-8328-7r2v-2fq6"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8328-7r2v-2fq6",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8328-7r2v-2fq6",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8999-rqc4-rjrh:npm:jest-preset-ppf",
+      "source": "github",
+      "sourceId": "GHSA-8999-rqc4-rjrh",
+      "ecosystem": "npm",
+      "packageName": "jest-preset-ppf",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in jest-preset-ppf",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 0.0.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8999-rqc4-rjrh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:18:56Z",
+      "updatedAt": "2026-03-22T18:19:01Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8999-rqc4-rjrh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8999-rqc4-rjrh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8999-rqc4-rjrh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-2phg-9x97-9759:npm:@emilgroup/account-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-2phg-9x97-9759",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/account-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/account-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.40.1, <= 1.40.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-2phg-9x97-9759"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:17:58Z",
+      "updatedAt": "2026-03-22T18:18:00Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-2phg-9x97-9759"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-2phg-9x97-9759",
+        "apiUrl": "https://api.github.com/advisories/GHSA-2phg-9x97-9759",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7h5g-m989-54j2:npm:@teale.io/eslint-config",
+      "source": "github",
+      "sourceId": "GHSA-7h5g-m989-54j2",
+      "ecosystem": "npm",
+      "packageName": "@teale.io/eslint-config",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @teale.io/eslint-config",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.8.9, <= 1.8.10"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7h5g-m989-54j2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:17:41Z",
+      "updatedAt": "2026-03-22T18:17:45Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-7h5g-m989-54j2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7h5g-m989-54j2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7h5g-m989-54j2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cxm8-rrjm-28jf:npm:@emilgroup/partner-portal-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-cxm8-rrjm-28jf",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/partner-portal-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/partner-portal-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.1.1, <= 1.1.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cxm8-rrjm-28jf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:14:47Z",
+      "updatedAt": "2026-03-22T18:14:50Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-cxm8-rrjm-28jf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cxm8-rrjm-28jf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cxm8-rrjm-28jf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-h5jq-7px8-v446:npm:@emilgroup/insurance-sdk-node",
+      "source": "github",
+      "sourceId": "GHSA-h5jq-7px8-v446",
+      "ecosystem": "npm",
+      "packageName": "@emilgroup/insurance-sdk-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @emilgroup/insurance-sdk-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 1.95.1, <= 1.95.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-h5jq-7px8-v446"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-22T18:14:20Z",
+      "updatedAt": "2026-03-22T18:14:20Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://socket.dev/blog/canisterworm-npm-publisher-compromise-deploys-backdoor-across-29-packages",
+        "https://github.com/advisories/GHSA-h5jq-7px8-v446"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-h5jq-7px8-v446",
+        "apiUrl": "https://api.github.com/advisories/GHSA-h5jq-7px8-v446",
         "cvssScore": null
       }
     }
