@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-23T00:18:40.319Z",
+  "generatedAt": "2026-03-23T06:31:00.573Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -52058,6 +52058,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-h5jq-7px8-v446",
         "apiUrl": "https://api.github.com/advisories/GHSA-h5jq-7px8-v446",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9674-vwjj-qxjp:npm:uipathisfun",
+      "source": "github",
+      "sourceId": "GHSA-9674-vwjj-qxjp",
+      "ecosystem": "npm",
+      "packageName": "uipathisfun",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in uipathisfun",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9674-vwjj-qxjp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-23T04:05:36Z",
+      "updatedAt": "2026-03-23T04:05:36Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9674-vwjj-qxjp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9674-vwjj-qxjp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9674-vwjj-qxjp",
         "cvssScore": null
       }
     }
