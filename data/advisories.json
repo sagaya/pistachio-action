@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-25T06:29:49.354Z",
+  "generatedAt": "2026-03-25T12:20:47.023Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -53980,6 +53980,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-xvw4-g263-g3r2",
         "apiUrl": "https://api.github.com/advisories/GHSA-xvw4-g263-g3r2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-r54j-4cj8-jf2v:npm:ts-bign",
+      "source": "github",
+      "sourceId": "GHSA-r54j-4cj8-jf2v",
+      "ecosystem": "npm",
+      "packageName": "ts-bign",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ts-bign",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-r54j-4cj8-jf2v"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-25T11:59:23Z",
+      "updatedAt": "2026-03-25T11:59:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-r54j-4cj8-jf2v"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-r54j-4cj8-jf2v",
+        "apiUrl": "https://api.github.com/advisories/GHSA-r54j-4cj8-jf2v",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-w977-mj56-jpc7:npm:levex-refa",
+      "source": "github",
+      "sourceId": "GHSA-w977-mj56-jpc7",
+      "ecosystem": "npm",
+      "packageName": "levex-refa",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in levex-refa",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-w977-mj56-jpc7"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-25T11:59:23Z",
+      "updatedAt": "2026-03-25T11:59:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-w977-mj56-jpc7"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-w977-mj56-jpc7",
+        "apiUrl": "https://api.github.com/advisories/GHSA-w977-mj56-jpc7",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-rjc8-xw63-3j4j:npm:simple-util-kit",
+      "source": "github",
+      "sourceId": "GHSA-rjc8-xw63-3j4j",
+      "ecosystem": "npm",
+      "packageName": "simple-util-kit",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in simple-util-kit",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-rjc8-xw63-3j4j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-25T11:38:55Z",
+      "updatedAt": "2026-03-25T11:38:55Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-rjc8-xw63-3j4j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-rjc8-xw63-3j4j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-rjc8-xw63-3j4j",
         "cvssScore": null
       }
     }
