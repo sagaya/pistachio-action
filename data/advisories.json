@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-25T18:26:28.348Z",
+  "generatedAt": "2026-03-26T06:31:43.592Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -54396,6 +54396,454 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-6jcw-rcqg-wmmf",
         "apiUrl": "https://api.github.com/advisories/GHSA-6jcw-rcqg-wmmf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-887f-wrq6-j685:npm:@zecho/baileys-mod",
+      "source": "github",
+      "sourceId": "GHSA-887f-wrq6-j685",
+      "ecosystem": "npm",
+      "packageName": "@zecho/baileys-mod",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @zecho/baileys-mod",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-887f-wrq6-j685"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:57:13Z",
+      "updatedAt": "2026-03-26T00:57:13Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-887f-wrq6-j685"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-887f-wrq6-j685",
+        "apiUrl": "https://api.github.com/advisories/GHSA-887f-wrq6-j685",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-53rc-g3gw-946r:npm:@zecho/libsignal",
+      "source": "github",
+      "sourceId": "GHSA-53rc-g3gw-946r",
+      "ecosystem": "npm",
+      "packageName": "@zecho/libsignal",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @zecho/libsignal",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-53rc-g3gw-946r"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:57:13Z",
+      "updatedAt": "2026-03-26T00:57:13Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-53rc-g3gw-946r"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-53rc-g3gw-946r",
+        "apiUrl": "https://api.github.com/advisories/GHSA-53rc-g3gw-946r",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5g7h-cvvx-x96c:npm:@validator-lut-sdk/v3",
+      "source": "github",
+      "sourceId": "GHSA-5g7h-cvvx-x96c",
+      "ecosystem": "npm",
+      "packageName": "@validator-lut-sdk/v3",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @validator-lut-sdk/v3",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5g7h-cvvx-x96c"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:52:20Z",
+      "updatedAt": "2026-03-26T00:52:20Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5g7h-cvvx-x96c"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5g7h-cvvx-x96c",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5g7h-cvvx-x96c",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8f57-hh49-gmqf:npm:@solana-ipfs/sdk",
+      "source": "github",
+      "sourceId": "GHSA-8f57-hh49-gmqf",
+      "ecosystem": "npm",
+      "packageName": "@solana-ipfs/sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @solana-ipfs/sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8f57-hh49-gmqf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:52:19Z",
+      "updatedAt": "2026-03-26T00:52:20Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8f57-hh49-gmqf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8f57-hh49-gmqf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8f57-hh49-gmqf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wwjg-c6fp-6648:npm:@pumpfun-ipfs/sdk",
+      "source": "github",
+      "sourceId": "GHSA-wwjg-c6fp-6648",
+      "ecosystem": "npm",
+      "packageName": "@pumpfun-ipfs/sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @pumpfun-ipfs/sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wwjg-c6fp-6648"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:52:19Z",
+      "updatedAt": "2026-03-26T00:52:20Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wwjg-c6fp-6648"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wwjg-c6fp-6648",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wwjg-c6fp-6648",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6m48-c744-9q65:npm:validator-lut-sdk",
+      "source": "github",
+      "sourceId": "GHSA-6m48-c744-9q65",
+      "ecosystem": "npm",
+      "packageName": "validator-lut-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in validator-lut-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6m48-c744-9q65"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:52:19Z",
+      "updatedAt": "2026-03-26T00:52:20Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6m48-c744-9q65"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6m48-c744-9q65",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6m48-c744-9q65",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4wgw-h2cc-rpv6:npm:@solmasterv3/solana-metadata-sdk",
+      "source": "github",
+      "sourceId": "GHSA-4wgw-h2cc-rpv6",
+      "ecosystem": "npm",
+      "packageName": "@solmasterv3/solana-metadata-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @solmasterv3/solana-metadata-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4wgw-h2cc-rpv6"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:52:19Z",
+      "updatedAt": "2026-03-26T00:52:20Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4wgw-h2cc-rpv6"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4wgw-h2cc-rpv6",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4wgw-h2cc-rpv6",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-r6f4-p397-5xrj:npm:jito-validator-sdk",
+      "source": "github",
+      "sourceId": "GHSA-r6f4-p397-5xrj",
+      "ecosystem": "npm",
+      "packageName": "jito-validator-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in jito-validator-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-r6f4-p397-5xrj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:52:19Z",
+      "updatedAt": "2026-03-26T00:52:20Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-r6f4-p397-5xrj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-r6f4-p397-5xrj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-r6f4-p397-5xrj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-f8qc-h6gw-x2vm:npm:neanderthal-validator",
+      "source": "github",
+      "sourceId": "GHSA-f8qc-h6gw-x2vm",
+      "ecosystem": "npm",
+      "packageName": "neanderthal-validator",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in neanderthal-validator",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-f8qc-h6gw-x2vm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:52:19Z",
+      "updatedAt": "2026-03-26T00:52:19Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-f8qc-h6gw-x2vm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-f8qc-h6gw-x2vm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-f8qc-h6gw-x2vm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-c5x7-f6qj-gc77:npm:node-coremesh",
+      "source": "github",
+      "sourceId": "GHSA-c5x7-f6qj-gc77",
+      "ecosystem": "npm",
+      "packageName": "node-coremesh",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in node-coremesh",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-c5x7-f6qj-gc77"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:42:51Z",
+      "updatedAt": "2026-03-26T00:42:51Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-c5x7-f6qj-gc77"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-c5x7-f6qj-gc77",
+        "apiUrl": "https://api.github.com/advisories/GHSA-c5x7-f6qj-gc77",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mgm3-4q53-38p5:npm:chain-coremesh",
+      "source": "github",
+      "sourceId": "GHSA-mgm3-4q53-38p5",
+      "ecosystem": "npm",
+      "packageName": "chain-coremesh",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chain-coremesh",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mgm3-4q53-38p5"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:42:51Z",
+      "updatedAt": "2026-03-26T00:42:51Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-mgm3-4q53-38p5"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mgm3-4q53-38p5",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mgm3-4q53-38p5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-c39r-4xjc-wrcv:npm:cr-static-shared-components",
+      "source": "github",
+      "sourceId": "GHSA-c39r-4xjc-wrcv",
+      "ecosystem": "npm",
+      "packageName": "cr-static-shared-components",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in cr-static-shared-components",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-c39r-4xjc-wrcv"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:33:15Z",
+      "updatedAt": "2026-03-26T00:33:15Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-c39r-4xjc-wrcv"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-c39r-4xjc-wrcv",
+        "apiUrl": "https://api.github.com/advisories/GHSA-c39r-4xjc-wrcv",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vvwp-x2vx-wxpf:npm:@universeorg/dotenv",
+      "source": "github",
+      "sourceId": "GHSA-vvwp-x2vx-wxpf",
+      "ecosystem": "npm",
+      "packageName": "@universeorg/dotenv",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @universeorg/dotenv",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vvwp-x2vx-wxpf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:31:20Z",
+      "updatedAt": "2026-03-26T00:31:27Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vvwp-x2vx-wxpf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vvwp-x2vx-wxpf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vvwp-x2vx-wxpf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-xpmv-42gw-w7wc:npm:@rexorg/config",
+      "source": "github",
+      "sourceId": "GHSA-xpmv-42gw-w7wc",
+      "ecosystem": "npm",
+      "packageName": "@rexorg/config",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @rexorg/config",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-xpmv-42gw-w7wc"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-26T00:31:20Z",
+      "updatedAt": "2026-03-26T00:31:27Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-xpmv-42gw-w7wc"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-xpmv-42gw-w7wc",
+        "apiUrl": "https://api.github.com/advisories/GHSA-xpmv-42gw-w7wc",
         "cvssScore": null
       }
     }
