@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-31T06:34:51.047Z",
+  "generatedAt": "2026-03-31T12:23:16.198Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -55518,6 +55518,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-fw8c-xr5c-95f9",
         "apiUrl": "https://api.github.com/advisories/GHSA-fw8c-xr5c-95f9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qrhg-p488-7f87:npm:autoshipment-public-front",
+      "source": "github",
+      "sourceId": "GHSA-qrhg-p488-7f87",
+      "ecosystem": "npm",
+      "packageName": "autoshipment-public-front",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in autoshipment-public-front",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qrhg-p488-7f87"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-31T10:55:07Z",
+      "updatedAt": "2026-03-31T10:55:08Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qrhg-p488-7f87"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qrhg-p488-7f87",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qrhg-p488-7f87",
         "cvssScore": null
       }
     }
