@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-31T12:23:16.198Z",
+  "generatedAt": "2026-03-31T18:25:16.564Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -55550,6 +55550,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-qrhg-p488-7f87",
         "apiUrl": "https://api.github.com/advisories/GHSA-qrhg-p488-7f87",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6p89-h5mp-9cqp:npm:@c8o/nimbus-core",
+      "source": "github",
+      "sourceId": "GHSA-6p89-h5mp-9cqp",
+      "ecosystem": "npm",
+      "packageName": "@c8o/nimbus-core",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @c8o/nimbus-core",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.13"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6p89-h5mp-9cqp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-31T18:13:08Z",
+      "updatedAt": "2026-03-31T18:13:14Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6p89-h5mp-9cqp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6p89-h5mp-9cqp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6p89-h5mp-9cqp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-3cx6-7g5g-3hhp:npm:tailwindcss-typeface-inter",
+      "source": "github",
+      "sourceId": "GHSA-3cx6-7g5g-3hhp",
+      "ecosystem": "npm",
+      "packageName": "tailwindcss-typeface-inter",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tailwindcss-typeface-inter",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-3cx6-7g5g-3hhp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-31T14:56:07Z",
+      "updatedAt": "2026-03-31T14:56:12Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-3cx6-7g5g-3hhp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-3cx6-7g5g-3hhp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-3cx6-7g5g-3hhp",
         "cvssScore": null
       }
     }
