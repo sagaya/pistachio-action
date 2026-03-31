@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-03-30T18:25:35.835Z",
+  "generatedAt": "2026-03-31T06:34:51.047Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -55452,6 +55452,72 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-m9ph-m48c-mrq8",
         "apiUrl": "https://api.github.com/advisories/GHSA-m9ph-m48c-mrq8",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-2x9r-6wxq-hrr7:npm:plain-crypto-js",
+      "source": "github",
+      "sourceId": "GHSA-2x9r-6wxq-hrr7",
+      "ecosystem": "npm",
+      "packageName": "plain-crypto-js",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in plain-crypto-js",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0",
+        "= 0.0.1-security"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-2x9r-6wxq-hrr7"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-31T03:25:54Z",
+      "updatedAt": "2026-03-31T04:26:59Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-2x9r-6wxq-hrr7"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-2x9r-6wxq-hrr7",
+        "apiUrl": "https://api.github.com/advisories/GHSA-2x9r-6wxq-hrr7",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-fw8c-xr5c-95f9:npm:axios",
+      "source": "github",
+      "sourceId": "GHSA-fw8c-xr5c-95f9",
+      "ecosystem": "npm",
+      "packageName": "axios",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in axios",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.14.1",
+        "= 0.30.4"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-fw8c-xr5c-95f9"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-03-31T03:15:49Z",
+      "updatedAt": "2026-03-31T03:15:49Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-fw8c-xr5c-95f9"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-fw8c-xr5c-95f9",
+        "apiUrl": "https://api.github.com/advisories/GHSA-fw8c-xr5c-95f9",
         "cvssScore": null
       }
     }
