@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-01T12:23:20.499Z",
+  "generatedAt": "2026-04-02T18:23:49.855Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -55934,6 +55934,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-h9fw-29vc-6g89",
         "apiUrl": "https://api.github.com/advisories/GHSA-h9fw-29vc-6g89",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vm8g-5xgx-c5jx:npm:@mgcrae/pino-pretty-logger",
+      "source": "github",
+      "sourceId": "GHSA-vm8g-5xgx-c5jx",
+      "ecosystem": "npm",
+      "packageName": "@mgcrae/pino-pretty-logger",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @mgcrae/pino-pretty-logger",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vm8g-5xgx-c5jx"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-02T11:28:24Z",
+      "updatedAt": "2026-04-02T11:28:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vm8g-5xgx-c5jx"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vm8g-5xgx-c5jx",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vm8g-5xgx-c5jx",
         "cvssScore": null
       }
     }
