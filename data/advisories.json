@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-07T12:24:20.167Z",
+  "generatedAt": "2026-04-07T18:26:21.919Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -56004,6 +56004,1163 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-8g9r-2x3j-gf2w",
         "apiUrl": "https://api.github.com/advisories/GHSA-8g9r-2x3j-gf2w",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vq87-37pj-9m5x:npm:strapi-plugin-nordica",
+      "source": "github",
+      "sourceId": "GHSA-vq87-37pj-9m5x",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-nordica",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-nordica",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.0",
+        "= 3.6.10"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vq87-37pj-9m5x"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:18:34Z",
+      "updatedAt": "2026-04-07T16:18:34Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vq87-37pj-9m5x"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vq87-37pj-9m5x",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vq87-37pj-9m5x",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-xvmq-9hxp-c2h5:npm:strapi-plugin-blurhash",
+      "source": "github",
+      "sourceId": "GHSA-xvmq-9hxp-c2h5",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-blurhash",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-blurhash",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-xvmq-9hxp-c2h5"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:12:37Z",
+      "updatedAt": "2026-04-07T16:12:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-xvmq-9hxp-c2h5"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-xvmq-9hxp-c2h5",
+        "apiUrl": "https://api.github.com/advisories/GHSA-xvmq-9hxp-c2h5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cjvp-jrwf-6853:npm:strapi-plugin-advanced-uuid",
+      "source": "github",
+      "sourceId": "GHSA-cjvp-jrwf-6853",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-advanced-uuid",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-advanced-uuid",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cjvp-jrwf-6853"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:12:22Z",
+      "updatedAt": "2026-04-07T16:12:22Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cjvp-jrwf-6853"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cjvp-jrwf-6853",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cjvp-jrwf-6853",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cmqm-7h4x-mhj6:npm:strapi-plugin-guardarian-ext",
+      "source": "github",
+      "sourceId": "GHSA-cmqm-7h4x-mhj6",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-guardarian-ext",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-guardarian-ext",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cmqm-7h4x-mhj6"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:11:29Z",
+      "updatedAt": "2026-04-07T16:11:29Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cmqm-7h4x-mhj6"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cmqm-7h4x-mhj6",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cmqm-7h4x-mhj6",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4jjh-xhm5-454q:npm:strapi-plugin-health-check",
+      "source": "github",
+      "sourceId": "GHSA-4jjh-xhm5-454q",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-health-check",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-health-check",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4jjh-xhm5-454q"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:10:56Z",
+      "updatedAt": "2026-04-07T16:10:56Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4jjh-xhm5-454q"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4jjh-xhm5-454q",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4jjh-xhm5-454q",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g2g2-54v3-w4w2:npm:strapi-plugin-debug-tools",
+      "source": "github",
+      "sourceId": "GHSA-g2g2-54v3-w4w2",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-debug-tools",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-debug-tools",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g2g2-54v3-w4w2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:06:47Z",
+      "updatedAt": "2026-04-07T16:06:47Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g2g2-54v3-w4w2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g2g2-54v3-w4w2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g2g2-54v3-w4w2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-252m-cq46-x44h:npm:strapi-plugin-content-sync",
+      "source": "github",
+      "sourceId": "GHSA-252m-cq46-x44h",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-content-sync",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-content-sync",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-252m-cq46-x44h"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:05:54Z",
+      "updatedAt": "2026-04-07T16:05:55Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-252m-cq46-x44h"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-252m-cq46-x44h",
+        "apiUrl": "https://api.github.com/advisories/GHSA-252m-cq46-x44h",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5746-8pgw-jwqj:npm:strapi-plugin-cms-tools",
+      "source": "github",
+      "sourceId": "GHSA-5746-8pgw-jwqj",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-cms-tools",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-cms-tools",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5746-8pgw-jwqj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:05:21Z",
+      "updatedAt": "2026-04-07T16:05:22Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5746-8pgw-jwqj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5746-8pgw-jwqj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5746-8pgw-jwqj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9vgr-gp6c-6937:npm:strapi-plugin-hextest",
+      "source": "github",
+      "sourceId": "GHSA-9vgr-gp6c-6937",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-hextest",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-hextest",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9vgr-gp6c-6937"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:02:58Z",
+      "updatedAt": "2026-04-07T16:02:59Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9vgr-gp6c-6937"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9vgr-gp6c-6937",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9vgr-gp6c-6937",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-x87x-x3f6-6c94:npm:strapi-plugin-finseven",
+      "source": "github",
+      "sourceId": "GHSA-x87x-x3f6-6c94",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-finseven",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-finseven",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-x87x-x3f6-6c94"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:02:08Z",
+      "updatedAt": "2026-04-07T16:02:08Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-x87x-x3f6-6c94"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-x87x-x3f6-6c94",
+        "apiUrl": "https://api.github.com/advisories/GHSA-x87x-x3f6-6c94",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-xg9c-8cmg-rqc4:npm:strapi-plugin-nordica-cms",
+      "source": "github",
+      "sourceId": "GHSA-xg9c-8cmg-rqc4",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-nordica-cms",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-nordica-cms",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-xg9c-8cmg-rqc4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:01:38Z",
+      "updatedAt": "2026-04-07T16:01:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-xg9c-8cmg-rqc4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-xg9c-8cmg-rqc4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-xg9c-8cmg-rqc4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-rp3x-p457-89c3:npm:strapi-plugin-nordica-lite",
+      "source": "github",
+      "sourceId": "GHSA-rp3x-p457-89c3",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-nordica-lite",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-nordica-lite",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.11",
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-rp3x-p457-89c3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:01:07Z",
+      "updatedAt": "2026-04-07T16:01:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-rp3x-p457-89c3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-rp3x-p457-89c3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-rp3x-p457-89c3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-389c-9hmg-qfx5:npm:strapi-plugin-cache",
+      "source": "github",
+      "sourceId": "GHSA-389c-9hmg-qfx5",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-cache",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-cache",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-389c-9hmg-qfx5"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:01:07Z",
+      "updatedAt": "2026-04-07T16:01:15Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-389c-9hmg-qfx5"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-389c-9hmg-qfx5",
+        "apiUrl": "https://api.github.com/advisories/GHSA-389c-9hmg-qfx5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6rm2-h43c-2ffc:npm:strapi-plugin-monitor",
+      "source": "github",
+      "sourceId": "GHSA-6rm2-h43c-2ffc",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-monitor",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-monitor",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6rm2-h43c-2ffc"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T16:01:07Z",
+      "updatedAt": "2026-04-07T16:01:07Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6rm2-h43c-2ffc"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6rm2-h43c-2ffc",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6rm2-h43c-2ffc",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g5q8-4vqv-7j3r:npm:strapi-plugin-nordica-deep",
+      "source": "github",
+      "sourceId": "GHSA-g5q8-4vqv-7j3r",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-nordica-deep",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-nordica-deep",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g5q8-4vqv-7j3r"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:59:42Z",
+      "updatedAt": "2026-04-07T15:59:43Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g5q8-4vqv-7j3r"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g5q8-4vqv-7j3r",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g5q8-4vqv-7j3r",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-fh6c-8rm8-5vrq:npm:strapi-plugin-nordica-vhost",
+      "source": "github",
+      "sourceId": "GHSA-fh6c-8rm8-5vrq",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-nordica-vhost",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-nordica-vhost",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-fh6c-8rm8-5vrq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:58:50Z",
+      "updatedAt": "2026-04-07T15:58:50Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-fh6c-8rm8-5vrq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-fh6c-8rm8-5vrq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-fh6c-8rm8-5vrq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-rm69-7489-723j:npm:strapi-plugin-nordica-stage",
+      "source": "github",
+      "sourceId": "GHSA-rm69-7489-723j",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-nordica-stage",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-nordica-stage",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-rm69-7489-723j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:57:42Z",
+      "updatedAt": "2026-04-07T15:57:43Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-rm69-7489-723j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-rm69-7489-723j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-rm69-7489-723j",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-r72j-h2ch-g7fj:npm:strapi-plugin-nordica-recon",
+      "source": "github",
+      "sourceId": "GHSA-r72j-h2ch-g7fj",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-nordica-recon",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-nordica-recon",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-r72j-h2ch-g7fj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:57:09Z",
+      "updatedAt": "2026-04-07T15:57:10Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-r72j-h2ch-g7fj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-r72j-h2ch-g7fj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-r72j-h2ch-g7fj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9fhj-rc6p-fcqh:npm:strapi-plugin-nordica-api",
+      "source": "github",
+      "sourceId": "GHSA-9fhj-rc6p-fcqh",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-nordica-api",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-nordica-api",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9fhj-rc6p-fcqh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:56:37Z",
+      "updatedAt": "2026-04-07T15:56:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9fhj-rc6p-fcqh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9fhj-rc6p-fcqh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9fhj-rc6p-fcqh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g52f-m5hj-mvq3:npm:strapi-plugin-nordica-sync",
+      "source": "github",
+      "sourceId": "GHSA-g52f-m5hj-mvq3",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-nordica-sync",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-nordica-sync",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g52f-m5hj-mvq3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:55:09Z",
+      "updatedAt": "2026-04-07T15:55:09Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g52f-m5hj-mvq3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g52f-m5hj-mvq3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g52f-m5hj-mvq3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-x5wx-4wfp-cgcr:npm:strapi-plugin-nordica-tools",
+      "source": "github",
+      "sourceId": "GHSA-x5wx-4wfp-cgcr",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-nordica-tools",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-nordica-tools",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.10",
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-x5wx-4wfp-cgcr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:54:18Z",
+      "updatedAt": "2026-04-07T16:01:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-x5wx-4wfp-cgcr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-x5wx-4wfp-cgcr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-x5wx-4wfp-cgcr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-x667-8xrq-3578:npm:strapi-plugin-sitemap-gen",
+      "source": "github",
+      "sourceId": "GHSA-x667-8xrq-3578",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-sitemap-gen",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-sitemap-gen",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-x667-8xrq-3578"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:51:02Z",
+      "updatedAt": "2026-04-07T15:51:03Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-x667-8xrq-3578"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-x667-8xrq-3578",
+        "apiUrl": "https://api.github.com/advisories/GHSA-x667-8xrq-3578",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mwh4-gjrj-9rgf:npm:strapi-plugin-notify",
+      "source": "github",
+      "sourceId": "GHSA-mwh4-gjrj-9rgf",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-notify",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-notify",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mwh4-gjrj-9rgf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:46:56Z",
+      "updatedAt": "2026-04-07T15:47:01Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-mwh4-gjrj-9rgf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mwh4-gjrj-9rgf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mwh4-gjrj-9rgf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pf45-rpxc-m3cv:npm:strapi-plugin-form",
+      "source": "github",
+      "sourceId": "GHSA-pf45-rpxc-m3cv",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-form",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-form",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pf45-rpxc-m3cv"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:46:21Z",
+      "updatedAt": "2026-04-07T15:46:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pf45-rpxc-m3cv"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pf45-rpxc-m3cv",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pf45-rpxc-m3cv",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pgmf-vf3w-pvxj:npm:strapi-plugin-locale",
+      "source": "github",
+      "sourceId": "GHSA-pgmf-vf3w-pvxj",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-locale",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-locale",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pgmf-vf3w-pvxj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:45:31Z",
+      "updatedAt": "2026-04-07T15:45:31Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pgmf-vf3w-pvxj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pgmf-vf3w-pvxj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pgmf-vf3w-pvxj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-ghwm-gm8w-v7pg:npm:strapi-plugin-seed",
+      "source": "github",
+      "sourceId": "GHSA-ghwm-gm8w-v7pg",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-seed",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-seed",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-ghwm-gm8w-v7pg"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:45:00Z",
+      "updatedAt": "2026-04-07T15:45:01Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-ghwm-gm8w-v7pg"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-ghwm-gm8w-v7pg",
+        "apiUrl": "https://api.github.com/advisories/GHSA-ghwm-gm8w-v7pg",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cw8q-9647-qw7j:npm:strapi-plugin-sync",
+      "source": "github",
+      "sourceId": "GHSA-cw8q-9647-qw7j",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-sync",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-sync",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cw8q-9647-qw7j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:44:25Z",
+      "updatedAt": "2026-04-07T15:44:26Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cw8q-9647-qw7j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cw8q-9647-qw7j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cw8q-9647-qw7j",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8c3v-gc8j-xp6p:npm:strapi-plugin-health",
+      "source": "github",
+      "sourceId": "GHSA-8c3v-gc8j-xp6p",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-health",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-health",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8c3v-gc8j-xp6p"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:43:50Z",
+      "updatedAt": "2026-04-07T15:43:51Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8c3v-gc8j-xp6p"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8c3v-gc8j-xp6p",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8c3v-gc8j-xp6p",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-3f9q-mrvh-3g67:npm:strapi-plugin-logger",
+      "source": "github",
+      "sourceId": "GHSA-3f9q-mrvh-3g67",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-logger",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-logger",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-3f9q-mrvh-3g67"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:43:00Z",
+      "updatedAt": "2026-04-07T15:43:05Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-3f9q-mrvh-3g67"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-3f9q-mrvh-3g67",
+        "apiUrl": "https://api.github.com/advisories/GHSA-3f9q-mrvh-3g67",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vgx9-mqvm-pp39:npm:strapi-plugin-hooks",
+      "source": "github",
+      "sourceId": "GHSA-vgx9-mqvm-pp39",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-hooks",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-hooks",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vgx9-mqvm-pp39"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:41:30Z",
+      "updatedAt": "2026-04-07T15:41:30Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vgx9-mqvm-pp39"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vgx9-mqvm-pp39",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vgx9-mqvm-pp39",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-rhv5-72hc-mr25:npm:strapi-plugin-core",
+      "source": "github",
+      "sourceId": "GHSA-rhv5-72hc-mr25",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-core",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-core",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-rhv5-72hc-mr25"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:40:19Z",
+      "updatedAt": "2026-04-07T15:40:25Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-rhv5-72hc-mr25"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-rhv5-72hc-mr25",
+        "apiUrl": "https://api.github.com/advisories/GHSA-rhv5-72hc-mr25",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-443x-5qwf-wjj8:npm:strapi-plugin-database",
+      "source": "github",
+      "sourceId": "GHSA-443x-5qwf-wjj8",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-database",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-database",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-443x-5qwf-wjj8"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:39:50Z",
+      "updatedAt": "2026-04-07T15:39:50Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-443x-5qwf-wjj8"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-443x-5qwf-wjj8",
+        "apiUrl": "https://api.github.com/advisories/GHSA-443x-5qwf-wjj8",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vwr5-7896-9xg9:npm:strapi-plugin-config",
+      "source": "github",
+      "sourceId": "GHSA-vwr5-7896-9xg9",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-config",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-config",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vwr5-7896-9xg9"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:36:53Z",
+      "updatedAt": "2026-04-07T15:36:54Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vwr5-7896-9xg9"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vwr5-7896-9xg9",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vwr5-7896-9xg9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-78qv-6mwc-4mxh:npm:strapi-plugin-cron",
+      "source": "github",
+      "sourceId": "GHSA-78qv-6mwc-4mxh",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-cron",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-cron",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-78qv-6mwc-4mxh"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:36:02Z",
+      "updatedAt": "2026-04-07T15:36:03Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-78qv-6mwc-4mxh"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-78qv-6mwc-4mxh",
+        "apiUrl": "https://api.github.com/advisories/GHSA-78qv-6mwc-4mxh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-2m6v-vrwv-92cm:npm:strapi-plugin-api",
+      "source": "github",
+      "sourceId": "GHSA-2m6v-vrwv-92cm",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-api",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-api",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8",
+        "= 3.6.9",
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-2m6v-vrwv-92cm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:33:39Z",
+      "updatedAt": "2026-04-07T16:01:23Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-2m6v-vrwv-92cm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-2m6v-vrwv-92cm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-2m6v-vrwv-92cm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5w8f-g8w2-jp22:npm:strapi-plugin-events",
+      "source": "github",
+      "sourceId": "GHSA-5w8f-g8w2-jp22",
+      "ecosystem": "npm",
+      "packageName": "strapi-plugin-events",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in strapi-plugin-events",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.6.8"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5w8f-g8w2-jp22"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T15:32:14Z",
+      "updatedAt": "2026-04-07T15:32:14Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5w8f-g8w2-jp22"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5w8f-g8w2-jp22",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5w8f-g8w2-jp22",
         "cvssScore": null
       }
     }
