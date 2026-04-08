@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-08T00:22:12.371Z",
+  "generatedAt": "2026-04-08T18:32:29.138Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -57193,6 +57193,72 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-j3x7-94xp-wf43",
         "apiUrl": "https://api.github.com/advisories/GHSA-j3x7-94xp-wf43",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6rgf-v8fm-jf4g:npm:@fairwords/encryption",
+      "source": "github",
+      "sourceId": "GHSA-6rgf-v8fm-jf4g",
+      "ecosystem": "npm",
+      "packageName": "@fairwords/encryption",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @fairwords/encryption",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 0.0.5",
+        "= 0.0.6"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6rgf-v8fm-jf4g"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-08T13:19:59Z",
+      "updatedAt": "2026-04-08T13:20:00Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6rgf-v8fm-jf4g"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6rgf-v8fm-jf4g",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6rgf-v8fm-jf4g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wr82-83f6-47v8:npm:@fairwords/websocket",
+      "source": "github",
+      "sourceId": "GHSA-wr82-83f6-47v8",
+      "ecosystem": "npm",
+      "packageName": "@fairwords/websocket",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @fairwords/websocket",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.38",
+        "= 1.0.39"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wr82-83f6-47v8"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-08T13:06:52Z",
+      "updatedAt": "2026-04-08T13:06:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wr82-83f6-47v8"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wr82-83f6-47v8",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wr82-83f6-47v8",
         "cvssScore": null
       }
     }
