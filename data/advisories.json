@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-07T18:26:21.919Z",
+  "generatedAt": "2026-04-08T00:22:12.371Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -57161,6 +57161,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-5w8f-g8w2-jp22",
         "apiUrl": "https://api.github.com/advisories/GHSA-5w8f-g8w2-jp22",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-j3x7-94xp-wf43:npm:@opengov/form-renderer",
+      "source": "github",
+      "sourceId": "GHSA-j3x7-94xp-wf43",
+      "ecosystem": "npm",
+      "packageName": "@opengov/form-renderer",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @opengov/form-renderer",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 0.2.20"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-j3x7-94xp-wf43"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-07T22:54:50Z",
+      "updatedAt": "2026-04-07T22:54:50Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-j3x7-94xp-wf43"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-j3x7-94xp-wf43",
+        "apiUrl": "https://api.github.com/advisories/GHSA-j3x7-94xp-wf43",
         "cvssScore": null
       }
     }
