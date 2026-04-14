@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-13T18:31:50.874Z",
+  "generatedAt": "2026-04-14T00:25:48.393Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -59243,6 +59243,111 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-7rrw-hm44-329g",
         "apiUrl": "https://api.github.com/advisories/GHSA-7rrw-hm44-329g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4xvr-7wr9-qrcg:npm:getcardslib",
+      "source": "github",
+      "sourceId": "GHSA-4xvr-7wr9-qrcg",
+      "ecosystem": "npm",
+      "packageName": "getcardslib",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in getcardslib",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.0",
+        "= 1.0.1",
+        "= 1.0.2-beta",
+        "= 1.0.3-beta",
+        "= 1.0.3",
+        "= 1.0.4",
+        "= 1.0.5",
+        "= 1.0.6",
+        "= 1.0.7",
+        "= 1.0.9"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4xvr-7wr9-qrcg"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-14T00:07:56Z",
+      "updatedAt": "2026-04-14T00:07:56Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4xvr-7wr9-qrcg"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4xvr-7wr9-qrcg",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4xvr-7wr9-qrcg",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-hr5g-wqxg-m42m:npm:admin0911",
+      "source": "github",
+      "sourceId": "GHSA-hr5g-wqxg-m42m",
+      "ecosystem": "npm",
+      "packageName": "admin0911",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in admin0911",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-hr5g-wqxg-m42m"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-14T00:00:56Z",
+      "updatedAt": "2026-04-14T00:00:57Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-hr5g-wqxg-m42m"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-hr5g-wqxg-m42m",
+        "apiUrl": "https://api.github.com/advisories/GHSA-hr5g-wqxg-m42m",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-96gm-xh35-6xfw:npm:@adac-fahrzeugplattform/ui",
+      "source": "github",
+      "sourceId": "GHSA-96gm-xh35-6xfw",
+      "ecosystem": "npm",
+      "packageName": "@adac-fahrzeugplattform/ui",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @adac-fahrzeugplattform/ui",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-96gm-xh35-6xfw"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-13T23:57:42Z",
+      "updatedAt": "2026-04-13T23:57:43Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-96gm-xh35-6xfw"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-96gm-xh35-6xfw",
+        "apiUrl": "https://api.github.com/advisories/GHSA-96gm-xh35-6xfw",
         "cvssScore": null
       }
     }
