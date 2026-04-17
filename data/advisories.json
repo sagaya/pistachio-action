@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-17T12:25:07.311Z",
+  "generatedAt": "2026-04-17T18:26:03.136Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -61398,6 +61398,103 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-975w-34c4-77hm",
         "apiUrl": "https://api.github.com/advisories/GHSA-975w-34c4-77hm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-h8m3-pcfp-2jpw:npm:value-slider",
+      "source": "github",
+      "sourceId": "GHSA-h8m3-pcfp-2jpw",
+      "ecosystem": "npm",
+      "packageName": "value-slider",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in value-slider",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 99.99.99-security-research.1"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-h8m3-pcfp-2jpw"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-17T14:21:04Z",
+      "updatedAt": "2026-04-17T14:21:05Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-h8m3-pcfp-2jpw"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-h8m3-pcfp-2jpw",
+        "apiUrl": "https://api.github.com/advisories/GHSA-h8m3-pcfp-2jpw",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5gf4-hf7c-gxxp:npm:@than-xs/libsignal-node",
+      "source": "github",
+      "sourceId": "GHSA-5gf4-hf7c-gxxp",
+      "ecosystem": "npm",
+      "packageName": "@than-xs/libsignal-node",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @than-xs/libsignal-node",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5gf4-hf7c-gxxp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-17T14:11:43Z",
+      "updatedAt": "2026-04-17T14:11:44Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5gf4-hf7c-gxxp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5gf4-hf7c-gxxp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5gf4-hf7c-gxxp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-hcw6-3v33-4gw3:npm:@than1st/baileys",
+      "source": "github",
+      "sourceId": "GHSA-hcw6-3v33-4gw3",
+      "ecosystem": "npm",
+      "packageName": "@than1st/baileys",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @than1st/baileys",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 2.0.5",
+        "= 2.0.6"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-hcw6-3v33-4gw3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-17T14:08:17Z",
+      "updatedAt": "2026-04-17T14:08:18Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-hcw6-3v33-4gw3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-hcw6-3v33-4gw3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-hcw6-3v33-4gw3",
         "cvssScore": null
       }
     }
