@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-15T18:30:59.663Z",
+  "generatedAt": "2026-04-17T12:25:07.311Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -61334,6 +61334,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-pxg6-jw7c-gfmg",
         "apiUrl": "https://api.github.com/advisories/GHSA-pxg6-jw7c-gfmg",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-rxwg-h367-5qgm:npm:node-red-contrib-yolo-object-detection",
+      "source": "github",
+      "sourceId": "GHSA-rxwg-h367-5qgm",
+      "ecosystem": "npm",
+      "packageName": "node-red-contrib-yolo-object-detection",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in node-red-contrib-yolo-object-detection",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 9.1.15"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-rxwg-h367-5qgm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-17T11:30:45Z",
+      "updatedAt": "2026-04-17T11:30:45Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-rxwg-h367-5qgm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-rxwg-h367-5qgm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-rxwg-h367-5qgm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-975w-34c4-77hm:npm:koa-v3",
+      "source": "github",
+      "sourceId": "GHSA-975w-34c4-77hm",
+      "ecosystem": "npm",
+      "packageName": "koa-v3",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in koa-v3",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-975w-34c4-77hm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-17T11:00:16Z",
+      "updatedAt": "2026-04-17T11:00:16Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-975w-34c4-77hm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-975w-34c4-77hm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-975w-34c4-77hm",
         "cvssScore": null
       }
     }
