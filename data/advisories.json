@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-20T06:49:57.577Z",
+  "generatedAt": "2026-04-20T18:26:57.614Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -61911,6 +61911,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-6xh4-h79w-9w2q",
         "apiUrl": "https://api.github.com/advisories/GHSA-6xh4-h79w-9w2q",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-xxgm-722g-xhwg:npm:tailwind-text-fill",
+      "source": "github",
+      "sourceId": "GHSA-xxgm-722g-xhwg",
+      "ecosystem": "npm",
+      "packageName": "tailwind-text-fill",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tailwind-text-fill",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-xxgm-722g-xhwg"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-20T13:39:53Z",
+      "updatedAt": "2026-04-20T13:39:53Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-xxgm-722g-xhwg"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-xxgm-722g-xhwg",
+        "apiUrl": "https://api.github.com/advisories/GHSA-xxgm-722g-xhwg",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wqqm-f8q9-pgmm:npm:tailwindthml-flips",
+      "source": "github",
+      "sourceId": "GHSA-wqqm-f8q9-pgmm",
+      "ecosystem": "npm",
+      "packageName": "tailwindthml-flips",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tailwindthml-flips",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wqqm-f8q9-pgmm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-20T13:34:42Z",
+      "updatedAt": "2026-04-20T13:34:43Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wqqm-f8q9-pgmm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wqqm-f8q9-pgmm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wqqm-f8q9-pgmm",
         "cvssScore": null
       }
     }
