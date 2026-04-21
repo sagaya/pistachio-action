@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-21T06:43:30.955Z",
+  "generatedAt": "2026-04-21T12:26:37.087Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -62263,6 +62263,75 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-m39f-fr86-j7f7",
         "apiUrl": "https://api.github.com/advisories/GHSA-m39f-fr86-j7f7",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-xjh5-rr2q-3382:npm:com.tencent.puerts.agent",
+      "source": "github",
+      "sourceId": "GHSA-xjh5-rr2q-3382",
+      "ecosystem": "npm",
+      "packageName": "com.tencent.puerts.agent",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in com.tencent.puerts.agent",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1000.0.16",
+        "= 1000.0.20",
+        "= 1000.0.21"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-xjh5-rr2q-3382"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-21T12:05:01Z",
+      "updatedAt": "2026-04-21T12:05:12Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-xjh5-rr2q-3382"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-xjh5-rr2q-3382",
+        "apiUrl": "https://api.github.com/advisories/GHSA-xjh5-rr2q-3382",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7xx2-cw9j-xjgc:npm:internal_insights_enabled",
+      "source": "github",
+      "sourceId": "GHSA-7xx2-cw9j-xjgc",
+      "ecosystem": "npm",
+      "packageName": "internal_insights_enabled",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in internal_insights_enabled",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 99.21.0",
+        "= 99.22.0",
+        "= 99.23.0",
+        "= 99.27.0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7xx2-cw9j-xjgc"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-21T11:31:29Z",
+      "updatedAt": "2026-04-21T11:31:29Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-7xx2-cw9j-xjgc"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7xx2-cw9j-xjgc",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7xx2-cw9j-xjgc",
         "cvssScore": null
       }
     }
