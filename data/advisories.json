@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-23T12:27:06.705Z",
+  "generatedAt": "2026-04-23T18:30:26.456Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -63501,6 +63501,71 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-g99c-rjxw-f6jg",
         "apiUrl": "https://api.github.com/advisories/GHSA-g99c-rjxw-f6jg",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g98r-qjhg-4fmr:npm:@bitwarden/cli",
+      "source": "github",
+      "sourceId": "GHSA-g98r-qjhg-4fmr",
+      "ecosystem": "npm",
+      "packageName": "@bitwarden/cli",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @bitwarden/cli",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 2026.4.0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g98r-qjhg-4fmr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-23T17:07:51Z",
+      "updatedAt": "2026-04-23T17:07:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g98r-qjhg-4fmr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g98r-qjhg-4fmr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g98r-qjhg-4fmr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pq9g-f2rr-m4hw:npm:hls.js",
+      "source": "github",
+      "sourceId": "GHSA-pq9g-f2rr-m4hw",
+      "ecosystem": "npm",
+      "packageName": "hls.js",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in hls.js",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.7.0-alpha.1.0.canary.11764",
+        "= 1.7.0-alpha.1.0.canary.11765"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pq9g-f2rr-m4hw"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-23T16:08:37Z",
+      "updatedAt": "2026-04-23T16:11:46Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pq9g-f2rr-m4hw"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pq9g-f2rr-m4hw",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pq9g-f2rr-m4hw",
         "cvssScore": null
       }
     }
