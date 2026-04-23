@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-23T06:43:45.914Z",
+  "generatedAt": "2026-04-23T12:27:06.705Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -63469,6 +63469,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-mq2j-jgm4-q5vv",
         "apiUrl": "https://api.github.com/advisories/GHSA-mq2j-jgm4-q5vv",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g99c-rjxw-f6jg:npm:chai-as-optimized",
+      "source": "github",
+      "sourceId": "GHSA-g99c-rjxw-f6jg",
+      "ecosystem": "npm",
+      "packageName": "chai-as-optimized",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-as-optimized",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g99c-rjxw-f6jg"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-23T12:15:02Z",
+      "updatedAt": "2026-04-23T12:15:02Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g99c-rjxw-f6jg"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g99c-rjxw-f6jg",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g99c-rjxw-f6jg",
         "cvssScore": null
       }
     }
