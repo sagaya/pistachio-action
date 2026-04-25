@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-24T06:44:04.425Z",
+  "generatedAt": "2026-04-25T00:24:04.963Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -63822,6 +63822,46 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-53hj-4c4g-2wqq",
         "apiUrl": "https://api.github.com/advisories/GHSA-53hj-4c4g-2wqq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wwr2-883g-52c2:npm:modern-events",
+      "source": "github",
+      "sourceId": "GHSA-wwr2-883g-52c2",
+      "ecosystem": "npm",
+      "packageName": "modern-events",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in modern-events",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.3.3",
+        "= 1.3.4",
+        "= 1.4.0",
+        "= 1.4.1",
+        "= 1.4.2",
+        "= 1.4.3",
+        "= 1.5.0",
+        "= 1.5.1",
+        "= 1.5.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wwr2-883g-52c2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-24T19:43:51Z",
+      "updatedAt": "2026-04-24T19:43:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wwr2-883g-52c2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wwr2-883g-52c2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wwr2-883g-52c2",
         "cvssScore": null
       }
     }
