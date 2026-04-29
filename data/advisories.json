@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-25T00:24:04.963Z",
+  "generatedAt": "2026-04-29T12:36:27.658Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -63862,6 +63862,134 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-wwr2-883g-52c2",
         "apiUrl": "https://api.github.com/advisories/GHSA-wwr2-883g-52c2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-53p3-r84h-8pj3:npm:chai-as-ide",
+      "source": "github",
+      "sourceId": "GHSA-53p3-r84h-8pj3",
+      "ecosystem": "npm",
+      "packageName": "chai-as-ide",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-as-ide",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-53p3-r84h-8pj3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-29T12:22:51Z",
+      "updatedAt": "2026-04-29T12:22:51Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-53p3-r84h-8pj3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-53p3-r84h-8pj3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-53p3-r84h-8pj3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6xjm-3c84-552p:npm:chai-as-stream",
+      "source": "github",
+      "sourceId": "GHSA-6xjm-3c84-552p",
+      "ecosystem": "npm",
+      "packageName": "chai-as-stream",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-as-stream",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6xjm-3c84-552p"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-29T12:19:45Z",
+      "updatedAt": "2026-04-29T12:19:46Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6xjm-3c84-552p"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6xjm-3c84-552p",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6xjm-3c84-552p",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-472w-9h7g-j276:npm:chai-as-inserted",
+      "source": "github",
+      "sourceId": "GHSA-472w-9h7g-j276",
+      "ecosystem": "npm",
+      "packageName": "chai-as-inserted",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-as-inserted",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-472w-9h7g-j276"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-29T12:27:36Z",
+      "updatedAt": "2026-04-29T12:27:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-472w-9h7g-j276"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-472w-9h7g-j276",
+        "apiUrl": "https://api.github.com/advisories/GHSA-472w-9h7g-j276",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4cp9-q8r9-2227:npm:chai-as-redeployed",
+      "source": "github",
+      "sourceId": "GHSA-4cp9-q8r9-2227",
+      "ecosystem": "npm",
+      "packageName": "chai-as-redeployed",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-as-redeployed",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4cp9-q8r9-2227"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-29T12:29:50Z",
+      "updatedAt": "2026-04-29T12:29:50Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4cp9-q8r9-2227"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4cp9-q8r9-2227",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4cp9-q8r9-2227",
         "cvssScore": null
       }
     }
