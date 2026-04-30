@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-29T18:36:16.601Z",
+  "generatedAt": "2026-04-30T00:29:26.207Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -64406,6 +64406,41 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-286p-r2qw-c6p5",
         "apiUrl": "https://api.github.com/advisories/GHSA-286p-r2qw-c6p5",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5w4c-85pv-cwhv:npm:tanstack",
+      "source": "github",
+      "sourceId": "GHSA-5w4c-85pv-cwhv",
+      "ecosystem": "npm",
+      "packageName": "tanstack",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tanstack",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 2.0.4",
+        "= 2.0.5",
+        "= 2.0.6",
+        "= 2.0.7"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5w4c-85pv-cwhv"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-29T22:44:03Z",
+      "updatedAt": "2026-04-29T22:44:03Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5w4c-85pv-cwhv"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5w4c-85pv-cwhv",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5w4c-85pv-cwhv",
         "cvssScore": null
       }
     }
