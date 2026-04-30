@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-30T00:29:26.207Z",
+  "generatedAt": "2026-04-30T18:36:16.533Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -64441,6 +64441,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-5w4c-85pv-cwhv",
         "apiUrl": "https://api.github.com/advisories/GHSA-5w4c-85pv-cwhv",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-72vc-j35j-p28h:npm:@cap-js/db-service",
+      "source": "github",
+      "sourceId": "GHSA-72vc-j35j-p28h",
+      "ecosystem": "npm",
+      "packageName": "@cap-js/db-service",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @cap-js/db-service",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 2.10.1"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-72vc-j35j-p28h"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-30T16:40:06Z",
+      "updatedAt": "2026-04-30T16:40:07Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-72vc-j35j-p28h"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-72vc-j35j-p28h",
+        "apiUrl": "https://api.github.com/advisories/GHSA-72vc-j35j-p28h",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7vv3-r527-wvjr:npm:@cap-js/postgres",
+      "source": "github",
+      "sourceId": "GHSA-7vv3-r527-wvjr",
+      "ecosystem": "npm",
+      "packageName": "@cap-js/postgres",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @cap-js/postgres",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 2.2.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7vv3-r527-wvjr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-30T16:39:03Z",
+      "updatedAt": "2026-04-30T16:39:03Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-7vv3-r527-wvjr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7vv3-r527-wvjr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7vv3-r527-wvjr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-2h7r-x9v2-q52f:npm:@cap-js/sqlite",
+      "source": "github",
+      "sourceId": "GHSA-2h7r-x9v2-q52f",
+      "ecosystem": "npm",
+      "packageName": "@cap-js/sqlite",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @cap-js/sqlite",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 2.2.2"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-2h7r-x9v2-q52f"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-30T16:37:41Z",
+      "updatedAt": "2026-04-30T16:37:47Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-2h7r-x9v2-q52f"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-2h7r-x9v2-q52f",
+        "apiUrl": "https://api.github.com/advisories/GHSA-2h7r-x9v2-q52f",
         "cvssScore": null
       }
     }
