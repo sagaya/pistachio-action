@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-30T18:36:16.533Z",
+  "generatedAt": "2026-05-01T00:29:19.556Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -64537,6 +64537,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-2h7r-x9v2-q52f",
         "apiUrl": "https://api.github.com/advisories/GHSA-2h7r-x9v2-q52f",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4594-wxqv-j3pm:npm:intercom-client",
+      "source": "github",
+      "sourceId": "GHSA-4594-wxqv-j3pm",
+      "ecosystem": "npm",
+      "packageName": "intercom-client",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in intercom-client",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 7.0.4"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4594-wxqv-j3pm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-04-30T21:29:27Z",
+      "updatedAt": "2026-04-30T21:29:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4594-wxqv-j3pm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4594-wxqv-j3pm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4594-wxqv-j3pm",
         "cvssScore": null
       }
     }
