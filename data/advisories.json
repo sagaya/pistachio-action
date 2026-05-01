@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-01T00:29:19.556Z",
+  "generatedAt": "2026-05-01T18:30:02.479Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -64569,6 +64569,172 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-4594-wxqv-j3pm",
         "apiUrl": "https://api.github.com/advisories/GHSA-4594-wxqv-j3pm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-2v65-5xfv-p42q:npm:@apple-pay-trust/cancelled",
+      "source": "github",
+      "sourceId": "GHSA-2v65-5xfv-p42q",
+      "ecosystem": "npm",
+      "packageName": "@apple-pay-trust/cancelled",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @apple-pay-trust/cancelled",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 99.0.1",
+        "= 99.0.2",
+        "= 99.0.3",
+        "= 99.0.4"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-2v65-5xfv-p42q"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-01T10:27:55Z",
+      "updatedAt": "2026-05-01T10:27:55Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-2v65-5xfv-p42q"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-2v65-5xfv-p42q",
+        "apiUrl": "https://api.github.com/advisories/GHSA-2v65-5xfv-p42q",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6gr9-g52h-226p:npm:apple-internal-security-library-v99",
+      "source": "github",
+      "sourceId": "GHSA-6gr9-g52h-226p",
+      "ecosystem": "npm",
+      "packageName": "apple-internal-security-library-v99",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in apple-internal-security-library-v99",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.0",
+        "= 99.9.11",
+        "= 99.9.18",
+        "= 100.0.1"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6gr9-g52h-226p"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-01T10:25:45Z",
+      "updatedAt": "2026-05-01T10:25:45Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6gr9-g52h-226p"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6gr9-g52h-226p",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6gr9-g52h-226p",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-894m-pqq3-rvq3:npm:gunpowder-ghost",
+      "source": "github",
+      "sourceId": "GHSA-894m-pqq3-rvq3",
+      "ecosystem": "npm",
+      "packageName": "gunpowder-ghost",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in gunpowder-ghost",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-894m-pqq3-rvq3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-01T08:13:07Z",
+      "updatedAt": "2026-05-01T08:13:07Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-894m-pqq3-rvq3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-894m-pqq3-rvq3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-894m-pqq3-rvq3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-j844-qq6j-rj39:npm:sirens-lament",
+      "source": "github",
+      "sourceId": "GHSA-j844-qq6j-rj39",
+      "ecosystem": "npm",
+      "packageName": "sirens-lament",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in sirens-lament",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-j844-qq6j-rj39"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-01T08:13:07Z",
+      "updatedAt": "2026-05-01T08:13:07Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-j844-qq6j-rj39"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-j844-qq6j-rj39",
+        "apiUrl": "https://api.github.com/advisories/GHSA-j844-qq6j-rj39",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cfpj-hqgr-45g3:npm:blackbeards-navigator",
+      "source": "github",
+      "sourceId": "GHSA-cfpj-hqgr-45g3",
+      "ecosystem": "npm",
+      "packageName": "blackbeards-navigator",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in blackbeards-navigator",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cfpj-hqgr-45g3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-01T08:13:06Z",
+      "updatedAt": "2026-05-01T08:13:07Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cfpj-hqgr-45g3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cfpj-hqgr-45g3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cfpj-hqgr-45g3",
         "cvssScore": null
       }
     }
