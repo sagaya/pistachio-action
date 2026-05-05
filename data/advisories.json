@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-04T07:05:42.615Z",
+  "generatedAt": "2026-05-05T12:30:37.114Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -66815,6 +66815,77 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-6j9q-8g4r-fm8q",
         "apiUrl": "https://api.github.com/advisories/GHSA-6j9q-8g4r-fm8q",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-64f2-864w-556j:npm:trevlo",
+      "source": "github",
+      "sourceId": "GHSA-64f2-864w-556j",
+      "ecosystem": "npm",
+      "packageName": "trevlo",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in trevlo",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 1.0.0",
+        "= 2.0.0",
+        "= 3.0.0",
+        "= 4.0.0",
+        "= 10.0.0",
+        "= 10.0.1",
+        "= 15.0.0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-64f2-864w-556j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-05T11:51:48Z",
+      "updatedAt": "2026-05-05T11:51:48Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-64f2-864w-556j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-64f2-864w-556j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-64f2-864w-556j",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9vr2-f57v-r6r2:npm:nf-ui-components",
+      "source": "github",
+      "sourceId": "GHSA-9vr2-f57v-r6r2",
+      "ecosystem": "npm",
+      "packageName": "nf-ui-components",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in nf-ui-components",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 999.0.0",
+        "= 999.0.1"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9vr2-f57v-r6r2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-05T11:40:12Z",
+      "updatedAt": "2026-05-05T11:40:13Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9vr2-f57v-r6r2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9vr2-f57v-r6r2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9vr2-f57v-r6r2",
         "cvssScore": null
       }
     }
