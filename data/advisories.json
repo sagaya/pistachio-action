@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-12T07:02:59.732Z",
+  "generatedAt": "2026-05-12T12:44:49.998Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -72661,6 +72661,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-p5mj-5p7c-22jr",
         "apiUrl": "https://api.github.com/advisories/GHSA-p5mj-5p7c-22jr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-69rh-554m-m3w8:npm:jwscube",
+      "source": "github",
+      "sourceId": "GHSA-69rh-554m-m3w8",
+      "ecosystem": "npm",
+      "packageName": "jwscube",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in jwscube",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-69rh-554m-m3w8"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-12T11:23:10Z",
+      "updatedAt": "2026-05-12T11:23:10Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-69rh-554m-m3w8"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-69rh-554m-m3w8",
+        "apiUrl": "https://api.github.com/advisories/GHSA-69rh-554m-m3w8",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-fm9w-85jx-h7r4:npm:justenv",
+      "source": "github",
+      "sourceId": "GHSA-fm9w-85jx-h7r4",
+      "ecosystem": "npm",
+      "packageName": "justenv",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in justenv",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-fm9w-85jx-h7r4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-12T11:23:10Z",
+      "updatedAt": "2026-05-12T11:23:10Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-fm9w-85jx-h7r4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-fm9w-85jx-h7r4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-fm9w-85jx-h7r4",
         "cvssScore": null
       }
     }
