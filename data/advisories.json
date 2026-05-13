@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-12T12:44:49.998Z",
+  "generatedAt": "2026-05-13T18:43:50.649Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -72725,6 +72725,166 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-fm9w-85jx-h7r4",
         "apiUrl": "https://api.github.com/advisories/GHSA-fm9w-85jx-h7r4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-w8m4-mmqv-qq77:npm:buffer-export",
+      "source": "github",
+      "sourceId": "GHSA-w8m4-mmqv-qq77",
+      "ecosystem": "npm",
+      "packageName": "buffer-export",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in buffer-export",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-w8m4-mmqv-qq77"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-13T14:14:24Z",
+      "updatedAt": "2026-05-13T14:14:25Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-w8m4-mmqv-qq77"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-w8m4-mmqv-qq77",
+        "apiUrl": "https://api.github.com/advisories/GHSA-w8m4-mmqv-qq77",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-95gm-9mgw-p2cf:npm:load-bufferjs",
+      "source": "github",
+      "sourceId": "GHSA-95gm-9mgw-p2cf",
+      "ecosystem": "npm",
+      "packageName": "load-bufferjs",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in load-bufferjs",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-95gm-9mgw-p2cf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-13T14:14:24Z",
+      "updatedAt": "2026-05-13T14:14:25Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-95gm-9mgw-p2cf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-95gm-9mgw-p2cf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-95gm-9mgw-p2cf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-r2pr-8h52-3v7x:npm:chai-as-streamed",
+      "source": "github",
+      "sourceId": "GHSA-r2pr-8h52-3v7x",
+      "ecosystem": "npm",
+      "packageName": "chai-as-streamed",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-as-streamed",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-r2pr-8h52-3v7x"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-13T14:03:47Z",
+      "updatedAt": "2026-05-13T14:03:48Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-r2pr-8h52-3v7x"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-r2pr-8h52-3v7x",
+        "apiUrl": "https://api.github.com/advisories/GHSA-r2pr-8h52-3v7x",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-rvxm-vq55-8p53:npm:puppeteer-core",
+      "source": "github",
+      "sourceId": "GHSA-rvxm-vq55-8p53",
+      "ecosystem": "npm",
+      "packageName": "puppeteer-core",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in puppeteer-core",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 25.0.1"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-rvxm-vq55-8p53"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-13T13:21:56Z",
+      "updatedAt": "2026-05-13T13:21:56Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-rvxm-vq55-8p53"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-rvxm-vq55-8p53",
+        "apiUrl": "https://api.github.com/advisories/GHSA-rvxm-vq55-8p53",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-grrc-v84p-qwv3:npm:@puppeteer/browsers",
+      "source": "github",
+      "sourceId": "GHSA-grrc-v84p-qwv3",
+      "ecosystem": "npm",
+      "packageName": "@puppeteer/browsers",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @puppeteer/browsers",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 3.0.1"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-grrc-v84p-qwv3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-13T13:11:26Z",
+      "updatedAt": "2026-05-13T13:11:27Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-grrc-v84p-qwv3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-grrc-v84p-qwv3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-grrc-v84p-qwv3",
         "cvssScore": null
       }
     }
