@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-18T13:14:12.359Z",
+  "generatedAt": "2026-05-18T18:42:21.385Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -74869,6 +74869,326 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-v2g5-p8g8-3q37",
         "apiUrl": "https://api.github.com/advisories/GHSA-v2g5-p8g8-3q37",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pxcx-j83m-gc4x:npm:@zentrafinance/sdk",
+      "source": "github",
+      "sourceId": "GHSA-pxcx-j83m-gc4x",
+      "ecosystem": "npm",
+      "packageName": "@zentrafinance/sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @zentrafinance/sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pxcx-j83m-gc4x"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-18T14:14:05Z",
+      "updatedAt": "2026-05-18T14:14:11Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pxcx-j83m-gc4x"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pxcx-j83m-gc4x",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pxcx-j83m-gc4x",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-f5rj-fcq3-x58f:npm:@zentrafinance/types",
+      "source": "github",
+      "sourceId": "GHSA-f5rj-fcq3-x58f",
+      "ecosystem": "npm",
+      "packageName": "@zentrafinance/types",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @zentrafinance/types",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-f5rj-fcq3-x58f"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-18T14:14:05Z",
+      "updatedAt": "2026-05-18T14:14:11Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-f5rj-fcq3-x58f"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-f5rj-fcq3-x58f",
+        "apiUrl": "https://api.github.com/advisories/GHSA-f5rj-fcq3-x58f",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-49ww-ghvm-gxjq:npm:citrea-utils",
+      "source": "github",
+      "sourceId": "GHSA-49ww-ghvm-gxjq",
+      "ecosystem": "npm",
+      "packageName": "citrea-utils",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in citrea-utils",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-49ww-ghvm-gxjq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-18T14:14:05Z",
+      "updatedAt": "2026-05-18T14:14:07Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-49ww-ghvm-gxjq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-49ww-ghvm-gxjq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-49ww-ghvm-gxjq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-vcjx-wh23-jc6g:npm:@zentrafinance/contracts",
+      "source": "github",
+      "sourceId": "GHSA-vcjx-wh23-jc6g",
+      "ecosystem": "npm",
+      "packageName": "@zentrafinance/contracts",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @zentrafinance/contracts",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-vcjx-wh23-jc6g"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-18T14:14:05Z",
+      "updatedAt": "2026-05-18T14:14:06Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-vcjx-wh23-jc6g"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-vcjx-wh23-jc6g",
+        "apiUrl": "https://api.github.com/advisories/GHSA-vcjx-wh23-jc6g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jh4j-2cx5-78p2:npm:citrea-bridge",
+      "source": "github",
+      "sourceId": "GHSA-jh4j-2cx5-78p2",
+      "ecosystem": "npm",
+      "packageName": "citrea-bridge",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in citrea-bridge",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jh4j-2cx5-78p2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-18T14:14:05Z",
+      "updatedAt": "2026-05-18T14:14:06Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jh4j-2cx5-78p2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jh4j-2cx5-78p2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jh4j-2cx5-78p2",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-p397-q58c-mw7p:npm:@zentrafinance/protocol-config",
+      "source": "github",
+      "sourceId": "GHSA-p397-q58c-mw7p",
+      "ecosystem": "npm",
+      "packageName": "@zentrafinance/protocol-config",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @zentrafinance/protocol-config",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-p397-q58c-mw7p"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-18T14:14:05Z",
+      "updatedAt": "2026-05-18T14:14:06Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-p397-q58c-mw7p"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-p397-q58c-mw7p",
+        "apiUrl": "https://api.github.com/advisories/GHSA-p397-q58c-mw7p",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-hxr2-2gjf-vmwq:npm:citrea-sdk",
+      "source": "github",
+      "sourceId": "GHSA-hxr2-2gjf-vmwq",
+      "ecosystem": "npm",
+      "packageName": "citrea-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in citrea-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-hxr2-2gjf-vmwq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-18T14:14:05Z",
+      "updatedAt": "2026-05-18T14:14:06Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-hxr2-2gjf-vmwq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-hxr2-2gjf-vmwq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-hxr2-2gjf-vmwq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-fc9m-mqj9-8j3r:npm:clementine-sdk",
+      "source": "github",
+      "sourceId": "GHSA-fc9m-mqj9-8j3r",
+      "ecosystem": "npm",
+      "packageName": "clementine-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in clementine-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-fc9m-mqj9-8j3r"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-18T14:14:05Z",
+      "updatedAt": "2026-05-18T14:14:06Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-fc9m-mqj9-8j3r"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-fc9m-mqj9-8j3r",
+        "apiUrl": "https://api.github.com/advisories/GHSA-fc9m-mqj9-8j3r",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8f7q-w3m8-867m:npm:zentra-sdk",
+      "source": "github",
+      "sourceId": "GHSA-8f7q-w3m8-867m",
+      "ecosystem": "npm",
+      "packageName": "zentra-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in zentra-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8f7q-w3m8-867m"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-18T14:14:04Z",
+      "updatedAt": "2026-05-18T14:14:05Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8f7q-w3m8-867m"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8f7q-w3m8-867m",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8f7q-w3m8-867m",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5jpc-xr43-hmqj:npm:zentra-finance",
+      "source": "github",
+      "sourceId": "GHSA-5jpc-xr43-hmqj",
+      "ecosystem": "npm",
+      "packageName": "zentra-finance",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in zentra-finance",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5jpc-xr43-hmqj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-18T14:14:04Z",
+      "updatedAt": "2026-05-18T14:14:05Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5jpc-xr43-hmqj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5jpc-xr43-hmqj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5jpc-xr43-hmqj",
         "cvssScore": null
       }
     }
