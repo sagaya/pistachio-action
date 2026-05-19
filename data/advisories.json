@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-19T13:07:41.909Z",
+  "generatedAt": "2026-05-19T18:43:53.007Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -79031,6 +79031,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-5j22-5fh7-frq6",
         "apiUrl": "https://api.github.com/advisories/GHSA-5j22-5fh7-frq6",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jjv2-fjq3-2ggj:npm:is-really-odd",
+      "source": "github",
+      "sourceId": "GHSA-jjv2-fjq3-2ggj",
+      "ecosystem": "npm",
+      "packageName": "is-really-odd",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in is-really-odd",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jjv2-fjq3-2ggj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-19T15:24:32Z",
+      "updatedAt": "2026-05-19T15:24:32Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jjv2-fjq3-2ggj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jjv2-fjq3-2ggj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jjv2-fjq3-2ggj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-77gr-x9m6-cm8g:npm:chai-use-chain",
+      "source": "github",
+      "sourceId": "GHSA-77gr-x9m6-cm8g",
+      "ecosystem": "npm",
+      "packageName": "chai-use-chain",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-use-chain",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-77gr-x9m6-cm8g"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-19T15:18:55Z",
+      "updatedAt": "2026-05-19T15:18:55Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-77gr-x9m6-cm8g"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-77gr-x9m6-cm8g",
+        "apiUrl": "https://api.github.com/advisories/GHSA-77gr-x9m6-cm8g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cjgp-rvr9-v9w4:npm:psxjson",
+      "source": "github",
+      "sourceId": "GHSA-cjgp-rvr9-v9w4",
+      "ecosystem": "npm",
+      "packageName": "psxjson",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in psxjson",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cjgp-rvr9-v9w4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-19T14:03:22Z",
+      "updatedAt": "2026-05-19T14:03:23Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cjgp-rvr9-v9w4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cjgp-rvr9-v9w4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cjgp-rvr9-v9w4",
         "cvssScore": null
       }
     }
