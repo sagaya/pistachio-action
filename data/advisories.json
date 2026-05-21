@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-21T07:21:25.055Z",
+  "generatedAt": "2026-05-21T18:44:30.105Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -79480,6 +79480,134 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-2jwj-r853-cwhh",
         "apiUrl": "https://api.github.com/advisories/GHSA-2jwj-r853-cwhh",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-79mj-3g96-g96c:npm:tailwindcss-theme-custom",
+      "source": "github",
+      "sourceId": "GHSA-79mj-3g96-g96c",
+      "ecosystem": "npm",
+      "packageName": "tailwindcss-theme-custom",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tailwindcss-theme-custom",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-79mj-3g96-g96c"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-21T16:12:44Z",
+      "updatedAt": "2026-05-21T16:12:51Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-79mj-3g96-g96c"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-79mj-3g96-g96c",
+        "apiUrl": "https://api.github.com/advisories/GHSA-79mj-3g96-g96c",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6677-qmcf-whxp:npm:tailwindcss-themers",
+      "source": "github",
+      "sourceId": "GHSA-6677-qmcf-whxp",
+      "ecosystem": "npm",
+      "packageName": "tailwindcss-themers",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in tailwindcss-themers",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6677-qmcf-whxp"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-21T16:12:44Z",
+      "updatedAt": "2026-05-21T16:12:51Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6677-qmcf-whxp"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6677-qmcf-whxp",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6677-qmcf-whxp",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7fg9-5rgv-4rvq:npm:json-spectaculation",
+      "source": "github",
+      "sourceId": "GHSA-7fg9-5rgv-4rvq",
+      "ecosystem": "npm",
+      "packageName": "json-spectaculation",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in json-spectaculation",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7fg9-5rgv-4rvq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-21T15:35:26Z",
+      "updatedAt": "2026-05-21T15:35:27Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-7fg9-5rgv-4rvq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7fg9-5rgv-4rvq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7fg9-5rgv-4rvq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-55pm-4fm6-3x9v:npm:chai-as-afforded",
+      "source": "github",
+      "sourceId": "GHSA-55pm-4fm6-3x9v",
+      "ecosystem": "npm",
+      "packageName": "chai-as-afforded",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-as-afforded",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-55pm-4fm6-3x9v"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-21T13:18:27Z",
+      "updatedAt": "2026-05-21T13:18:28Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-55pm-4fm6-3x9v"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-55pm-4fm6-3x9v",
+        "apiUrl": "https://api.github.com/advisories/GHSA-55pm-4fm6-3x9v",
         "cvssScore": null
       }
     }
