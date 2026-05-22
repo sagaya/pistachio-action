@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-22T07:16:53.078Z",
+  "generatedAt": "2026-05-22T18:43:10.870Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -80536,6 +80536,107 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-xhp8-r3hh-j47p",
         "apiUrl": "https://api.github.com/advisories/GHSA-xhp8-r3hh-j47p",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-8w97-mwv3-cwx3:npm:ts-logger-pack",
+      "source": "github",
+      "sourceId": "GHSA-8w97-mwv3-cwx3",
+      "ecosystem": "npm",
+      "packageName": "ts-logger-pack",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ts-logger-pack",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-8w97-mwv3-cwx3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-22T16:00:51Z",
+      "updatedAt": "2026-05-22T16:00:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-8w97-mwv3-cwx3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-8w97-mwv3-cwx3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-8w97-mwv3-cwx3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-h9jr-prgp-c322:npm:terminal-logger-utils",
+      "source": "github",
+      "sourceId": "GHSA-h9jr-prgp-c322",
+      "ecosystem": "npm",
+      "packageName": "terminal-logger-utils",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in terminal-logger-utils",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-h9jr-prgp-c322"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-22T15:58:28Z",
+      "updatedAt": "2026-05-22T15:58:28Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-h9jr-prgp-c322"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-h9jr-prgp-c322",
+        "apiUrl": "https://api.github.com/advisories/GHSA-h9jr-prgp-c322",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5vfv-hpg7-77hj:npm:@tiledesk/tiledesk-server",
+      "source": "github",
+      "sourceId": "GHSA-5vfv-hpg7-77hj",
+      "ecosystem": "npm",
+      "packageName": "@tiledesk/tiledesk-server",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @tiledesk/tiledesk-server",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 2.18.6",
+        "= 2.18.7",
+        "= 2.18.9",
+        "= 2.18.10",
+        "= 2.18.11",
+        "= 2.18.12"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5vfv-hpg7-77hj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-05-22T15:46:37Z",
+      "updatedAt": "2026-05-22T15:46:38Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5vfv-hpg7-77hj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5vfv-hpg7-77hj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5vfv-hpg7-77hj",
         "cvssScore": null
       }
     }
