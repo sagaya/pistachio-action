@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-02T19:18:19.116Z",
+  "generatedAt": "2026-06-03T19:23:17.206Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -89414,6 +89414,134 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-f528-hm3f-2jx6",
         "apiUrl": "https://api.github.com/advisories/GHSA-f528-hm3f-2jx6",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-q398-93fh-ghmj:npm:nodemon-webpatch",
+      "source": "github",
+      "sourceId": "GHSA-q398-93fh-ghmj",
+      "ecosystem": "npm",
+      "packageName": "nodemon-webpatch",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in nodemon-webpatch",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-q398-93fh-ghmj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-03T16:25:44Z",
+      "updatedAt": "2026-06-03T16:25:44Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-q398-93fh-ghmj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-q398-93fh-ghmj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-q398-93fh-ghmj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qq87-jvv3-6c7r:npm:chai-midpatch",
+      "source": "github",
+      "sourceId": "GHSA-qq87-jvv3-6c7r",
+      "ecosystem": "npm",
+      "packageName": "chai-midpatch",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-midpatch",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qq87-jvv3-6c7r"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-03T16:25:44Z",
+      "updatedAt": "2026-06-03T16:25:44Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qq87-jvv3-6c7r"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qq87-jvv3-6c7r",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qq87-jvv3-6c7r",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pqxq-jw84-3x8f:npm:nodemon-pack",
+      "source": "github",
+      "sourceId": "GHSA-pqxq-jw84-3x8f",
+      "ecosystem": "npm",
+      "packageName": "nodemon-pack",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in nodemon-pack",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pqxq-jw84-3x8f"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-03T13:43:09Z",
+      "updatedAt": "2026-06-03T13:43:09Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pqxq-jw84-3x8f"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pqxq-jw84-3x8f",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pqxq-jw84-3x8f",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-69hx-wrc9-h5wq:npm:webpack-json",
+      "source": "github",
+      "sourceId": "GHSA-69hx-wrc9-h5wq",
+      "ecosystem": "npm",
+      "packageName": "webpack-json",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in webpack-json",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-69hx-wrc9-h5wq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-03T13:43:09Z",
+      "updatedAt": "2026-06-03T13:43:09Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-69hx-wrc9-h5wq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-69hx-wrc9-h5wq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-69hx-wrc9-h5wq",
         "cvssScore": null
       }
     }
