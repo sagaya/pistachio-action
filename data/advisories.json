@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-05T00:37:16.857Z",
+  "generatedAt": "2026-06-05T13:04:14.283Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -89638,6 +89638,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-6w7v-23mf-65g3",
         "apiUrl": "https://api.github.com/advisories/GHSA-6w7v-23mf-65g3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-fxhm-35h8-7jc7:npm:ulid-os",
+      "source": "github",
+      "sourceId": "GHSA-fxhm-35h8-7jc7",
+      "ecosystem": "npm",
+      "packageName": "ulid-os",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ulid-os",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-fxhm-35h8-7jc7"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-05T10:26:57Z",
+      "updatedAt": "2026-06-05T10:27:02Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-fxhm-35h8-7jc7"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-fxhm-35h8-7jc7",
+        "apiUrl": "https://api.github.com/advisories/GHSA-fxhm-35h8-7jc7",
         "cvssScore": null
       }
     }
