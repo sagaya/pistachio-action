@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-05T13:04:14.283Z",
+  "generatedAt": "2026-06-05T18:45:46.523Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -89670,6 +89670,139 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-fxhm-35h8-7jc7",
         "apiUrl": "https://api.github.com/advisories/GHSA-fxhm-35h8-7jc7",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-x4gw-cjrp-c89f:npm:reactvora",
+      "source": "github",
+      "sourceId": "GHSA-x4gw-cjrp-c89f",
+      "ecosystem": "npm",
+      "packageName": "reactvora",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in reactvora",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-x4gw-cjrp-c89f"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-05T14:23:21Z",
+      "updatedAt": "2026-06-05T14:23:22Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-x4gw-cjrp-c89f"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-x4gw-cjrp-c89f",
+        "apiUrl": "https://api.github.com/advisories/GHSA-x4gw-cjrp-c89f",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-c988-j68q-h8h4:npm:glyphr",
+      "source": "github",
+      "sourceId": "GHSA-c988-j68q-h8h4",
+      "ecosystem": "npm",
+      "packageName": "glyphr",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in glyphr",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-c988-j68q-h8h4"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-05T14:04:12Z",
+      "updatedAt": "2026-06-05T14:04:12Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-c988-j68q-h8h4"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-c988-j68q-h8h4",
+        "apiUrl": "https://api.github.com/advisories/GHSA-c988-j68q-h8h4",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-v7mj-pmr3-7x4p:npm:react-ui-polyfills",
+      "source": "github",
+      "sourceId": "GHSA-v7mj-pmr3-7x4p",
+      "ecosystem": "npm",
+      "packageName": "react-ui-polyfills",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in react-ui-polyfills",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-v7mj-pmr3-7x4p"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-05T14:01:47Z",
+      "updatedAt": "2026-06-05T14:01:48Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-v7mj-pmr3-7x4p"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-v7mj-pmr3-7x4p",
+        "apiUrl": "https://api.github.com/advisories/GHSA-v7mj-pmr3-7x4p",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4c54-hwv9-c5xm:npm:utils-mf",
+      "source": "github",
+      "sourceId": "GHSA-4c54-hwv9-c5xm",
+      "ecosystem": "npm",
+      "packageName": "utils-mf",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in utils-mf",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 11.9.8",
+        "= 11.9.9",
+        "= 12.0.1",
+        "= 12.0.2",
+        "= 12.1.0",
+        "= 12.1.1"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4c54-hwv9-c5xm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-05T13:40:50Z",
+      "updatedAt": "2026-06-05T13:40:54Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4c54-hwv9-c5xm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4c54-hwv9-c5xm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4c54-hwv9-c5xm",
         "cvssScore": null
       }
     }
