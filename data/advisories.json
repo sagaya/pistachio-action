@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-03T19:23:17.206Z",
+  "generatedAt": "2026-06-05T00:37:16.857Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -89542,6 +89542,102 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-69hx-wrc9-h5wq",
         "apiUrl": "https://api.github.com/advisories/GHSA-69hx-wrc9-h5wq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-x96m-c5fj-q75c:npm:supabase",
+      "source": "github",
+      "sourceId": "GHSA-x96m-c5fj-q75c",
+      "ecosystem": "npm",
+      "packageName": "supabase",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Withdrawn Advisory: Malware in supabase",
+      "description": "### Withdrawn Advisory\nThis advisory has been withdrawn because the malware detection was a false positive. This link is maintained to preserve external references.\n\n### Original Description\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 2.105.0-beta.9"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-x96m-c5fj-q75c"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-04T18:55:06Z",
+      "updatedAt": "2026-06-04T21:24:58Z",
+      "withdrawnAt": "2026-06-04T21:24:56Z",
+      "references": [
+        "https://github.com/advisories/GHSA-x96m-c5fj-q75c"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-x96m-c5fj-q75c",
+        "apiUrl": "https://api.github.com/advisories/GHSA-x96m-c5fj-q75c",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cw9v-v9rh-r449:npm:autotel-terminal",
+      "source": "github",
+      "sourceId": "GHSA-cw9v-v9rh-r449",
+      "ecosystem": "npm",
+      "packageName": "autotel-terminal",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in autotel-terminal",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cw9v-v9rh-r449"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-04T18:54:09Z",
+      "updatedAt": "2026-06-04T18:54:15Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cw9v-v9rh-r449"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cw9v-v9rh-r449",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cw9v-v9rh-r449",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6w7v-23mf-65g3:npm:@jagreehal/workflow",
+      "source": "github",
+      "sourceId": "GHSA-6w7v-23mf-65g3",
+      "ecosystem": "npm",
+      "packageName": "@jagreehal/workflow",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @jagreehal/workflow",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6w7v-23mf-65g3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-04T18:52:29Z",
+      "updatedAt": "2026-06-04T18:52:29Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6w7v-23mf-65g3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6w7v-23mf-65g3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6w7v-23mf-65g3",
         "cvssScore": null
       }
     }
