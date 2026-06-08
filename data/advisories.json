@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-05T18:45:46.523Z",
+  "generatedAt": "2026-06-08T13:32:00.635Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -89803,6 +89803,166 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-4c54-hwv9-c5xm",
         "apiUrl": "https://api.github.com/advisories/GHSA-4c54-hwv9-c5xm",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-ghrw-2645-5c47:npm:classwind-utils",
+      "source": "github",
+      "sourceId": "GHSA-ghrw-2645-5c47",
+      "ecosystem": "npm",
+      "packageName": "classwind-utils",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in classwind-utils",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-ghrw-2645-5c47"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-08T09:36:44Z",
+      "updatedAt": "2026-06-08T09:36:44Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-ghrw-2645-5c47"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-ghrw-2645-5c47",
+        "apiUrl": "https://api.github.com/advisories/GHSA-ghrw-2645-5c47",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cjg8-jrqm-2q9r:npm:nodemon-lint",
+      "source": "github",
+      "sourceId": "GHSA-cjg8-jrqm-2q9r",
+      "ecosystem": "npm",
+      "packageName": "nodemon-lint",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in nodemon-lint",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cjg8-jrqm-2q9r"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-08T09:27:28Z",
+      "updatedAt": "2026-06-08T09:27:29Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cjg8-jrqm-2q9r"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cjg8-jrqm-2q9r",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cjg8-jrqm-2q9r",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5p9w-932r-cr5f:npm:regexp-ts",
+      "source": "github",
+      "sourceId": "GHSA-5p9w-932r-cr5f",
+      "ecosystem": "npm",
+      "packageName": "regexp-ts",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in regexp-ts",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5p9w-932r-cr5f"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-08T09:27:28Z",
+      "updatedAt": "2026-06-08T09:27:29Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5p9w-932r-cr5f"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5p9w-932r-cr5f",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5p9w-932r-cr5f",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5wqh-hxqx-c6j3:npm:chai-mocks",
+      "source": "github",
+      "sourceId": "GHSA-5wqh-hxqx-c6j3",
+      "ecosystem": "npm",
+      "packageName": "chai-mocks",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-mocks",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5wqh-hxqx-c6j3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-08T09:00:21Z",
+      "updatedAt": "2026-06-08T09:00:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5wqh-hxqx-c6j3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5wqh-hxqx-c6j3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5wqh-hxqx-c6j3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pw2c-3h97-j57f:npm:nodemon-copack",
+      "source": "github",
+      "sourceId": "GHSA-pw2c-3h97-j57f",
+      "ecosystem": "npm",
+      "packageName": "nodemon-copack",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in nodemon-copack",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pw2c-3h97-j57f"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-08T09:00:21Z",
+      "updatedAt": "2026-06-08T09:00:21Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pw2c-3h97-j57f"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pw2c-3h97-j57f",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pw2c-3h97-j57f",
         "cvssScore": null
       }
     }
