@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-09T18:49:47.397Z",
+  "generatedAt": "2026-06-10T07:31:37.022Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -90981,6 +90981,70 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-5784-q7wq-ch43",
         "apiUrl": "https://api.github.com/advisories/GHSA-5784-q7wq-ch43",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jxcv-3994-r8xf:npm:xnder-wrapper-module",
+      "source": "github",
+      "sourceId": "GHSA-jxcv-3994-r8xf",
+      "ecosystem": "npm",
+      "packageName": "xnder-wrapper-module",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in xnder-wrapper-module",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jxcv-3994-r8xf"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-10T06:43:00Z",
+      "updatedAt": "2026-06-10T06:43:01Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jxcv-3994-r8xf"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jxcv-3994-r8xf",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jxcv-3994-r8xf",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5vr8-6v9x-3vxm:npm:xnder-sdk",
+      "source": "github",
+      "sourceId": "GHSA-5vr8-6v9x-3vxm",
+      "ecosystem": "npm",
+      "packageName": "xnder-sdk",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in xnder-sdk",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5vr8-6v9x-3vxm"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-10T06:43:00Z",
+      "updatedAt": "2026-06-10T06:43:01Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5vr8-6v9x-3vxm"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5vr8-6v9x-3vxm",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5vr8-6v9x-3vxm",
         "cvssScore": null
       }
     }
