@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-10T18:58:57.010Z",
+  "generatedAt": "2026-06-11T00:41:38.222Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -92357,6 +92357,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-4pr4-9j3x-h243",
         "apiUrl": "https://api.github.com/advisories/GHSA-4pr4-9j3x-h243",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6p55-6hvr-3xmg:npm:@common-stack/generate-plugin",
+      "source": "github",
+      "sourceId": "GHSA-6p55-6hvr-3xmg",
+      "ecosystem": "npm",
+      "packageName": "@common-stack/generate-plugin",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @common-stack/generate-plugin",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        "= 10.0.1-alpha.0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6p55-6hvr-3xmg"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-11T00:34:52Z",
+      "updatedAt": "2026-06-11T00:34:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6p55-6hvr-3xmg"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6p55-6hvr-3xmg",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6p55-6hvr-3xmg",
         "cvssScore": null
       }
     }
