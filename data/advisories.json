@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-11T19:05:42.274Z",
+  "generatedAt": "2026-06-12T18:47:10.543Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -94277,6 +94277,486 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-hwp4-g2h4-2v7r",
         "apiUrl": "https://api.github.com/advisories/GHSA-hwp4-g2h4-2v7r",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-j8qr-4p5h-mwqj:npm:chai-web3-testkit",
+      "source": "github",
+      "sourceId": "GHSA-j8qr-4p5h-mwqj",
+      "ecosystem": "npm",
+      "packageName": "chai-web3-testkit",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in chai-web3-testkit",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-j8qr-4p5h-mwqj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T16:11:50Z",
+      "updatedAt": "2026-06-12T16:11:55Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-j8qr-4p5h-mwqj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-j8qr-4p5h-mwqj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-j8qr-4p5h-mwqj",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-6wwm-jx4f-p4xq:npm:transportator",
+      "source": "github",
+      "sourceId": "GHSA-6wwm-jx4f-p4xq",
+      "ecosystem": "npm",
+      "packageName": "transportator",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in transportator",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-6wwm-jx4f-p4xq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T16:11:50Z",
+      "updatedAt": "2026-06-12T16:11:51Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-6wwm-jx4f-p4xq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-6wwm-jx4f-p4xq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-6wwm-jx4f-p4xq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4vwq-cp5w-hx5g:npm:vite-react-toolkit",
+      "source": "github",
+      "sourceId": "GHSA-4vwq-cp5w-hx5g",
+      "ecosystem": "npm",
+      "packageName": "vite-react-toolkit",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in vite-react-toolkit",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4vwq-cp5w-hx5g"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T16:11:50Z",
+      "updatedAt": "2026-06-12T16:11:51Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4vwq-cp5w-hx5g"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4vwq-cp5w-hx5g",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4vwq-cp5w-hx5g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-7x3f-hjp7-r53g:npm:web-dotenv",
+      "source": "github",
+      "sourceId": "GHSA-7x3f-hjp7-r53g",
+      "ecosystem": "npm",
+      "packageName": "web-dotenv",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in web-dotenv",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-7x3f-hjp7-r53g"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T15:00:40Z",
+      "updatedAt": "2026-06-12T15:00:40Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-7x3f-hjp7-r53g"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-7x3f-hjp7-r53g",
+        "apiUrl": "https://api.github.com/advisories/GHSA-7x3f-hjp7-r53g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-636m-vpq6-g454:npm:@malwguy/ecto-corsair-whisper-3d2a7c",
+      "source": "github",
+      "sourceId": "GHSA-636m-vpq6-g454",
+      "ecosystem": "npm",
+      "packageName": "@malwguy/ecto-corsair-whisper-3d2a7c",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @malwguy/ecto-corsair-whisper-3d2a7c",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-636m-vpq6-g454"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:33:02Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-636m-vpq6-g454"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-636m-vpq6-g454",
+        "apiUrl": "https://api.github.com/advisories/GHSA-636m-vpq6-g454",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-f7w9-m44f-pvf9:npm:ecto-corsair-flag-x9m4",
+      "source": "github",
+      "sourceId": "GHSA-f7w9-m44f-pvf9",
+      "ecosystem": "npm",
+      "packageName": "ecto-corsair-flag-x9m4",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ecto-corsair-flag-x9m4",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-f7w9-m44f-pvf9"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:33:02Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-f7w9-m44f-pvf9"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-f7w9-m44f-pvf9",
+        "apiUrl": "https://api.github.com/advisories/GHSA-f7w9-m44f-pvf9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cp5x-35vp-rj7j:npm:sea-bound-siren",
+      "source": "github",
+      "sourceId": "GHSA-cp5x-35vp-rj7j",
+      "ecosystem": "npm",
+      "packageName": "sea-bound-siren",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in sea-bound-siren",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cp5x-35vp-rj7j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:33:02Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cp5x-35vp-rj7j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cp5x-35vp-rj7j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cp5x-35vp-rj7j",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-f2r7-23p9-8jff:npm:coral-wraith",
+      "source": "github",
+      "sourceId": "GHSA-f2r7-23p9-8jff",
+      "ecosystem": "npm",
+      "packageName": "coral-wraith",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in coral-wraith",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-f2r7-23p9-8jff"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:33:02Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-f2r7-23p9-8jff"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-f2r7-23p9-8jff",
+        "apiUrl": "https://api.github.com/advisories/GHSA-f2r7-23p9-8jff",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-22wq-6mfh-69qv:npm:ecto-win-flag-q2m7",
+      "source": "github",
+      "sourceId": "GHSA-22wq-6mfh-69qv",
+      "ecosystem": "npm",
+      "packageName": "ecto-win-flag-q2m7",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ecto-win-flag-q2m7",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-22wq-6mfh-69qv"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:32:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-22wq-6mfh-69qv"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-22wq-6mfh-69qv",
+        "apiUrl": "https://api.github.com/advisories/GHSA-22wq-6mfh-69qv",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-5wjv-qgmc-8w9m:npm:ecto-corsair-whisper-6f3b9",
+      "source": "github",
+      "sourceId": "GHSA-5wjv-qgmc-8w9m",
+      "ecosystem": "npm",
+      "packageName": "ecto-corsair-whisper-6f3b9",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ecto-corsair-whisper-6f3b9",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-5wjv-qgmc-8w9m"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:32:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-5wjv-qgmc-8w9m"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-5wjv-qgmc-8w9m",
+        "apiUrl": "https://api.github.com/advisories/GHSA-5wjv-qgmc-8w9m",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qv45-fm3m-pqmr:npm:ecto-nightly-spirit",
+      "source": "github",
+      "sourceId": "GHSA-qv45-fm3m-pqmr",
+      "ecosystem": "npm",
+      "packageName": "ecto-nightly-spirit",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ecto-nightly-spirit",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qv45-fm3m-pqmr"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:32:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qv45-fm3m-pqmr"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qv45-fm3m-pqmr",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qv45-fm3m-pqmr",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-jmpq-jp85-ggf3:npm:ecto-spectral-leak-8d4e2",
+      "source": "github",
+      "sourceId": "GHSA-jmpq-jp85-ggf3",
+      "ecosystem": "npm",
+      "packageName": "ecto-spectral-leak-8d4e2",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ecto-spectral-leak-8d4e2",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-jmpq-jp85-ggf3"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:32:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-jmpq-jp85-ggf3"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-jmpq-jp85-ggf3",
+        "apiUrl": "https://api.github.com/advisories/GHSA-jmpq-jp85-ggf3",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-ggf2-rhq7-qqgg:npm:ecto-flag-read-m7p2",
+      "source": "github",
+      "sourceId": "GHSA-ggf2-rhq7-qqgg",
+      "ecosystem": "npm",
+      "packageName": "ecto-flag-read-m7p2",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ecto-flag-read-m7p2",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-ggf2-rhq7-qqgg"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:32:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-ggf2-rhq7-qqgg"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-ggf2-rhq7-qqgg",
+        "apiUrl": "https://api.github.com/advisories/GHSA-ggf2-rhq7-qqgg",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9h8h-37p7-873r:npm:ecto-rust-read-f3a9c1",
+      "source": "github",
+      "sourceId": "GHSA-9h8h-37p7-873r",
+      "ecosystem": "npm",
+      "packageName": "ecto-rust-read-f3a9c1",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ecto-rust-read-f3a9c1",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9h8h-37p7-873r"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:32:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9h8h-37p7-873r"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9h8h-37p7-873r",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9h8h-37p7-873r",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-h2hh-hg37-42gq:npm:ecto-spirit-win-k4n8",
+      "source": "github",
+      "sourceId": "GHSA-h2hh-hg37-42gq",
+      "ecosystem": "npm",
+      "packageName": "ecto-spirit-win-k4n8",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ecto-spirit-win-k4n8",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-h2hh-hg37-42gq"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-12T14:32:51Z",
+      "updatedAt": "2026-06-12T14:32:52Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-h2hh-hg37-42gq"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-h2hh-hg37-42gq",
+        "apiUrl": "https://api.github.com/advisories/GHSA-h2hh-hg37-42gq",
         "cvssScore": null
       }
     }
