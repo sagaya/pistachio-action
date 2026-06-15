@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-12T18:47:10.543Z",
+  "generatedAt": "2026-06-15T07:58:14.310Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -94757,6 +94757,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-h2hh-hg37-42gq",
         "apiUrl": "https://api.github.com/advisories/GHSA-h2hh-hg37-42gq",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-cfvv-rh9x-qqvj:npm:um4r719-baileys",
+      "source": "github",
+      "sourceId": "GHSA-cfvv-rh9x-qqvj",
+      "ecosystem": "npm",
+      "packageName": "um4r719-baileys",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in um4r719-baileys",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-cfvv-rh9x-qqvj"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-15T05:15:39Z",
+      "updatedAt": "2026-06-15T05:15:39Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-cfvv-rh9x-qqvj"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-cfvv-rh9x-qqvj",
+        "apiUrl": "https://api.github.com/advisories/GHSA-cfvv-rh9x-qqvj",
         "cvssScore": null
       }
     }
