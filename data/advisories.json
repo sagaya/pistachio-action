@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-16T13:42:27.375Z",
+  "generatedAt": "2026-06-16T19:20:32.667Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -96837,6 +96837,134 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-266v-958f-g596",
         "apiUrl": "https://api.github.com/advisories/GHSA-266v-958f-g596",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-93mx-rvh8-rm26:npm:conducts",
+      "source": "github",
+      "sourceId": "GHSA-93mx-rvh8-rm26",
+      "ecosystem": "npm",
+      "packageName": "conducts",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in conducts",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-93mx-rvh8-rm26"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T14:54:09Z",
+      "updatedAt": "2026-06-16T14:54:09Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-93mx-rvh8-rm26"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-93mx-rvh8-rm26",
+        "apiUrl": "https://api.github.com/advisories/GHSA-93mx-rvh8-rm26",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-pxhh-8x7x-7g7j:npm:@vantuz/sdk-core",
+      "source": "github",
+      "sourceId": "GHSA-pxhh-8x7x-7g7j",
+      "ecosystem": "npm",
+      "packageName": "@vantuz/sdk-core",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in @vantuz/sdk-core",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-pxhh-8x7x-7g7j"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T14:49:09Z",
+      "updatedAt": "2026-06-16T14:49:10Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-pxhh-8x7x-7g7j"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-pxhh-8x7x-7g7j",
+        "apiUrl": "https://api.github.com/advisories/GHSA-pxhh-8x7x-7g7j",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-4rw6-v77j-67gx:npm:mailconfirmer",
+      "source": "github",
+      "sourceId": "GHSA-4rw6-v77j-67gx",
+      "ecosystem": "npm",
+      "packageName": "mailconfirmer",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in mailconfirmer",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-4rw6-v77j-67gx"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T14:35:46Z",
+      "updatedAt": "2026-06-16T14:35:46Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-4rw6-v77j-67gx"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-4rw6-v77j-67gx",
+        "apiUrl": "https://api.github.com/advisories/GHSA-4rw6-v77j-67gx",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-g9mr-rvmw-fg9c:npm:middleware-jwt",
+      "source": "github",
+      "sourceId": "GHSA-g9mr-rvmw-fg9c",
+      "ecosystem": "npm",
+      "packageName": "middleware-jwt",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in middleware-jwt",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-g9mr-rvmw-fg9c"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T14:35:45Z",
+      "updatedAt": "2026-06-16T14:35:46Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-g9mr-rvmw-fg9c"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-g9mr-rvmw-fg9c",
+        "apiUrl": "https://api.github.com/advisories/GHSA-g9mr-rvmw-fg9c",
         "cvssScore": null
       }
     }
