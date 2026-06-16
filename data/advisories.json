@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-16T07:59:46.599Z",
+  "generatedAt": "2026-06-16T13:42:27.375Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -96645,6 +96645,198 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-pwrg-56mj-pq64",
         "apiUrl": "https://api.github.com/advisories/GHSA-pwrg-56mj-pq64",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-9xh7-qcrr-h88h:npm:obfus-jsxy",
+      "source": "github",
+      "sourceId": "GHSA-9xh7-qcrr-h88h",
+      "ecosystem": "npm",
+      "packageName": "obfus-jsxy",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in obfus-jsxy",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-9xh7-qcrr-h88h"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T12:02:08Z",
+      "updatedAt": "2026-06-16T12:02:08Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-9xh7-qcrr-h88h"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-9xh7-qcrr-h88h",
+        "apiUrl": "https://api.github.com/advisories/GHSA-9xh7-qcrr-h88h",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-mc4w-cxr6-qw8r:npm:redis-xyz",
+      "source": "github",
+      "sourceId": "GHSA-mc4w-cxr6-qw8r",
+      "ecosystem": "npm",
+      "packageName": "redis-xyz",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in redis-xyz",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-mc4w-cxr6-qw8r"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T11:58:32Z",
+      "updatedAt": "2026-06-16T11:58:33Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-mc4w-cxr6-qw8r"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-mc4w-cxr6-qw8r",
+        "apiUrl": "https://api.github.com/advisories/GHSA-mc4w-cxr6-qw8r",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-68r3-8wgf-pv9g:npm:ioredis-os",
+      "source": "github",
+      "sourceId": "GHSA-68r3-8wgf-pv9g",
+      "ecosystem": "npm",
+      "packageName": "ioredis-os",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in ioredis-os",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-68r3-8wgf-pv9g"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T11:54:56Z",
+      "updatedAt": "2026-06-16T11:54:57Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-68r3-8wgf-pv9g"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-68r3-8wgf-pv9g",
+        "apiUrl": "https://api.github.com/advisories/GHSA-68r3-8wgf-pv9g",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-w3ww-qq48-r4j9:npm:redis-type-os",
+      "source": "github",
+      "sourceId": "GHSA-w3ww-qq48-r4j9",
+      "ecosystem": "npm",
+      "packageName": "redis-type-os",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in redis-type-os",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-w3ww-qq48-r4j9"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T11:54:37Z",
+      "updatedAt": "2026-06-16T11:54:37Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-w3ww-qq48-r4j9"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-w3ww-qq48-r4j9",
+        "apiUrl": "https://api.github.com/advisories/GHSA-w3ww-qq48-r4j9",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-wgqj-fphq-9x3q:npm:nat-ulid",
+      "source": "github",
+      "sourceId": "GHSA-wgqj-fphq-9x3q",
+      "ecosystem": "npm",
+      "packageName": "nat-ulid",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in nat-ulid",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-wgqj-fphq-9x3q"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T11:44:56Z",
+      "updatedAt": "2026-06-16T11:44:57Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-wgqj-fphq-9x3q"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-wgqj-fphq-9x3q",
+        "apiUrl": "https://api.github.com/advisories/GHSA-wgqj-fphq-9x3q",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-266v-958f-g596:npm:check-ulid",
+      "source": "github",
+      "sourceId": "GHSA-266v-958f-g596",
+      "ecosystem": "npm",
+      "packageName": "check-ulid",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in check-ulid",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-266v-958f-g596"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T09:37:17Z",
+      "updatedAt": "2026-06-16T09:37:18Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-266v-958f-g596"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-266v-958f-g596",
+        "apiUrl": "https://api.github.com/advisories/GHSA-266v-958f-g596",
         "cvssScore": null
       }
     }
