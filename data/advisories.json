@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-06-16T19:20:32.667Z",
+  "generatedAt": "2026-06-17T00:40:29.348Z",
   "advisories": [
     {
       "id": "github:GHSA-qfx2-px7q-fq7c:npm:json-map-source",
@@ -96965,6 +96965,38 @@
       "metadata": {
         "htmlUrl": "https://github.com/advisories/GHSA-g9mr-rvmw-fg9c",
         "apiUrl": "https://api.github.com/advisories/GHSA-g9mr-rvmw-fg9c",
+        "cvssScore": null
+      }
+    },
+    {
+      "id": "github:GHSA-qcg5-4gpc-33h2:npm:internallib_v346",
+      "source": "github",
+      "sourceId": "GHSA-qcg5-4gpc-33h2",
+      "ecosystem": "npm",
+      "packageName": "internallib_v346",
+      "kind": "malware",
+      "severity": "critical",
+      "summary": "Malware in internallib_v346",
+      "description": "Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.",
+      "affectedVersionRanges": [
+        ">= 0"
+      ],
+      "firstPatchedVersion": null,
+      "aliases": [
+        "GHSA-qcg5-4gpc-33h2"
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "publishedAt": "2026-06-16T23:33:24Z",
+      "updatedAt": "2026-06-16T23:33:24Z",
+      "withdrawnAt": null,
+      "references": [
+        "https://github.com/advisories/GHSA-qcg5-4gpc-33h2"
+      ],
+      "metadata": {
+        "htmlUrl": "https://github.com/advisories/GHSA-qcg5-4gpc-33h2",
+        "apiUrl": "https://api.github.com/advisories/GHSA-qcg5-4gpc-33h2",
         "cvssScore": null
       }
     }
